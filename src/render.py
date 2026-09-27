@@ -9,7 +9,7 @@ from __future__ import annotations
 import glob
 import os
 
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL import Image, ImageDraw, ImageEnhance, ImageFont, ImageOps, ImageStat
 
 W, H = 1080, 1350
 
@@ -97,14 +97,23 @@ def validate_card(card: dict) -> list[str]:
 def prepare_bg(src) -> Image.Image:
     img = src if isinstance(src, Image.Image) else Image.open(src)
     img = ImageOps.fit(img.convert("RGB"), (W, H), Image.LANCZOS, centering=(0.5, 0.6))
-    # Legibility overlay: navy tint, darkest behind the text zone, lighter mid-lower, dark again at footer
+    # Unify the look across very different photos: pull saturation down so every card
+    # reads as the same dark-navy family as the reference card.
+    img = ImageEnhance.Color(img).enhance(0.55)
+    # Legibility overlay: navy tint, darkest behind the text zone (top half), lighter lower-middle
+    # so the photo shows, dark again behind the 留意/footer zone.
     over = Image.new("RGBA", (W, H))
     od = ImageDraw.Draw(over)
     for y in range(H):
         t = y / H
-        a = 150 if t < 0.5 else int(150 - (t - 0.5) * 2 * 70)
-        if t > 0.8:
-            a = max(a, int(80 + (t - 0.8) / 0.2 * 90))
+        if t < 0.48:
+            a = 185
+        elif t < 0.62:
+            a = int(185 - (t - 0.48) / 0.14 * 85)   # 185 → 100
+        elif t < 0.80:
+            a = 100
+        else:
+            a = int(100 + (t - 0.80) / 0.20 * 90)   # 100 → 190
         od.line([(0, y), (W, y)], fill=(8, 14, 26, a))
     return Image.alpha_composite(img.convert("RGBA"), over)
 
@@ -116,6 +125,10 @@ def render(card: dict, bg, out: str, *, date: str, account: str, footer: str, ca
     im = prepare_bg(bg)
     d = ImageDraw.Draw(im)
     s = SPEC
+    # Accent colour adapts to the background: coral red by default, amber if the photo is red-toned
+    r_, g_, b_ = ImageStat.Stat(im.convert("RGB").crop((0, 0, W, H))).mean
+    accent = "#F2C46D" if (r_ > g_ + 12 and r_ > b_ + 12) else C_RED
+    s = {**s, "kicker": {**s["kicker"], "color": accent}}
     _ink_text(d, s["account"]["x"], s["account"]["ink_top"], account, F(*s["account"]["font"]), s["account"]["color"])
     d.rectangle([RULE_X0, s["rule1"]["y"], RULE_X1, s["rule1"]["y"] + 1], fill="#FFFFFF")
     _ink_text(d, s["meta"]["x"], s["meta"]["ink_top"], f"{category}｜{date}", F(*s["meta"]["font"]), s["meta"]["color"])
@@ -128,9 +141,9 @@ def render(card: dict, bg, out: str, *, date: str, account: str, footer: str, ca
     d.rectangle([RULE_X0, s["rule2"]["y"], RULE_X1, s["rule2"]["y"] + 1], fill="#FFFFFF")
     w = s["watch"]
     wf = F(*w["font"])
-    _ink_text(d, w["label_x"], w["ink_top"], "留意", wf, C_RED)
+    _ink_text(d, w["label_x"], w["ink_top"], "留意", wf, accent)
     bar_x = w["label_x"] + d.textlength("留意", font=wf) + 12
-    d.rectangle([bar_x, w["ink_top"] + 1, bar_x + 1, w["ink_top"] + 28], fill=C_RED)
+    d.rectangle([bar_x, w["ink_top"] + 1, bar_x + 1, w["ink_top"] + 28], fill=accent)
     _ink_text(d, w["items_x"], w["ink_top"], "、".join(card["watch"]), wf, C_BODY)
     _ink_text(d, s["footer"]["x"], s["footer"]["ink_top"], footer, F(*s["footer"]["font"]), s["footer"]["color"])
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)

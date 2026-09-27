@@ -44,13 +44,15 @@ def pexels_photo(queries: list[str], used: set) -> tuple[Image.Image, dict]:
         photos = [p for p in r.json().get("photos", []) if p["id"] not in used]
         if not photos:
             continue
-        # prefer darker photos (Pexels gives avg_color) – template is designed for dark backgrounds
+        # Relevance first (Pexels order), then prefer a reasonably dark photo among the top hits,
+        # because the template is designed for dark backgrounds.
         def lum(p):
             h = (p.get("avg_color") or "#808080").lstrip("#")
             r_, g_, b_ = (int(h[i:i + 2], 16) for i in (0, 2, 4))
             return 0.2126 * r_ + 0.7152 * g_ + 0.0722 * b_
-        photos.sort(key=lum)
-        p = photos[0]
+        top = photos[:8]
+        dark = [p for p in top if lum(p) < 110]
+        p = dark[0] if dark else min(top, key=lum)
         url = f"{p['src']['original']}?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1350"
         img = Image.open(io.BytesIO(http("GET", url).content))
         return img, {"query": q, "id": p["id"], "photographer": p["photographer"], "url": p["url"]}
