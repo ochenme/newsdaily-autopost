@@ -74,7 +74,8 @@ def main():
         return
     used_list = json.load(open(USED_PATH)) if os.path.exists(USED_PATH) else []
     used = set(used_list)
-    od = out_dir(date)
+    # offline = validation only: render into a temp dir so placeholder images never get committed
+    od = __import__("tempfile").mkdtemp(prefix="cards-") if offline else out_dir(date)
     os.makedirs(od, exist_ok=True)
     credits = []
     mmdd = date[5:7] + "." + date[8:10]
