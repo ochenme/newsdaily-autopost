@@ -64,6 +64,14 @@ def main():
     offline = "--offline" in sys.argv
     c = load_content(date)
     validate_content(c)
+    # Skip re-rendering if the cards are unchanged and already built (keeps approved images stable)
+    import hashlib
+    sig = hashlib.sha256(json.dumps(c["cards"], ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+    sig_path = os.path.join(out_dir(date), "cards.sha256")
+    have = all(os.path.exists(os.path.join(out_dir(date), f"{i:02d}.jpg")) for i in range(1, len(c["cards"]) + 1))
+    if not offline and have and os.path.exists(sig_path) and open(sig_path).read().strip() == sig:
+        print("cards unchanged and already built — skipping render")
+        return
     used_list = json.load(open(USED_PATH)) if os.path.exists(USED_PATH) else []
     used = set(used_list)
     od = out_dir(date)
@@ -83,6 +91,8 @@ def main():
         credits.append(meta)
         print(f"card {i:02d} ok  bg={meta.get('query')} id={meta.get('id')}")
     json.dump(credits, open(os.path.join(od, "credits.json"), "w"), ensure_ascii=False, indent=1)
+    if not offline:
+        open(sig_path, "w").write(sig)
     if not offline:
         os.makedirs(os.path.dirname(USED_PATH), exist_ok=True)
         json.dump(used_list[-2000:], open(USED_PATH, "w"))  # remember recent photos to avoid repeats

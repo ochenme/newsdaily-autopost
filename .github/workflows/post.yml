@@ -67,8 +67,11 @@ jobs:
         run: |
           d="${{ steps.pick.outputs.date }}"
           pub=$(python -c "import json;print(str(json.load(open('content/$d.json',encoding='utf-8')).get('publish',False)).lower())")
+          now=$(python -c "import json;print(str(json.load(open('content/$d.json',encoding='utf-8')).get('post_now',False)).lower())")
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             [ "${{ inputs.mode }}" = "post" ] && echo "go=now" >> "$GITHUB_OUTPUT" || echo "go=no" >> "$GITHUB_OUTPUT"
+          elif [ "$now" = "true" ]; then
+            echo "go=now" >> "$GITHUB_OUTPUT"   # manual one-off: publish immediately
           elif [ "$pub" = "true" ]; then
             echo "go=scheduled" >> "$GITHUB_OUTPUT"
           else
