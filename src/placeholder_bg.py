@@ -1,6 +1,6 @@
 # Procedural stand-in photo (no internet here); real runs use Pexels photos.
 from PIL import Image, ImageDraw, ImageFilter
-import random, math
+import random
 def night_scene(seed=1, W=1080, H=1350):
     random.seed(seed)
     im = Image.new("RGB", (W, H)); d = ImageDraw.Draw(im)
