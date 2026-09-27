@@ -1,0 +1,92 @@
+name: build-and-post
+
+on:
+  push:
+    branches: [main]
+    paths: ["content/*.json"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "content date YYYY-MM-DD"
+        required: true
+      mode:
+        description: "build = images only; post = build + publish now"
+        type: choice
+        options: [build, post]
+        default: build
+
+concurrency:
+  group: autopost
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Pick content date
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "date=${{ inputs.date }}" >> "$GITHUB_OUTPUT"
+          else
+            f=$(git diff --name-only HEAD~1 HEAD -- 'content/*.json' 2>/dev/null | sort | tail -1)
+            [ -z "$f" ] && f=$(ls content/*.json | sort | tail -1)
+            echo "date=$(basename "$f" .json)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install fonts & deps
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk >/dev/null
+          pip install -q pillow requests
+
+      - name: Build cards
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python src/build.py "${{ steps.pick.outputs.date }}"
+
+      - name: Commit images
+        id: commit
+        run: |
+          git config user.name "newsdaily-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add output data
+          git commit -m "cards ${{ steps.pick.outputs.date }}" || echo "nothing to commit"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Decide publish
+        id: dec
+        run: |
+          d="${{ steps.pick.outputs.date }}"
+          pub=$(python -c "import json;print(str(json.load(open('content/$d.json',encoding='utf-8')).get('publish',False)).lower())")
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            [ "${{ inputs.mode }}" = "post" ] && echo "go=now" >> "$GITHUB_OUTPUT" || echo "go=no" >> "$GITHUB_OUTPUT"
+          elif [ "$pub" = "true" ]; then
+            echo "go=scheduled" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish to Instagram + Threads
+        if: steps.dec.outputs.go != 'no'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: |
+          flags=""
+          [ "${{ steps.dec.outputs.go }}" = "now" ] && flags="--now --force"
+          python src/publish.py "${{ steps.pick.outputs.date }}" "${{ steps.commit.outputs.sha }}" $flags
+
+      - name: Save publish record
+        if: always() && steps.dec.outputs.go != 'no'
+        run: |
+          git pull --rebase -q || true
+          git add output && git commit -m "posted ${{ steps.pick.outputs.date }}" && git push || echo "no record change"
