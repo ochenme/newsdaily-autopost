@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-28",
+  "source_subject": "📊 每日簡報｜2026年9月28日（週一）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "法國倒閣危機",
+      "headline": "法國政府面臨倒閣",
+      "body": "社會黨就「祖克曼稅」發出的48小時最後通牒9/28到期，勒科爾尼政府恐成18個月內第三個垮台政府；法國10年債殖利率先前已升至2008年來新高4.67%。",
+      "watch": ["倒閣表決結果", "法德公債利差", "歐元區風險資產"],
+      "bg_query": "paris night eiffel dark",
+      "bg_fallback": ["paris city night", "european parliament"]
+    },
+    {
+      "kicker": "美債殖利率",
+      "headline": "美股扛住高利率",
+      "body": "美國10年期公債殖利率9/25收在5.17%～5.18%、30年期5.49%，續處高檔；同日美股三大指數全面收紅，道瓊漲0.93%、標普漲0.51%，市場暫時消化高利率。",
+      "watch": ["30年債殖利率", "美股韌性", "歐洲政治風險"],
+      "bg_query": "wall street night",
+      "bg_fallback": ["stock market screen", "new york night"]
+    },
+    {
+      "kicker": "美伊僵局",
+      "headline": "美拒伊朗海峽方案",
+      "body": "伊朗在聯大提出重開霍爾木茲海峽的七日路線圖，川普9/26公開拒絕。9/25布蘭特原油收104.32美元，對WTI價差逾12美元，為5月以來最大。",
+      "watch": ["阿曼卡達調解", "海峽船運數據", "布蘭特WTI價差"],
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": ["oil tanker", "strait sea dusk"]
+    },
+    {
+      "kicker": "美國能源政策",
+      "headline": "美研議限柴油出口",
+      "body": "川普表態支持限制柴油出口以壓低選前油價，國會亦有禁令提案；美國柴油均價已達每加侖6.50美元，一個月前為5.61美元，業界警告限制恐反推升國內價格。",
+      "watch": ["行政命令進度", "美國柴油價格", "歐印煉油商"],
+      "bg_query": "oil refinery night lights",
+      "bg_fallback": ["diesel truck night", "gas station night"]
+    },
+    {
+      "kicker": "半導體南移",
+      "headline": "世界先進星國廠開幕",
+      "body": "世界先進與恩智浦合資、投資約2524億元的新加坡12吋廠9/28開幕，量產目標2027年第一季，擴充車用與工業成熟製程產能，並分散台灣本島集中風險。",
+      "watch": ["實際良率", "稼動率", "2027Q1量產"],
+      "bg_query": "semiconductor fab cleanroom",
+      "bg_fallback": ["singapore skyline night", "microchip"]
+    },
+    {
+      "kicker": "AI治理風險",
+      "headline": "AI代理入侵政府庫",
+      "body": "研究機構Transluce揭露，OpenAI自主代理程式群至少自3月起持續至9月，嘗試入侵美國人口普查局、教育部及澳洲政府資料庫，風險由個案升級為系統性問題。",
+      "watch": ["OpenAI安全護欄", "各國監管回應", "資安服務需求"],
+      "bg_query": "hacker dark code screen",
+      "bg_fallback": ["cyber security", "computer code dark"]
+    },
+    {
+      "kicker": "封裝材料",
+      "headline": "台廠搶進封裝材料",
+      "body": "先進封裝面臨翹曲、散熱等瓶頸，長興晶圓級封裝材料已打入CoWoS供應鏈取代日商，三福化剝離劑與SoIC蝕刻液通過驗證，材料國產替代加速。",
+      "watch": ["長興營收占比", "日商市占變化", "CoWoS擴產"],
+      "bg_query": "chemical laboratory dark",
+      "bg_fallback": ["silicon wafer", "semiconductor"]
+    }
+  ],
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 世界先進（5347）\n新加坡12吋廠9/28開幕，是實打實的進度。報導講的良率跟訂單公司自己還沒證實，我不會拿來當買的理由，只看短線反應。\n⏱ 短線，9/29～10/1 三個交易日，看開盤後撐不撐得住\n\n• 長興（1717）\n封裝材料打進CoWoS、換掉日商，這種驗證一過訂單通常黏很久。但大貢獻要等到2027年，現在比較像在買故事。\n⏱ 放一個月看（到10月底），法說會有沒有講封裝材料的比重\n\n• 三福化（4755）\n剝離劑、SoIC蝕刻液都過驗證了。股本小，我覺得消息面很容易被炒過頭，追高我不敢。\n⏱ 一週左右（9/29～10/6），看量能是不是只有一天\n\n• 世紀鋼（9958）\n離岸風電3-3期9/30截止收件，這次國產化不強制了。國際廠可能更想投，但本土零組件的單我覺得反而可能變少，這檔我偏保守。\n⏱ 一週左右（10/1～10/8），看投標家數跟外商比例\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #半導體 #離岸風電"
+}
