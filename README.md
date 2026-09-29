@@ -1,12 +1,12 @@
 # newsdaily-autopost
 
-每天 08:20（台北）自動把「每日簡報」濃縮成 5～8 張 4:5 新聞卡片，發到 Instagram 與 Threads（@newsdaily.tw）。
+每天 11:30（台北）自動把「每日簡報」濃縮成 5～8 張 4:5 新聞卡片，發到 Instagram 與 Threads（@newsdaily.tw）。
 
 ## 流程
-1. **Claude 排程（08:05）**：讀 Gmail 最新「每日簡報」→ 依 `SPEC.md` 寫 `content/<date>.json` → push。
+1. **Claude 排程（11:15）**：讀 Gmail 最新「每日簡報」→ 依 `SPEC.md` 寫 `content/<date>.json` → push。
 2. **GitHub Actions `build-and-post`**（push 觸發）：
    - Pexels 抓背景 → `src/render.py` 用固定模板畫卡 → 存到 `output/<date>/`
-   - `publish: true` 時等到 08:20 → 發 IG 輪播 + Threads 輪播 → 記錄在 `output/<date>/posted.json`（重跑不會重複發文）
+   - `publish: true` 時等到 11:30 → 發 IG 輪播 + Threads 輪播 → 記錄在 `output/<date>/posted.json`（重跑不會重複發文）
 3. **`refresh-tokens`**：每週一自動續期 IG / Threads 權杖並寫回 Secrets。
 4. **`check-setup`**：手動執行，檢查所有 Secrets 是否有效（不會發文）。
 
