@@ -3,7 +3,7 @@
   "footer": "知日報 · Daily Focus",
   "category": "每日焦點",
   "timezone": "Asia/Taipei",
-  "post_time": "09:00",
+  "post_time": "08:20",
   "raw_base": "https://raw.githubusercontent.com/ochenme/newsdaily-autopost/main",
   "ig_api_version": "v23.0",
   "threads_api_version": "v1.0",
