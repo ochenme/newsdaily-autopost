@@ -95,6 +95,20 @@ def post_threads(urls, text):
     return pub["id"]
 
 
+def reply_threads(parent_id, text):
+    """Publish `text` as a reply (first comment) under our own Threads post."""
+    token = os.environ["THREADS_ACCESS_TOKEN"]
+    base = f"https://graph.threads.net/{CFG['threads_api_version']}"
+    uid = _ok(http("GET", f"{base}/me", params={"fields": "id", "access_token": token}), "Threads me")["id"]
+    cid = _ok(http("POST", f"{base}/{uid}/threads",
+                   params={"media_type": "TEXT", "text": text, "reply_to_id": parent_id,
+                           "access_token": token}), "Threads reply")["id"]
+    _poll(base, cid, token, "status", "FINISHED", {"ERROR", "EXPIRED"}, "Threads reply")
+    pub = _ok(http("POST", f"{base}/{uid}/threads_publish",
+                   params={"creation_id": cid, "access_token": token}), "Threads reply publish")
+    return pub["id"]
+
+
 def main():
     date, sha = sys.argv[1], sys.argv[2]
     c = load_content(date)
@@ -114,13 +128,26 @@ def main():
     wait_until_post_time(date, "--now" in sys.argv, "--force" in sys.argv)
 
     failures = []
-    for name, fn, limit in (("instagram", post_instagram, CFG["ig_max_chars"]),
-                            ("threads", post_threads, CFG["threads_max_chars"])):
+    new_format = bool(c.get("threads_text"))
+    jobs = [
+        # IG: carousel + 關注台股 caption (unchanged)
+        ("instagram", lambda: post_instagram(urls, c["caption"][:CFG["ig_max_chars"]])),
+        # Threads main post: short hook text (new format) or the caption (old format)
+        ("threads", lambda: post_threads(urls, (c["threads_text"] if new_format else c["caption"])[:CFG["threads_max_chars"]])),
+    ]
+    if new_format:  # 關注台股 caption goes in as the first reply under the Threads post
+        jobs.append(("threads_reply", lambda: reply_threads(posted["threads"]["id"], c["caption"][:CFG["threads_max_chars"]])))
+    for name, fn in jobs:
         if posted.get(name):
             print(f"{name}: already posted ({posted[name]}), skipping")
             continue
+        if name == "threads_reply" and not posted.get("threads"):
+            failures.append("threads_reply: skipped because the Threads post failed")
+            continue
         try:
-            pid = fn(urls, c["caption"][:limit])
+            if name == "threads_reply":
+                time.sleep(10)  # give Threads a moment before replying to a fresh post
+            pid = fn()
             posted[name] = {"id": pid, "at": dt.datetime.now(TZ).isoformat(timespec="seconds")}
             print(f"{name}: PUBLISHED id={pid}")
         except Exception as e:  # keep going so one platform failing doesn't block the other

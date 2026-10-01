@@ -24,6 +24,14 @@ def validate_content(c: dict) -> None:
         errs.append(f"need 5-8 cards, got {n}")
     for i, card in enumerate(c.get("cards", []), 1):
         errs += [f"card{i}: {e}" for e in validate_card(card)]
+        if not c.get("sample") and not card.get("strategy"):
+            errs.append(f"card{i}: missing strategy (因應策略)")
+    if not c.get("sample"):
+        tt = c.get("threads_text", "")
+        if not tt:
+            errs.append("missing threads_text (Threads 主文)")
+        elif len(tt) > CFG["threads_max_chars"]:
+            errs.append(f"threads_text {len(tt)} chars > {CFG['threads_max_chars']}")
     cap = c.get("caption", "")
     if not cap:
         errs.append("missing caption")
