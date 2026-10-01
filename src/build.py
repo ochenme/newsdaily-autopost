@@ -20,7 +20,7 @@ GENERIC = ["city night lights", "dark ocean night", "night skyline"]
 def validate_content(c: dict) -> None:
     errs = []
     n = len(c.get("cards", []))
-    if not 5 <= n <= 8:
+    if not c.get("sample") and not 5 <= n <= 8:
         errs.append(f"need 5-8 cards, got {n}")
     for i, card in enumerate(c.get("cards", []), 1):
         errs += [f"card{i}: {e}" for e in validate_card(card)]
@@ -31,6 +31,16 @@ def validate_content(c: dict) -> None:
         errs.append(f"caption {len(cap)} chars > Threads limit {CFG['threads_max_chars']}")
     if errs:
         sys.exit("CONTENT INVALID:\n- " + "\n- ".join(errs))
+
+
+def pexels_by_id(pid: int) -> tuple[Image.Image, dict]:
+    r = http("GET", f"https://api.pexels.com/v1/photos/{pid}", headers={"Authorization": os.environ["PEXELS_API_KEY"]})
+    if r.status_code != 200:
+        raise RuntimeError(f"Pexels photo {pid} failed {r.status_code}: {r.text[:200]}")
+    p = r.json()
+    url = f"{p['src']['original']}?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1350"
+    img = Image.open(io.BytesIO(http("GET", url).content))
+    return img, {"query": f"id:{pid}", "id": p["id"], "photographer": p["photographer"], "url": p["url"]}
 
 
 def pexels_photo(queries: list[str], used: set) -> tuple[Image.Image, dict]:
@@ -83,6 +93,8 @@ def main():
         if offline:
             from placeholder_bg import night_scene
             bg, meta = night_scene(seed=i), {"query": card["bg_query"], "id": None}
+        elif card.get("bg_id"):  # optional: pin an exact Pexels photo
+            bg, meta = pexels_by_id(int(card["bg_id"]))
         else:
             bg, meta = pexels_photo([card["bg_query"], *card.get("bg_fallback", []), *GENERIC], used)
             used.add(meta["id"])

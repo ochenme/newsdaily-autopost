@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-27-sample",
+  "sample": true,
+  "publish": false,
+  "cards": [
+    {"kicker": "AI電力瓶頸", "headline": "算力撞上電力牆",
+     "body": "Oracle因供電延遲，對AI資料中心案發出不可抗力通知，股價一年跌逾55%。AI瓶頸正從晶片轉向電力，燃料電池、核能反成贏家。",
+     "strategy": "電力將是AI下一個瓶頸，重電與電網設備（如華城）可列入觀察；若美系雲端大廠也延後上線，AI伺服器鏈短線恐先修正。",
+     "watch": ["同業上線時程", "SMR核准", "資料中心債利差"],
+     "bg_query": "data center night", "bg_id": 5203849}
+  ],
+  "caption": "sample only - not published"
+}

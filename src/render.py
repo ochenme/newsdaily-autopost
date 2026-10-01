@@ -44,6 +44,10 @@ SPEC = {
     "kicker":   dict(x=80, font=("Bold", 33),    color=C_RED,     ink_top=266),
     "headline": dict(x=80, font=("Bold", 62),    color="#ECEDF0", ink_top=322, max_width=920),
     "body":     dict(x=84, font=("Regular", 30), color=C_BODY,    ink_top=525, pitch=52, width=900, max_lines=3),
+    # 因應策略 block (optional per card): sits between body and rule2, in the empty photo area
+    "strategy": dict(panel_x0=78, panel_x1=1002, panel_top=770, pad_top=32, label="因應策略",
+                     label_x=110, label_font=("Bold", 28), text_x=110, text_font=("Regular", 28),
+                     text_color="#E6E7EA", gap=22, pitch=48, width=862, max_lines=3, pad_bottom=34),
     "rule2":    dict(y=1154),
     "watch":    dict(label_x=81, items_x=202, font=("Bold", 30), ink_top=1198, max_width=800),
     "footer":   dict(x=80, font=("Regular", 21), color="#BAC0C8", ink_top=1283),
@@ -91,6 +95,11 @@ def validate_card(card: dict) -> list[str]:
         errs.append(f"body {n} lines (max {s['body']['max_lines']}): {card['headline']}")
     if d.textlength("、".join(card["watch"]), font=F(*s["watch"]["font"])) > s["watch"]["max_width"]:
         errs.append(f"watch items too wide: {card['watch']}")
+    if card.get("strategy"):
+        st = s["strategy"]
+        n = len(wrap(card["strategy"], F(*st["text_font"]), st["width"]))
+        if n > st["max_lines"]:
+            errs.append(f"strategy {n} lines (max {st['max_lines']}): {card['headline']}")
     return errs
 
 
@@ -118,6 +127,26 @@ def prepare_bg(src) -> Image.Image:
     return Image.alpha_composite(img.convert("RGBA"), over)
 
 
+def _draw_strategy(im: Image.Image, text: str, accent: str) -> Image.Image:
+    st = SPEC["strategy"]
+    tf, lf = F(*st["text_font"]), F(*st["label_font"])
+    lines = wrap(text, tf, st["width"])
+    label_top = st["panel_top"] + st["pad_top"]
+    text_top = label_top + 28 + st["gap"]
+    bottom = text_top + (len(lines) - 1) * st["pitch"] + 28 + st["pad_bottom"]
+    # translucent dark panel + thin accent bar on the left, so the block reads as a distinct "takeaway"
+    over = Image.new("RGBA", im.size)
+    od = ImageDraw.Draw(over)
+    od.rounded_rectangle([st["panel_x0"], st["panel_top"], st["panel_x1"], bottom], radius=10, fill=(6, 11, 22, 165))
+    im = Image.alpha_composite(im, over)
+    d = ImageDraw.Draw(im)
+    d.rectangle([st["panel_x0"], st["panel_top"] + 10, st["panel_x0"] + 3, bottom - 10], fill=accent)
+    _ink_text(d, st["label_x"], label_top, st["label"], lf, accent)
+    for i, ln in enumerate(lines):
+        _ink_text(d, st["text_x"], text_top + i * st["pitch"], ln, tf, st["text_color"])
+    return im
+
+
 def render(card: dict, bg, out: str, *, date: str, account: str, footer: str, category: str):
     errs = validate_card(card)
     if errs:
@@ -138,6 +167,9 @@ def render(card: dict, bg, out: str, *, date: str, account: str, footer: str, ca
     bf = F(*b["font"])
     for i, ln in enumerate(wrap(card["body"], bf, b["width"])):
         _ink_text(d, b["x"], b["ink_top"] + i * b["pitch"], ln, bf, b["color"])
+    if card.get("strategy"):
+        im = _draw_strategy(im, card["strategy"], accent)
+        d = ImageDraw.Draw(im)
     d.rectangle([RULE_X0, s["rule2"]["y"], RULE_X1, s["rule2"]["y"] + 1], fill="#FFFFFF")
     w = s["watch"]
     wf = F(*w["font"])
