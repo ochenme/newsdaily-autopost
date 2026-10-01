@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import glob
 import os
+import re
 
 from PIL import Image, ImageDraw, ImageEnhance, ImageFont, ImageOps, ImageStat
 
@@ -45,9 +46,10 @@ SPEC = {
     "headline": dict(x=80, font=("Bold", 62),    color="#ECEDF0", ink_top=322, max_width=920),
     "body":     dict(x=84, font=("Regular", 30), color=C_BODY,    ink_top=525, pitch=52, width=900, max_lines=3),
     # 因應策略 (replaces 留意 when present): bottom zone, rule moves up to make room for 2 lines
-    "strategy": dict(rule_y=1030, label="因應策略", label_x=81, label_font=("Bold", 30), label_ink_top=1074,
-                     text_x=82, text_font=("Regular", 30), text_color="#E6E7EA", text_ink_top=1128,
-                     pitch=52, width=918, max_lines=2),
+    "strategy": dict(header_ink_top=1036, label="因應策略", label_x=81, label_font=("Bold", 28),
+                     line_gap=22, text_x=108, text_font=("Regular", 30), text_color="#E9EAED",
+                     text_ink_top=1100, pitch=54, width=892, max_lines=2,
+                     code_font=("Bold", 30)),
     "rule2":    dict(y=1154),
     "watch":    dict(label_x=81, items_x=202, font=("Bold", 30), ink_top=1198, max_width=800),
     "footer":   dict(x=80, font=("Regular", 21), color="#BAC0C8", ink_top=1283),
@@ -123,12 +125,43 @@ def prepare_bg(src) -> Image.Image:
             a = 185
         elif t < 0.62:
             a = int(185 - (t - 0.48) / 0.14 * 85)   # 185 → 100
-        elif t < 0.80:
+        elif t < 0.70:
             a = 100
         else:
-            a = int(100 + (t - 0.80) / 0.20 * 90)   # 100 → 190
+            a = int(100 + (t - 0.70) / 0.30 * 100)  # 100 → 200, keeps the bottom strategy block legible
         od.line([(0, y), (W, y)], fill=(8, 14, 26, a))
     return Image.alpha_composite(img.convert("RGBA"), over)
+
+
+TICKER = re.compile(r"(（\d{4,6}）)")
+
+
+def _draw_rich(d, x, ink_top, line, font, bold, color, accent):
+    """Draw a line where stock codes like （1519） are emphasised in the accent colour."""
+    for part in TICKER.split(line):
+        if not part:
+            continue
+        is_code = bool(TICKER.fullmatch(part))
+        f = bold if is_code else font
+        _ink_text(d, x, ink_top, part, f, accent if is_code else color)
+        x += d.textlength(part, font=f)
+
+
+def _draw_strategy(d, text, accent):
+    st = SPEC["strategy"]
+    lf, tf, cf = F(*st["label_font"]), F(*st["text_font"]), F(*st["code_font"])
+    # section header: accent label followed by a hairline that runs to the right margin
+    _ink_text(d, st["label_x"], st["header_ink_top"], st["label"], lf, accent)
+    lx = st["label_x"] + d.textlength(st["label"], font=lf) + st["line_gap"]
+    ly = st["header_ink_top"] + 14
+    d.rectangle([lx, ly, RULE_X1, ly], fill=accent)
+    # quote-style body with a thin accent bar on the left
+    lines = wrap(text, tf, st["width"])
+    top = st["text_ink_top"]
+    bottom = top + (len(lines) - 1) * st["pitch"] + 30
+    d.rectangle([st["label_x"] + 1, top - 4, st["label_x"] + 4, bottom + 4], fill=accent)
+    for i, ln in enumerate(lines):
+        _draw_rich(d, st["text_x"], top + i * st["pitch"], ln, tf, cf, st["text_color"], accent)
 
 
 def render(card: dict, bg, out: str, *, date: str, account: str, footer: str, category: str):
@@ -152,12 +185,7 @@ def render(card: dict, bg, out: str, *, date: str, account: str, footer: str, ca
     for i, ln in enumerate(wrap(card["body"], bf, b["width"])):
         _ink_text(d, b["x"], b["ink_top"] + i * b["pitch"], ln, bf, b["color"])
     if card.get("strategy"):
-        st = s["strategy"]
-        d.rectangle([RULE_X0, st["rule_y"], RULE_X1, st["rule_y"] + 1], fill="#FFFFFF")
-        _ink_text(d, st["label_x"], st["label_ink_top"], st["label"], F(*st["label_font"]), accent)
-        tf = F(*st["text_font"])
-        for i, ln in enumerate(wrap(card["strategy"], tf, st["width"])):
-            _ink_text(d, st["text_x"], st["text_ink_top"] + i * st["pitch"], ln, tf, st["text_color"])
+        _draw_strategy(d, card["strategy"], accent)
     else:  # legacy layout with 留意
         d.rectangle([RULE_X0, s["rule2"]["y"], RULE_X1, s["rule2"]["y"] + 1], fill="#FFFFFF")
         w = s["watch"]
