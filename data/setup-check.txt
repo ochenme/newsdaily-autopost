@@ -1,4 +1,4 @@
-checked_at: 2026-09-28 00:12:43
+checked_at: 2026-10-01 10:27:15
 PEXELS_API_KEY: HTTP 200
 IG_ACCESS_TOKEN: OK @newsdaily.tw type=BUSINESS
 THREADS_ACCESS_TOKEN: OK @newsdaily.tw
