@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-03",
+  "source_subject": "📊 每日簡報｜2026年10月3日（週六）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "美國就業降溫",
+      "headline": "非農僅增2.9萬",
+      "body": "9月非農新增2.9萬人，遠低於預期8.4萬，失業率升至4.2%。10月FOMC升息機率降至約18%，市場升息預期急凍。",
+      "strategy": "升息壓力暫緩，成長股與高評價科技股可望喘息。\n下週CPI若偏熱，升息預期恐重燃，宜保留彈性。",
+      "bg_query": "wall street night lights",
+      "bg_fallback": [
+        "new york skyline night"
+      ]
+    },
+    {
+      "kicker": "長債利率創高",
+      "headline": "美債殖利率20年高",
+      "body": "10/1美10年債殖利率收5.3338%、30年債收5.6702%，雙雙創2002年以來新高，長端利率壓力未因非農轉弱而解除。",
+      "strategy": "公用事業、REITs與金融持債部位承壓。\n10年債能否守在5.2%下方，是評估成長股的關鍵。",
+      "bg_query": "dark financial chart screen",
+      "bg_fallback": [
+        "stock market screen"
+      ]
+    },
+    {
+      "kicker": "台股資金輪動",
+      "headline": "台股再創新高",
+      "body": "加權指數10/2收48,475.74點，續創收盤新高。外資買超由296億元縮至26億元，改由投信、自營接棒，漲跌家數近持平。",
+      "strategy": "漲勢由權值股轉向被動元件、CPO等族群，屬資金輪動。\n外資若未回補，48,000點附近恐震盪整理。",
+      "bg_query": "taipei 101 night",
+      "bg_fallback": [
+        "taipei city night"
+      ]
+    },
+    {
+      "kicker": "美中光通訊",
+      "headline": "美擬限陸製光模組",
+      "body": "據大摩報告，FCC最快10月將陸製3.2T光收發模組納入限制，可能採BOM 65%須來自美國廠規則，對800G、1.6T無立即衝擊。",
+      "strategy": "聯亞（3081）、華星光（4979）等台廠具轉單想像。\n政策尚未公布，65%門檻若成真，利多恐被高估。",
+      "bg_query": "fiber optic cable dark",
+      "bg_fallback": [
+        "optical network light"
+      ]
+    },
+    {
+      "kicker": "柴油危機",
+      "headline": "柴油成能源最緊環節",
+      "body": "中國煉油廠暫停10月燃料出口，歐盟柴油價創新高。川普稱可能要求歐洲釋出柴油儲備，財長貝森特促歐洲立即動用庫存。",
+      "strategy": "柴油裂解價差走擴有利煉油，台塑化（6505）可列觀察。\n運輸與航空成本承壓，留意Brent能否守住百元。",
+      "bg_query": "oil refinery night",
+      "bg_fallback": [
+        "fuel tanker truck night"
+      ]
+    },
+    {
+      "kicker": "AI治理風險",
+      "headline": "OpenAI安全風波",
+      "body": "據WSJ報導，OpenAI因內部安全疑慮取消GPT-6.1 Astra發布，並與3名安全研究員分道揚鑣；Google同期以分級釋出推出Gemini 4 Argon。",
+      "strategy": "安全與合規能力，將成為前沿AI模型的評價因子。\n屬軟體端事件，對AI伺服器硬體鏈影響相對有限。",
+      "bg_query": "server room dark blue",
+      "bg_fallback": [
+        "data center night"
+      ]
+    },
+    {
+      "kicker": "國防無人機",
+      "headline": "Shield AI加碼台灣",
+      "body": "Shield AI擴大在台布局，與中科院、漢翔、雷虎合作，V-BAT無人機零組件台灣占比將由16%提高至25%，並將參與國防部標案。",
+      "strategy": "非紅供應鏈訂單成形，雷虎（8033）、漢翔（2634）受惠。\n目前規模仍小，宜待國防部標案時程明朗。",
+      "bg_query": "military drone night sky",
+      "bg_fallback": [
+        "drone flying dusk"
+      ]
+    },
+    {
+      "kicker": "俄烏戰事",
+      "headline": "普丁拒絕停火",
+      "body": "普丁斥烏方能源設施互停攻擊提議「荒謬」，並稱若北約威脅加里寧格勒，所有武器將列入議程；俄無人機同日襲擊基輔主要橋樑。",
+      "strategy": "能源設施互打持續，歐洲柴油供給風險難解。\n防務與能源類股具支撐，避險資產宜維持配置。",
+      "bg_query": "kremlin night",
+      "bg_fallback": [
+        "moscow night snow"
+      ]
+    }
+  ],
+  "threads_text": "「就業急凍、柴油告急、AI安全風波」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n升息預期突然降溫，你會趁機加碼成長股嗎？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 聯亞（3081）\n大摩說美國最快10月要限制陸製3.2T光模組，聯亞被點名轉單。題材很好聽，但政策還沒公布，3.2T要到2028年才放量，65%規則真的上路的話，台廠能分到多少我覺得還很難說。\n⏱ 放一個月看（10/5～10/30），FCC有沒有正式公告、條文裡有沒有65%門檻\n\n• 台塑化（6505）\n中國停出口燃料、歐盟柴油創新高，我看柴油是這次能源危機最緊的一段，煉油價差應該撐得住。風險是非農轉弱，油價10/2已經往下掉了。\n⏱ 一週左右（10/5～10/8），看Brent守不守得住100美元\n\n• 雷虎（8033）\nShield AI找雷虎、漢翔合作，零組件台灣比重要從16%拉到25%。方向我認同，但人家在台灣才11個人，量還很小，先別想太多。\n⏱ 放到10月底，看國防部無人機標案時程跟雷虎10月營收\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #光通訊 #柴油"
+}
