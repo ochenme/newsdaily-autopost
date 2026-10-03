@@ -42,6 +42,29 @@ jobs:
               else:
                   e = j.get("error", {}); line += f" ERROR code={e.get('code')} sub={e.get('error_subcode')} msg={e.get('message')} user_msg={e.get('error_user_msg')}"
               out.append(line)
+          kids = []
+          for l in out: pass
+          # re-create quickly and test the CAROUSEL container (still NOT published)
+          ids = []
+          for p in sorted(glob.glob(f"output/{date}/[0-9][0-9].jpg")):
+              url = f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/{sha}/{p}"
+              j = requests.post(f"{base}/{uid}/media", params={"image_url": url, "is_carousel_item": "true", "access_token": tok}, timeout=60).json()
+              if "id" in j: ids.append(j["id"])
+          time.sleep(20)
+          cap = json.load(open(f"content/{date}.json", encoding="utf-8"))["caption"]
+          r = requests.post(f"{base}/{uid}/media", params={"media_type": "CAROUSEL", "children": ",".join(ids), "caption": cap, "access_token": tok}, timeout=60)
+          j = r.json(); e = j.get("error", {})
+          out.append(f"carousel create HTTP {r.status_code} id={j.get('id')} err code={e.get('code')} sub={e.get('error_subcode')} msg={e.get('message')} user_msg={e.get('error_user_msg')}")
+          if "id" in j:
+              for _ in range(12):
+                  s = requests.get(f"{base}/{j['id']}", params={"fields": "status_code,status", "access_token": tok}, timeout=60).json()
+                  if s.get("status_code") in ("FINISHED", "ERROR", "EXPIRED"): break
+                  time.sleep(5)
+              out.append(f"carousel status: {s.get('status_code')} {s.get('status','')}")
+          m = requests.get(f"{base}/{uid}/media", params={"fields": "id,timestamp,media_type", "limit": 4, "access_token": tok}, timeout=60).json()
+          out.append("recent media: " + "; ".join(f"{x.get('timestamp')} {x.get('media_type')}" for x in m.get("data", [])))
+          lim = requests.get(f"{base}/{uid}/content_publishing_limit", params={"fields": "quota_usage,config", "access_token": tok}, timeout=60).json()
+          out.append(f"publishing limit: {lim}")
           os.makedirs("data", exist_ok=True); open("data/ig-diag.txt", "w").write("\n".join(out) + "\n")
           print("\n".join(out))
           PY
