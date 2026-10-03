@@ -67,9 +67,12 @@ def post_instagram(urls, caption):
                    params={"media_type": "CAROUSEL", "children": ",".join(kids),
                            "caption": caption, "access_token": token}), "IG carousel")["id"]
     _poll(base, car, token, "status_code", "FINISHED", {"ERROR", "EXPIRED"}, "IG carousel")
-    pub = _ok(http("POST", f"{base}/{uid}/media_publish",
-                   params={"creation_id": car, "access_token": token}), "IG publish")
-    return pub["id"]
+    return _publish_verified(
+        lambda: _ok(http("POST", f"{base}/{uid}/media_publish", retries=1,
+                         params={"creation_id": car, "access_token": token}), "IG publish")["id"],
+        lambda: http("GET", f"{base}/{uid}/media",
+                     params={"fields": "id,timestamp", "limit": 1, "access_token": token}).json().get("data", []),
+        "IG")
 
 
 def post_threads(urls, text):
@@ -90,9 +93,30 @@ def post_threads(urls, text):
                    params={"media_type": "CAROUSEL", "children": ",".join(kids), "text": text,
                            "access_token": token}), "Threads carousel")["id"]
     _poll(base, car, token, "status", "FINISHED", {"ERROR", "EXPIRED"}, "Threads carousel")
-    pub = _ok(http("POST", f"{base}/{uid}/threads_publish",
-                   params={"creation_id": car, "access_token": token}), "Threads publish")
-    return pub["id"]
+    return _publish_verified(
+        lambda: _ok(http("POST", f"{base}/{uid}/threads_publish", retries=1,
+                         params={"creation_id": car, "access_token": token}), "Threads publish")["id"],
+        lambda: http("GET", f"{base}/{uid}/threads",
+                     params={"fields": "id,timestamp", "limit": 1, "access_token": token}).json().get("data", []),
+        "Threads")
+
+
+def _publish_verified(publish, latest, what):
+    """Publish exactly once. Meta sometimes returns an error even though the post went live
+    (seen on IG 2026-10-03), so on failure we check the newest post instead of retrying —
+    retrying could double-post."""
+    started = dt.datetime.now(dt.timezone.utc)
+    try:
+        return publish()
+    except Exception as e:
+        print(f"{what} publish call reported an error: {e} — checking whether it went live anyway")
+        time.sleep(20)
+        for item in latest():
+            ts = dt.datetime.strptime(item["timestamp"].replace("+0000", "+00:00"), "%Y-%m-%dT%H:%M:%S%z")
+            if ts >= started - dt.timedelta(minutes=2):
+                print(f"{what}: post IS live (id={item['id']}, {item['timestamp']}) — treating as success")
+                return item["id"]
+        raise
 
 
 def reply_threads(parent_id, text):
@@ -155,6 +179,8 @@ def main():
             print(f"{name}: FAILED {e}")
         json.dump(posted, open(posted_path, "w"), indent=1)
     if failures:
+        with open(os.path.join(od, "errors.txt"), "a") as f:  # keep Meta's error text in the repo for diagnosis
+            f.write(dt.datetime.now(TZ).isoformat(timespec="seconds") + "\n" + "\n".join(failures) + "\n")
         sys.exit("PUBLISH FAILURES:\n" + "\n".join(failures))
 
 
