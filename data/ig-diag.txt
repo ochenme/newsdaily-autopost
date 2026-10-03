@@ -8,3 +8,7 @@ me: newsdaily.tw err=None
 06.jpg create HTTP 200 -> FINISHED FINISHED
 07.jpg create HTTP 200 -> FINISHED FINISHED
 08.jpg create HTTP 200 -> FINISHED FINISHED
+carousel create HTTP 200 id=18112863949987112 err code=None sub=None msg=None user_msg=None
+carousel status: FINISHED FINISHED
+recent media: 2026-10-03T03:30:41+0000 CAROUSEL_ALBUM; 2026-10-02T03:30:52+0000 CAROUSEL_ALBUM; 2026-10-01T02:32:37+0000 CAROUSEL_ALBUM; 2026-09-30T03:30:34+0000 CAROUSEL_ALBUM
+publishing limit: {'data': [{'quota_usage': 0, 'config': {'quota_total': 100, 'quota_duration': 86400}}]}
