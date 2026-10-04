@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-04",
+  "source_subject": "📊 每日簡報｜2026年10月4日（週日）",
+  "publish": true,
+  "cards": [
+    {"kicker": "美伊衝突升級", "headline": "美增派第三航艦群", "body": "據半島電視台，美國再派第三個航艦戰鬥群赴中東，增兵約9,000至1萬人；川普稱期中選舉後加大轟炸「有可能」，11/3選後成風險窗口。", "strategy": "選前升級偏向談判籌碼，選後才是真正風險窗口。\n能源、國防相對受惠，航空與石化下游較承壓。", "bg_query": "aircraft carrier ocean dusk", "bg_fallback": ["warship night sea"]},
+    {"kicker": "股債分歧", "headline": "美債利率24年高", "body": "美國9月非農僅增2.9萬、失業率升至4.2%，Nasdaq收盤創高；但10年期美債殖利率9/30一度達5.306%，為2002年5月以來高點。", "strategy": "股市押升息壓力降，債市仍在定價通膨與供給風險。\nCPI若偏熱邏輯恐反轉，高估值成長股宜控制部位。", "bg_query": "wall street night lights", "bg_fallback": ["financial district night"]},
+    {"kicker": "台股創高", "headline": "台股創高外資縮手", "body": "台股10/2收48,475.74點創收盤新高，週線連三紅；但外資僅買超26.21億元，遠低於前兩日，主要靠投信49.1億、自營商撐盤。", "strategy": "內資撐盤、外資買盤偏薄，創高品質仍待確認。\n觀察外資能否連續放大買超、新台幣守住32元。", "bg_query": "taipei city night skyline", "bg_fallback": ["stock market screen dark"]},
+    {"kicker": "台積電法說", "headline": "台積電10/15法說", "body": "台積電將於10/15召開法說會，今年資本支出已上調至600至640億美元，亞利桑那總投資2,650億美元，美國客戶占比近75%。", "strategy": "法說重點看資本支出是否再上修與毛利率指引。\n設備與先進封裝鏈，如弘塑（3131）同步受牽動。", "bg_query": "semiconductor wafer dark", "bg_fallback": ["microchip macro"]},
+    {"kicker": "離岸風電", "headline": "彰化風機葉片毀損", "body": "沃旭彰化西北風場10/2發生風機葉片毀損，無人傷亡、附近海域已管制；渦輪商Siemens Gamesa在保固期內主導調查。", "strategy": "若調查指向設計缺陷，同型機組恐須停機檢查。\nAI用電吃緊下，供電裕度與電網設備更受重視。", "bg_query": "offshore wind turbine dusk", "bg_fallback": ["wind farm sea"]},
+    {"kicker": "AI技術焦點", "headline": "Gemini 4限定發表", "body": "Google發表Gemini 4 Argon，先限資安防禦者使用，輸出上限達100萬token、前代為6.4萬；各項基準成績皆為Google自報。", "strategy": "超長輸出利於大型程式碼重構與長程AI代理。\n中階程式代理工具與資安外包服務恐先受壓。", "bg_query": "data center servers blue light", "bg_fallback": ["code screen dark"]},
+    {"kicker": "AI代理治理", "headline": "Apple收緊磁碟權限", "body": "據TechCrunch，Apple將要求更明確授權，App才能存取檔案、訊息、郵件與瀏覽紀錄，理由是AI代理日益自主、風險大增。", "strategy": "作業系統層開始為AI代理訂權限規則。\n依賴全磁碟存取的桌面代理工具恐須調整設計。", "bg_query": "laptop dark room glow", "bg_fallback": ["cyber security lock"]}
+  ],
+  "threads_text": "「美國就業轉弱、美債還在高檔、中東再升溫」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台股一直創高、外資卻縮手，你這週會追還是先等？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n10/15法說前傳聞很多，德州新園區、Terafab都沒證實，我先當雜音。我只看資本支出會不會再上調、海外廠吃掉多少毛利。\n⏱ 約兩週，10/5～10/16（10/9國慶連假休市），看法說後外資怎麼表態\n\n• 中信金（2891）\n10年期美債還在24年來高點附近，利率高對銀行利差是好事。我覺得這種環境金融股算穩，但殖利率一回落就沒那麼甜了。\n⏱ 一個月左右，到10/27～28 FOMC後，看殖利率有沒有從高檔下來\n\n• 華城（1519）\n彰化風機葉片壞了，AI用電本來就緊。不過風機事故跟重電設備的連結沒那麼直接，我先放觀察名單，不急。\n⏱ 放一個月看（到11月初），看調查會不會讓同型風機停機、供電裕度有沒有吃緊\n\n• 長榮航（2618）\n美國又派一個航艦群去中東，航空最怕油價跳。我覺得選前還是籌碼居多，真正的風險在11/3選後。\n⏱ 放到選後（11/3～11月中），看布蘭特油價有沒有站穩100美元以上\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #美債 #台積電"
+}
