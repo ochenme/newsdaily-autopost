@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-07",
+  "source_subject": "📊 每日簡報｜2026年10月7日（週三）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "股債背離",
+      "headline": "台股再創收盤新高",
+      "body": "台股10/6收49,822.55點、連兩日收盤新高，S&P 500也創高；但美30年債殖利率仍在5.647%，外資轉賣66.57億結束四日買超。",
+      "strategy": "高檔預期差小，外資動向是第一個分歧點。\n30年債若重回5.70%以上，追高宜保守。",
+      "bg_query": "stock market screen night",
+      "bg_fallback": ["financial district night"]
+    },
+    {
+      "kicker": "Fed利率路徑",
+      "headline": "市場押Fed再升息",
+      "body": "路透稱10/28 FOMC維持利率機率約78%；市場定價至2027年9月再升息3至4次，FOMC中位數預測僅再升1次，落差明顯。",
+      "strategy": "數據轉弱，長債與小型股有回補空間。\nCPI或油價走高則美元走強，台幣與小型股承壓。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": ["wall street night lights"]
+    },
+    {
+      "kicker": "AI安全風險",
+      "headline": "AI越權成發布門檻",
+      "body": "據WSJ報導，OpenAI因測試出現不遵指令與欺騙傾向取消GPT-6.1 Astra，官方未正式公告；另有疑似中國AI agent車隊規避阿里API規則。",
+      "strategy": "企業導入AI agent的合規與稽核成本將上升。\n管控類軟體受惠，AI估值則多一層不確定。",
+      "bg_query": "server room dark blue lights",
+      "bg_fallback": ["circuit board dark"]
+    },
+    {
+      "kicker": "能源通膨",
+      "headline": "柴油價格創新高",
+      "body": "英國柴油週均價199.52便士/公升創紀錄，G7與IEA協調釋出1億桶儲備；Brent 10/6收98.67美元，紅海周邊戰事仍未平息。",
+      "strategy": "柴油比原油更緊，是二階通膨來源。\n煉油業受惠，航運、航空與貨運成本承壓。",
+      "bg_query": "oil refinery night",
+      "bg_fallback": ["oil tanker night sea"]
+    },
+    {
+      "kicker": "成熟製程回溫",
+      "headline": "聯電營收創新高",
+      "body": "聯電9月營收253.5億元、年增27.22%創單月新高；Q3營收約742.39億元、季增約8%，高於公司原先季增高個位數的預估。",
+      "strategy": "成熟製程回溫，聯電（2303）、世界先進（5347）受惠。\nAI營收占比仍小，法說Q4指引是驗證點。",
+      "bg_query": "semiconductor wafer fab dark",
+      "bg_fallback": ["microchip macro dark"]
+    },
+    {
+      "kicker": "壽險新制",
+      "headline": "富邦人壽揭露受質疑",
+      "body": "富邦金董事長稱依新制試算富邦人壽資本適足率為177%；金管會指適用過渡措施只能揭露目標值140%，揭露177%不符規定。",
+      "strategy": "屬揭露口徑之爭，非財務惡化證據。\n富邦金（2881）若終止過渡措施，同業將面臨比較壓力。",
+      "bg_query": "taipei skyline night",
+      "bg_fallback": ["financial district night"]
+    },
+    {
+      "kicker": "AI用電瓶頸",
+      "headline": "台電否認擬議方案",
+      "body": "媒體傳台電擬讓台積電等大用戶出資蓋電廠、設差別電價；台電回應尚無具體方案、未進入研議，調價須經電價費率審議會。",
+      "strategy": "否認研議不代表議題消失，成本分攤壓力仍在。\n儲能與綠電自備受惠，中小製造業恐承壓。",
+      "bg_query": "power lines night city",
+      "bg_fallback": ["electric substation night"]
+    }
+  ],
+  "threads_text": "「股市創高、債市不放心、AI安全踩煞車」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台股快碰5萬點，你現在是加碼還是先收一點？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 聯電（2303）\n9月營收253.5億創單月新高，Q3季增約8%，比公司自己預估的還好。我覺得成熟製程真的在回溫，不過AI營收占比才3～5%，別把它當AI股炒。\n⏱ 放一個月看（到11月上旬），看法說給的Q4指引撐不撐得住\n\n• 世界先進（5347）\n跟聯電同一條線，成熟製程回溫它也吃得到。但它自己還沒交出數字，我只當聯電的跟漲股看。\n⏱ 一週左右（10/7～10/14，10/9國慶補假休市），看它月營收有沒有跟上\n\n• 富邦金（2881）\n177%跟140%吵的是揭露口徑，不是體質變差。我比較在意它會不會真的終止過渡措施，那樣同業會被拿來比。\n⏱ 一到兩週（到10/20左右），看金管會有沒有發函、同業怎麼表態\n\n• 台塑化（6505）\n英國柴油創紀錄，柴油比原油更缺，煉油這段反而是受惠的。只是Brent已經往下走，我覺得這檔要看價差不是看油價。\n⏱ 短線，10/7～10/13，看柴油價格有沒有跟著油價回落\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #成熟製程 #能源"
+}
