@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-08",
+  "source_subject": "📊 每日簡報｜2026年10月8日（週四）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "美債利率警訊",
+      "headline": "長債殖利率24年高",
+      "body": "美10年期公債10/7收約5.28%、盤中約5.36%，為2002年來高點；S&P 500收7,801.77點跌0.22%，Russell 2000跌1.31%，小型股承壓最重。",
+      "strategy": "長端利率若站穩5.3%，高估值成長股與小型股壓力恐延續。\n持股宜提高防禦與現金比重，靜待10/27～28 FOMC。",
+      "bg_query": "wall street stock market screen night",
+      "bg_fallback": [
+        "stock market",
+        "finance night"
+      ]
+    },
+    {
+      "kicker": "聯準會動向",
+      "headline": "年底前恐再升息",
+      "body": "Fed 9月會議紀要顯示多數官員預期年底前再升息一次；9月非農僅增2.9萬、失業率4.2%，就業轉弱與油價走高形成停滯性通膨兩難。",
+      "strategy": "升息循環尚未結束，成長股估值與新興市場貨幣同步承壓。\n11/6非農與10月FOMC將是調整持股水位的關鍵依據。",
+      "bg_query": "federal reserve building dark",
+      "bg_fallback": [
+        "central bank",
+        "washington night"
+      ]
+    },
+    {
+      "kicker": "中東航運危機",
+      "headline": "油輪接連遇襲",
+      "body": "霍爾木茲海峽10/6、10/7接連發生油輪遇襲；G7宣布釋出1億桶油品，美國柴油均價仍在約6.50美元紀錄高位，亞洲進口國首當其衝。",
+      "strategy": "燃油成本高檔不利航空與貨運，長榮航（2618）成本承壓。\n台灣能源高度仰賴進口，進口通膨壓力恐隨之升溫。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "oil tanker",
+        "strait sea"
+      ]
+    },
+    {
+      "kicker": "記憶體勞資",
+      "headline": "美光工會獲罷工權",
+      "body": "美光台灣工會投票2,012人中1,994人同意罷工，要求以營業利益15%建立分紅制度，並要求董事會於10/8～9回應；罷工時程與產能影響未明。",
+      "strategy": "罷工若成真，南亞科（2408）、華邦電（2344）可望受惠。\n關鍵在美光董事會回應與罷工日期是否確定。",
+      "bg_query": "semiconductor factory cleanroom dark",
+      "bg_fallback": [
+        "microchip",
+        "factory night"
+      ]
+    },
+    {
+      "kicker": "晶片製造布局",
+      "headline": "馬斯克要自建晶圓廠",
+      "body": "馬斯克表示特斯拉與SpaceX規劃的德州AI晶片廠Terafab將自行建造營運，台積電最多承租部分廠區；英特爾執行長稱英特爾仍是計畫一部分。",
+      "strategy": "台積電（2330）在此案角色縮小，惟核心先進製程訂單不受影響。\n若自建屬實，潔淨室工程如漢唐（2404）具想像空間。",
+      "bg_query": "semiconductor wafer fab dark blue",
+      "bg_fallback": [
+        "silicon wafer",
+        "chip factory"
+      ]
+    },
+    {
+      "kicker": "台股籌碼",
+      "headline": "法人連二日賣超",
+      "body": "台股10/7收49,806.37點，逼近5萬點關口；三大法人連兩日賣超，10/6賣超207.86億元，外資期貨空單淨部位約7.9萬口，籌碼面偏保守。",
+      "strategy": "外資賣超與融資偏高並存，5萬點關口震盪機率升高。\n短線宜控制槓桿，觀察台積電10月中法說前外資動向。",
+      "bg_query": "taipei city skyline night",
+      "bg_fallback": [
+        "taipei night",
+        "stock chart"
+      ]
+    },
+    {
+      "kicker": "台灣電力轉型",
+      "headline": "台中燃煤機組除役",
+      "body": "台中電廠燃煤1、2號機10/1除役，合計110萬瓩；未來十年將有25部大型燃氣機組、約26 GW上線，但除役與新機間的供電空窗未量化。",
+      "strategy": "以氣換煤帶動重電與燃氣機組需求，華城（1519）可列入觀察。\n天然氣仰賴進口，中東風險將推升發電成本。",
+      "bg_query": "power plant chimney night",
+      "bg_fallback": [
+        "power station",
+        "electricity grid"
+      ]
+    },
+    {
+      "kicker": "AI算力融資",
+      "headline": "Lambda擬募40億美元",
+      "body": "據TechCrunch引WSJ，AI算力商Lambda擬募40億美元，積壓訂單由6月150億增至9月500億美元，主因Anthropic 350億美元承諾，客戶高度集中。",
+      "strategy": "AI基建靠債務推動，高利率下融資風險升高。\n廣達（2382）短線有單撐，仍需留意資本支出降溫。",
+      "bg_query": "data center server room dark",
+      "bg_fallback": [
+        "server rack",
+        "data center"
+      ]
+    }
+  ],
+  "threads_text": "「債息衝高、中東添亂、台股卡在5萬點」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n美債殖利率衝到5.28%，你會先降低持股嗎？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 南亞科（2408）\n美光台灣工會1,994票同意罷工，要拿營業利益15%分紅。我覺得真的罷下去的機率不高，但只要罷工日一定，DRAM缺貨的劇本馬上會被拿出來講。\n⏱ 短線，10/8～10/14（10/9國慶補假休市），看美光董事會怎麼回、有沒有定罷工日\n\n• 台積電（2330）\n馬斯克說Terafab要自己蓋自己顧，台積電最多租廠區。我覺得這對本業影響很小，比較麻煩的是外資連兩天在賣、融資又偏高。\n⏱ 一週左右（10/12～10月中法說），看法說怎麼講資本支出、外資有沒有回頭\n\n• 華城（1519）\n台中燃煤1、2號機除役，後面十年要上25部燃氣機組。以氣換煤是慢慢走的線，不用急，但方向我覺得很清楚。\n⏱ 放一個月看（到11/6前後），看電價審議和新機組標案有沒有進度\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #記憶體 #能源轉型"
+}
