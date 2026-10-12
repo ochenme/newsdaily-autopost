@@ -73,7 +73,14 @@ jobs:
           elif [ "$now" = "true" ]; then
             echo "go=now" >> "$GITHUB_OUTPUT"   # manual one-off: publish immediately
           elif [ "$pub" = "true" ]; then
-            echo "go=scheduled" >> "$GITHUB_OUTPUT"
+            # master switch in config.json: auto_post=false -> build images only, never auto-publish
+            auto=$(python -c "import json;print(str(json.load(open('config.json')).get('auto_post',True)).lower())")
+            if [ "$auto" = "true" ]; then
+              echo "go=scheduled" >> "$GITHUB_OUTPUT"
+            else
+              echo "auto_post is OFF in config.json -> images built, nothing published"
+              echo "go=no" >> "$GITHUB_OUTPUT"
+            fi
           else
             echo "go=no" >> "$GITHUB_OUTPUT"
           fi

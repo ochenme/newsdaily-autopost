@@ -10,6 +10,12 @@
 3. **`refresh-tokens`**：每週一自動續期 IG / Threads 權杖並寫回 Secrets。
 4. **`check-setup`**：手動執行，檢查所有 Secrets 是否有效（不會發文）。
 
+## 自動發文開關
+`config.json` 的 `"auto_post"`：
+- `false`（目前）：每天照常產圖與文案，**不發文**；Claude 排程會把當日素材包（文案＋圖片連結）寄到 Gmail，供手動發文。
+- `true`：恢復 11:30 自動發到 IG 與 Threads（發文程式完全沒改）。
+權杖續期（refresh-tokens）不受開關影響，持續每週執行。
+
 ## Secrets
 | 名稱 | 用途 |
 |---|---|

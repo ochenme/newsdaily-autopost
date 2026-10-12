@@ -4,6 +4,7 @@
   "category": "每日焦點",
   "timezone": "Asia/Taipei",
   "post_time": "11:30",
+  "auto_post": false,
   "raw_base": "https://raw.githubusercontent.com/ochenme/newsdaily-autopost/main",
   "ig_api_version": "v23.0",
   "threads_api_version": "v1.0",
