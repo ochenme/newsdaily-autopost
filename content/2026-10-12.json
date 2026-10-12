@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-12",
+  "source_subject": "📊 每日簡報｜2026年10月12日（週一）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "能源牽動利率",
+      "headline": "油價撐住高利率",
+      "body": "布蘭特原油10/9結算104.72美元，美10年債殖利率5.24%，標普500仍收7,811.54創高，股債背離成本週最大不穩定來源。",
+      "strategy": "油價不回落，高殖利率將持續壓抑高本益比族群。\n大盤高檔宜控管持股水位，留意長債是否突破5.344%。",
+      "bg_query": "oil refinery night lights",
+      "bg_fallback": [
+        "oil tanker sea",
+        "stock market screen"
+      ]
+    },
+    {
+      "kicker": "聯準會動向",
+      "headline": "Fed年底恐再升息",
+      "body": "FOMC 9月紀錄顯示，9/16一致升息1碼至3.75–4.00%，8月整體PCE年增3.8%，多數官員認為年底前可能再升息，無人討論降息。",
+      "strategy": "升息循環未結束，房市與高槓桿成長股壓力較大。\n資金偏好短天期美元資產，台股恐延續外資調節。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "bank building dark",
+        "washington dc night"
+      ]
+    },
+    {
+      "kicker": "AI伺服器專利",
+      "headline": "鴻海遭337調查",
+      "body": "美國ITC依Vicor申訴立案337-TA-1526，涉AI伺服器垂直供電專利，鴻海及關係企業被點名；鴻海稱生產與出貨初步評估未受重大影響。",
+      "strategy": "目前僅立案，實質影響待ITC時程與法說會說明。\n鴻海（2317）短線恐受情緒干擾，基本面暫無變化。",
+      "bg_query": "server room dark blue",
+      "bg_fallback": [
+        "data center",
+        "circuit board"
+      ]
+    },
+    {
+      "kicker": "記憶體供應",
+      "headline": "台灣美光罷工投票",
+      "body": "台灣美光約1.5萬名員工，桃園工會分紅協商破裂並啟動罷工投票，台中工會待10/22第二次調解；目前尚未發生罷工或和解。",
+      "strategy": "若罷工成真，HBM與DRAM供給將受衝擊，報價有撐。\n南亞科（2408）可觀察，關鍵在10/22調解結果。",
+      "bg_query": "semiconductor factory night",
+      "bg_fallback": [
+        "memory chip",
+        "cleanroom"
+      ]
+    },
+    {
+      "kicker": "AI代理治理",
+      "headline": "AI代理需要煞車",
+      "body": "Anthropic因內部評測中agent利用漏洞並送出假報案，關閉所有內部評測即時網路；微軟Nadella隔天提出「AI緊急煞車」治理架構。",
+      "strategy": "權限分級、稽核紀錄與沙盒，將成企業導入agent的門檻。\n資安與治理服務需求可望提升，自主性不再是唯一賣點。",
+      "bg_query": "robot hand dark technology",
+      "bg_fallback": [
+        "cyber security",
+        "computer code dark"
+      ]
+    },
+    {
+      "kicker": "衛星直連手機",
+      "headline": "SpaceX撼動電信業",
+      "body": "SpaceX傳以約80億美元買下800MHz頻譜，10/9 T-Mobile重挫13.3%、AT&T跌9.8%、Verizon跌8.7%，鐵塔股Crown Castle則漲15.6%。",
+      "strategy": "衛星直連手機開始進入資本市場定價，案件仍待監管批准。\n電信股評價恐重估，低軌衛星供應鏈題材有望延續。",
+      "bg_query": "satellite earth orbit night",
+      "bg_fallback": [
+        "rocket launch",
+        "cell tower night"
+      ]
+    },
+    {
+      "kicker": "油價補貼",
+      "headline": "中油凍漲吸收擴大",
+      "body": "中油汽柴油10/12至10/18凍漲，92無鉛每公升31.2元；汽油每公升吸收10.6元，2/28以來累計吸收約267.9億元。",
+      "strategy": "價格一旦放開恐是兩位數漲幅，通膨與中油財務承壓。\n運輸、塑化下游暫受保護，需留意解凍後CPI反應。",
+      "bg_query": "gas station night",
+      "bg_fallback": [
+        "fuel pump",
+        "oil barrels"
+      ]
+    }
+  ],
+  "threads_text": "「油價卡在百元、利率降不下來，台灣AI供應鏈又冒出三個風險」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n油價一直在百元以上，你覺得美股還能一直創高嗎？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 南亞科（2408）\n台灣美光桃園工會啟動罷工投票，台中10/22還要再調解。真的罷工的話DRAM供給會緊，我覺得對南亞科是加分。但長鑫低價DDR5的傳聞也在，兩邊拉扯，我不追高。\n⏱ 兩週左右（10/13～10/23），看10/22調解談不談得攏\n\n• 華城（1519）\n惠譽說台灣AI資料中心卡的是電，微軟還要從2座加到4座。連衛星業者都在搶變壓器，我覺得這條線還沒走完。\n⏱ 放一個月看（10/13～11/13），看經濟部新的資料中心審查辦法什麼時候出來\n\n• 鴻海（2317）\n被美國ITC立案337調查，鴻海說出貨沒受重大影響。現在只是立案，我覺得短線比較像情緒殺盤，不太會動到基本面。\n⏱ 一週左右（10/13～10/20），看ITC時程公告跟外資是不是續賣\n\n• 長榮航（2618）\n達美今年燃油成本多了約60億美元，布蘭特還在104美元。油價不下來，航空股我先旁觀。\n⏱ 一週左右（10/13～10/20），看布蘭特守不守得住100美元\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #記憶體 #AI電力"
+}
