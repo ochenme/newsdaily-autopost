@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-14",
+  "source_subject": "📊 每日簡報｜2026年10月14日（週三）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "台股股匯雙殺",
+      "headline": "外資賣超1653億",
+      "body": "10/13加權指數收48,341點、跌960點，外資及陸資賣超1,653億元，新台幣收32.085。但台積電9月營收年增54.6%，資金面與基本面背離。",
+      "strategy": "10/15台積電（2330）法說是第一個檢驗點。\n法說後外資若仍續賣，才是題材疑慮。",
+      "bg_query": "stock market trading screen red night",
+      "bg_fallback": [
+        "stock market",
+        "city night"
+      ]
+    },
+    {
+      "kicker": "記憶體競爭",
+      "headline": "長鑫震撼韓股",
+      "body": "長鑫宣布年底前推4F²架構DDR5，三星午間跌8.48%、SK海力士跌10.47%。分析師指技術發表不等於量產成功，仍須過良率與認證。",
+      "strategy": "屬競爭預期衝擊，報價與供給尚未改變。\n南亞科（2408）看10月底DRAM合約價是否續漲。",
+      "bg_query": "memory chip circuit board dark",
+      "bg_fallback": [
+        "semiconductor",
+        "microchip"
+      ]
+    },
+    {
+      "kicker": "通膨利率關卡",
+      "headline": "今晚看美國CPI",
+      "body": "美國9月CPI預定10/14公布，Brent 10/8收104.28美元，10年債約5.2%。Fed紀要指年底前可能再升息，10月升息機率約17～19%。",
+      "strategy": "核心CPI若加速、10年債破5.35%，估值壓力加大。\n數據落地前，科技股部位宜先控制。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "wall street",
+        "finance"
+      ]
+    },
+    {
+      "kicker": "AI估值警訊",
+      "headline": "IMF示警AI修正",
+      "body": "IMF全球金融穩定報告指出，若AI投資與獲利減弱或難以維持，可能引發市場修正，並警告能源價格升高恐再燃通膨、衝擊債市。",
+      "strategy": "官方警示非市場事件，但高估值AI鏈對此敏感。\n可提高現金與防禦型資產比重，分散集中風險。",
+      "bg_query": "dark data center servers",
+      "bg_fallback": [
+        "server room",
+        "technology"
+      ]
+    },
+    {
+      "kicker": "美對台廠兩手",
+      "headline": "337調查點名台廠",
+      "body": "美國ITC啟動337調查，鴻海、廣達、台達電被列調查對象，涉資料中心供電系統。同日京元電與輝達簽預付款協議，赴美建測試產能。",
+      "strategy": "京元電子（2449）預付款降低擴產風險，看法說毛利。\n台達電（2308）待ITC正式立案再評估影響。",
+      "bg_query": "capitol building night",
+      "bg_fallback": [
+        "courthouse",
+        "factory night"
+      ]
+    },
+    {
+      "kicker": "中東戰火升溫",
+      "headline": "胡塞襲沙國機場",
+      "body": "胡塞飛彈擊中利雅德機場，沙國空襲薩那重返葉門戰場；伊朗同稱美方回應不足。Brent 10/8收104.28美元，單日漲4.1%。",
+      "strategy": "波灣出口面臨雙咽喉壓力，航空與航運承壓。\n盯Brent能否回到100美元下方，失守則通膨延續。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "oil refinery",
+        "desert night"
+      ]
+    },
+    {
+      "kicker": "AI受控部署",
+      "headline": "Gemini 4限量登場",
+      "body": "Google發表Gemini 4 Argon，因模擬網攻12項全破、生物能力提升，僅先開放資安防禦方使用，並宣布訓練時不懲罰思維鏈。",
+      "strategy": "前沿AI競爭從跑分轉向受控部署，資安需求升溫。\n待全面開放與第三方實測，再評估API定價壓力。",
+      "bg_query": "artificial intelligence neural network dark",
+      "bg_fallback": [
+        "technology abstract",
+        "code screen"
+      ]
+    },
+    {
+      "kicker": "普發現金",
+      "headline": "明年再發1萬元",
+      "body": "財政部明年度預算編列普發現金每人1萬元、共2,357億元，仍待立法院審議。9月證交稅達534億元，財源高度依賴股市熱度。",
+      "strategy": "若通過，零售餐飲短期受惠，如統一超（2912）。\n股市轉弱將拖累稅收，財政風險需留意。",
+      "bg_query": "taipei city night",
+      "bg_fallback": [
+        "taiwan",
+        "shopping street night"
+      ]
+    }
+  ],
+  "threads_text": "「台股股匯雙殺、記憶體恐慌、今晚看CPI」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台積電明天法說，你會先進場還是等結果？\n#知日報 #台股 #記憶體",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n昨天收2,490跌近2%，外資一天賣超1,653億，可是9月營收年增54.6%。我覺得這是資金在跑，不是基本面壞掉，但要法說講完才知道。\n⏱ 短線，10/15法說後到10/21，看外資有沒有連賣超過3天\n\n• 南亞科（2408）\n長鑫喊要做4F² DDR5，韓國記憶體股整個崩。不過DDR4十月合約價還在漲，量產也還早，我看比較像情緒殺。\n⏱ 放到10月底，看DRAM合約價有沒有鬆動\n\n• 京元電子（2449）\n跟輝達簽預付款去美國蓋測試產能，擴產風險有人分擔。但金額沒講、美國廠成本高，毛利會不會被稀釋還不知道。\n⏱ 一個月左右（到11月中），等Q3法說講美國廠毛利\n\n• 台達電（2308）\n昨天跌6.58%，又被列進337調查。新聞沒說兩件事有關，我不會直接畫等號，先觀望。\n⏱ 一週（10/14～10/21），看ITC有沒有正式立案、名單有沒有擴大\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #記憶體 #台積電法說"
+}
