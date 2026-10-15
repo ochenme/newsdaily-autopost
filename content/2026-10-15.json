@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-15",
+  "source_subject": "📊 每日簡報｜2026年10月15日（週四）",
+  "publish": true,
+  "cards": [
+    {"kicker": "美國通膨數據", "headline": "美通膨高於預期", "body": "美國9月整體CPI年增3.7%、核心CPI年增2.6%，皆高於預期；汽油月增約9.1%貢獻約一半月增幅，升息押注升溫。",
+     "strategy": "核心通膨走高，高估值科技股評價壓力升高。\n10/28 FOMC前宜降低追高，觀察10年債利率走勢。",
+     "bg_query": "federal reserve building night", "bg_fallback": ["wall street night", "gas station night"]},
+    {"kicker": "中東衝突升級", "headline": "戰火推升油價", "body": "胡塞稱襲擊沙烏地阿美Dhahran總部，荷姆茲兩艘新加坡籍貨櫃船遇襲、GFS Pride沉沒；Brent盤中達106.56美元，三週高。",
+     "strategy": "油價守在百元上方，航運與航空成本壓力加大。\n阿美生產設施是否受損，是油價下一步的關鍵。",
+     "bg_query": "oil tanker night sea", "bg_fallback": ["oil refinery night", "container ship dark"]},
+    {"kicker": "台積電法說", "headline": "法說驗證外資賣壓", "body": "外資連6日賣超台股、累計逾3,300億元，10/13單日賣超1,653億元；台積電10/15法說，市場聚焦Q4毛利率與資本支出。",
+     "strategy": "毛利率≥67%、資本支出逾640億美元偏正面。\n台積電（2330）指引若偏弱，外資賣壓恐延續。",
+     "bg_query": "semiconductor wafer dark", "bg_fallback": ["taipei skyline night", "chip factory"]},
+    {"kicker": "半導體設備", "headline": "ASML上調財測", "body": "ASML第三季營收116.62億歐元、季增25%，毛利率57.5%；全年財測上調至440～450億歐元，客戶已洽訂2029～2030年設備。",
+     "strategy": "設備訂單看到2029年，先進製程投資能見度拉長。\n與台積電（2330）資本支出方向一致，屬正面佐證。",
+     "bg_query": "lithography machine cleanroom", "bg_fallback": ["semiconductor factory", "microchip dark"]},
+    {"kicker": "AI電力瓶頸", "headline": "台電擴建變電所", "body": "台電15年將新建43座變電所、1,922公里輸電線；半導體用電預計由今年約520億度增至2035年約1,100億度，約占全國30%。",
+     "strategy": "電力成為AI供應鏈硬約束，重電需求具延續性。\n華城（1519）、士電（1503）可列入中長期觀察。",
+     "bg_query": "power substation night", "bg_fallback": ["transmission lines dusk", "electric grid"]},
+    {"kicker": "美國337調查", "headline": "337調查點名台廠", "body": "美國ITC 337調查涉及垂直供電系統與採用該技術的AI伺服器，鴻海、台達電、廣達遭點名；原告請求排除令，侵權與否未定。",
+     "strategy": "短線屬供應鏈不確定性，尚未影響實際出貨。\n台達電（2308）、鴻海（2317）視正式立案範圍評估。",
+     "bg_query": "server room dark blue", "bg_fallback": ["courthouse night", "data center"]},
+    {"kicker": "AI模型競爭", "headline": "AI模型同價對決", "body": "Google發布Gemini 4 Argon，API引介價每百萬token 2/10美元，11/30後調至4/20美元；Meta Muse Wonder以同價位挑戰第一梯隊。",
+     "strategy": "同價競爭壓縮模型業者毛利，定價權開始鬆動。\n算力需求仍在，AI伺服器鏈需求暫不受影響。",
+     "bg_query": "neural network abstract dark", "bg_fallback": ["code screen dark", "technology night"]}
+  ],
+  "threads_text": "「通膨、油價、台積電法說，三件事撞在同一天」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台積電法說後，你覺得外資會回來嗎？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n今天法說，外資已經連賣6天、累計超過3,300億。我自己看兩個數字：Q4毛利率有沒有到67%、資本支出有沒有超過640億美元。ASML剛上調財測算是好的前哨，但CPI偏高，估值壓力還在。\n⏱ 短線，10/16～10/20，看外資賣超有沒有縮到300億以下\n\n• 華城（1519）\n台電說15年要蓋43座變電所，半導體用電到2035年還要翻倍。電不夠這件事我覺得是長線題材，不是一天的新聞，但股價先跑過的話我不追。\n⏱ 放一個月看（到11月中），看資料中心併網規則怎麼定\n\n• 台達電（2308）\n800VDC固態變壓器很亮眼，可是同一天被337調查點名。效率數字是公司自己說的，侵權也還沒定，我會先等官方立案再判斷。\n⏱ 兩週左右（10/16～10/30），看ITC有沒有正式立案、告哪些品項\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #台積電 #AI電力"
+}
