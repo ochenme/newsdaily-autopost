@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-16",
+  "source_subject": "📊 每日簡報｜2026年10月16日（週五）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "台股外資賣壓",
+      "headline": "外資賣超創新高",
+      "body": "加權指數10/15重挫3.41%、收46,969.87點並跌破月線；外資單日賣超3,025.55億元，創單日賣超金額新高。",
+      "strategy": "賣壓主因是美國通膨與升息疑慮，屬資金面而非基本面。\n避險資金流向電信股，中華電（2412）防禦性較佳。",
+      "bg_query": "stock market screen red night",
+      "bg_fallback": [
+        "taipei night",
+        "trading screen"
+      ]
+    },
+    {
+      "kicker": "台積電法說",
+      "headline": "台積電上修財測",
+      "body": "台積電Q3 EPS 29.43元、毛利率66.4%；2026年美元營收成長指引上修至約44%，資本支出維持600～640億美元。",
+      "strategy": "財報強勁只能緩衝、難以逆轉資金面賣壓。\n先進封裝鏈訂單能見度高，弘塑（3131）可列入觀察。",
+      "bg_query": "semiconductor wafer fab dark",
+      "bg_fallback": [
+        "microchip",
+        "clean room"
+      ]
+    },
+    {
+      "kicker": "美國通膨升溫",
+      "headline": "PPI年增6.3%",
+      "body": "美國9月PPI月增1.3%、年增6.3%，創2022年底以來新高，主因能源；10年期美債殖利率收5.093%，升息預期未退。",
+      "strategy": "10年債站上5%，高估值成長股評價持續承壓。\n10/28 FOMC前宜控制持股水位，避免追高AI題材。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "wall street night",
+        "bond market"
+      ]
+    },
+    {
+      "kicker": "AI股拋售",
+      "headline": "AI融資股重挫",
+      "body": "10/14美股AI股遭拋售，CoreWeave跌16%、Oracle跌9%，主因借貸成本與估值疑慮；10/15資金轉向小型股。",
+      "strategy": "AI資料中心融資鏈對利率最敏感，短線波動加劇。\n伺服器組裝如廣達（2382）宜待利率回穩再評估。",
+      "bg_query": "data center server room dark",
+      "bg_fallback": [
+        "server racks",
+        "city night"
+      ]
+    },
+    {
+      "kicker": "荷莫茲海峽",
+      "headline": "攻船事件創新高",
+      "body": "UKMTO記錄10/6～10/14共15起船舶遭襲，創開戰以來新高；10/11僅290萬桶通過海峽，布蘭特收105.92美元。",
+      "strategy": "封鎖加護航可能延續至11/3美國期中選舉前。\n能源成本墊高，航空與化工下游毛利恐受壓縮。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "persian gulf",
+        "oil tanker"
+      ]
+    },
+    {
+      "kicker": "記憶體競爭",
+      "headline": "長鑫架構掀賣壓",
+      "body": "長鑫宣稱完成4F² DRAM新單元架構，引發全球記憶體股重挫；群聯董事長潘健成稱屬「市場鬼故事」，量產仍待驗證與良率。",
+      "strategy": "目前僅為廠商宣稱，尚無量產與良率數據。\n南亞科（2408）短線受情緒拖累，宜觀察DRAM價格。",
+      "bg_query": "memory chip circuit board dark",
+      "bg_fallback": [
+        "microchip",
+        "semiconductor"
+      ]
+    },
+    {
+      "kicker": "AI模型競價",
+      "headline": "Gemini 4全球開放",
+      "body": "Gemini 4 Argon全球開放，引言價每百萬token 2美元／10美元，12/1起調升為4美元／20美元，上限1M token。",
+      "strategy": "引言價結束前大客戶搶簽，同業模型定價恐受壓。\n基準成績為Google自報，宜待第三方驗證。",
+      "bg_query": "abstract digital network dark",
+      "bg_fallback": [
+        "computer code",
+        "technology"
+      ]
+    }
+  ],
+  "threads_text": "「台積電財報很強，台股卻被利率和外資拖下來」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n財報好、股價跌，你會趁機買還是先觀望？\n#知日報 #台股 #台積電",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\nQ3 EPS 29.43元，全年成長又上修到約44%，財報挑不出毛病。但同一天外資賣超3,025億，我覺得現在股價是被利率牽著走，不是看財報。\n⏱ 一週左右（10/19～10/23），看外資是不是停止賣超\n\n• 弘塑（3131）\n台積電CoWoS一路往9倍、14倍光罩推，弘塑自己說訂單看到2028。我比較擔心的是它也講瓶頸在缺料缺人，接得到單不代表出得了貨。\n⏱ 放一個月看（到11月中），看大盤止穩後它有沒有先站回來\n\n• 中華電（2412）\n外資大賣那天，避險錢跑去電信，盤中一度到154元。這檔我只把它當避風港，不期待漲很多。\n⏱ 到10/28 FOMC前後，美國如果再升息，防禦股應該還撐得住\n\n• 南亞科（2408）\n長鑫說做出4F²新架構，記憶體股一起被砍。群聯潘健成說是鬼故事，我也覺得還沒量產數據前別太緊張，不過情緒面短線很難馬上散。\n⏱ 短線，10/19～10/23，看韓股記憶體有沒有止跌\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #台積電 #升息"
+}
