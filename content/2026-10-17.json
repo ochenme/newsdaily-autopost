@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-17",
+  "source_subject": "📊 每日簡報｜2026年10月17日（週六）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "油價通膨鏈",
+      "headline": "油價推升升息預期",
+      "body": "布蘭特原油收109.86美元、單日漲3.7%，美國9月CPI年增3.7%，市場計價12月升息機率升至74.3%，10年債殖利率5.09%，壓抑成長股評價。",
+      "strategy": "油價、通膨與利率同向走高，短線宜降低高本益比部位。\n關鍵看Brent能否回落至105美元以下，與10/28 FOMC用語。",
+      "bg_query": "oil refinery night flare",
+      "bg_fallback": [
+        "oil barrels dark",
+        "stock market screen"
+      ]
+    },
+    {
+      "kicker": "美股科技重挫",
+      "headline": "晶片股集體重挫",
+      "body": "Nasdaq單日跌2.1%，創6月以來最差一週；美光跌5.6%、AMD跌6%、博通跌4.5%。AP指市場擔憂AI基建支出能否持續與舉債融資能力。",
+      "strategy": "費半修正將傳導至台股AI供應鏈，週一開盤恐先反映跌幅。\n此波屬估值與利率修正，尚非AI需求下修，宜分批而非追殺。",
+      "bg_query": "semiconductor chip dark closeup",
+      "bg_fallback": [
+        "circuit board night",
+        "trading screen red"
+      ]
+    },
+    {
+      "kicker": "外資賣壓",
+      "headline": "外資連8日賣超",
+      "body": "加權指數10/16收47,111點、小漲141點，前一日重挫1,656點；外資連8個交易日賣超累計逾6,800億元，投信逆勢買超117.5億元。",
+      "strategy": "外資調節集中在台積電（2330）等權值股與0050。\n止跌訊號看外資轉買超、期貨空單減少與新台幣守住32.3。",
+      "bg_query": "taipei city night skyline",
+      "bg_fallback": [
+        "stock exchange board",
+        "city night lights"
+      ]
+    },
+    {
+      "kicker": "台積電法說",
+      "headline": "財報創高卻無驚喜",
+      "body": "3Q營收1.494兆元、年增50.9%，毛利率66.4%，EPS 29.43元；4Q毛利率指引65%～67%，上限低於3Q實績，股價10/16收2,420元。",
+      "strategy": "基本面未轉弱，股價壓力來自資金面而非獲利下修。\n台積電（2330）下一個驗證點是11/10左右公布的10月營收。",
+      "bg_query": "semiconductor wafer fab dark",
+      "bg_fallback": [
+        "silicon wafer",
+        "clean room factory"
+      ]
+    },
+    {
+      "kicker": "美伊衝突",
+      "headline": "美伊僵局未解",
+      "body": "伊朗仍封鎖荷莫茲海峽、美國封鎖伊朗港口，雙方尚無協議；胡塞連週攻擊沙烏地機場，至少20人死亡，利雅德機場停飛至10/17。",
+      "strategy": "僵局延續使航運保險與油價風險溢價維持高檔。\n航空、塑化等用油產業承壓，能源相關族群相對抗跌。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "desert night",
+        "cargo ship dark ocean"
+      ]
+    },
+    {
+      "kicker": "AI本機推理",
+      "headline": "AI模型轉戰本機",
+      "body": "Meta推出816B參數開放權重模型，可在Apple晶片本機執行但需1TB記憶體；NVIDIA Nemotron 3.5 Bolt以2-bit量化塞進24GB記憶體。",
+      "strategy": "本機與邊緣推理成新戰場，高階終端與記憶體容量需求受惠。\n閉源API定價面臨下修壓力，軟體商業模式須重新評估。",
+      "bg_query": "laptop glowing dark room code",
+      "bg_fallback": [
+        "computer chip blue light",
+        "workstation night"
+      ]
+    },
+    {
+      "kicker": "記憶體擴產",
+      "headline": "HBM供給更吃緊",
+      "body": "美光台中第二座先進封裝廠預計10月中旬量產HBM，在台投資逾1.6兆元；美光稱2027、2028年記憶體供給比2026更緊，2027多數產出已簽約。",
+      "strategy": "記憶體仍屬賣方市場，南亞科（2408）可列入觀察。\n2028年後擴產過剩風險已被部分市場人士點出，宜留意評價。",
+      "bg_query": "memory chip macro dark",
+      "bg_fallback": [
+        "data center servers night",
+        "circuit closeup"
+      ]
+    }
+  ],
+  "threads_text": "「油價、通膨、升息一路連動，科技股先挨打」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n外資連賣8天，你下週會進場撿還是再等等？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\nQ3營收年增50.9%、EPS 29.43元，數字很漂亮，但4Q毛利率指引上限比Q3低，股價還是跌。我覺得問題不在公司，在外資一直賣。\n⏱ 一週左右（10/19～10/23），看外資有沒有停止連賣\n\n• 南亞科（2408）\n美光說2027、2028年記憶體比今年更緊，HBM大多已簽約。我偏多，但美光週五跌5.6%，週一應該先被拖下來，不急著接。\n⏱ 放一個月看（到11/20），看DRAM合約價還有沒有在漲\n\n• 長榮航（2618）\nBrent收109.86美元，美伊還談不攏，航空油料成本壓力大。這檔我是當風險指標在看，不是看好。\n⏱ 一週左右（10/19～10/23），Brent跌回105以下壓力才會鬆\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #油價 #半導體"
+}
