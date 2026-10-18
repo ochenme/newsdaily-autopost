@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-18",
+  "source_subject": "📊 每日簡報｜2026年10月18日（週日）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "通膨升息鏈",
+      "headline": "通膨升溫壓估值",
+      "body": "美國9月CPI年增3.7%，核心月增0.3%高於預期，能源年增20.4%；CME FedWatch顯示12月升息機率達89%，高估值AI與半導體股遭重新定價。",
+      "strategy": "油價、通膨與利率同向，短線宜控制高本益比部位比重。\n關鍵觀察10月底FOMC聲明與9月PCE是否再度偏熱。",
+      "bg_query": "oil refinery night flare",
+      "bg_fallback": [
+        "stock market screen dark",
+        "city night lights"
+      ]
+    },
+    {
+      "kicker": "外資賣壓",
+      "headline": "台股單週跌4.47%",
+      "body": "加權指數週跌4.47%收47,111點，外資全週賣超約5,862億元，新台幣同期貶至32.338；那斯達克單週約跌4.5%，費半重挫拖累台股。",
+      "strategy": "外資賣壓與新台幣貶值同步，資金面仍是主要壓力來源。\n止穩訊號看外資賣超收斂，以及47,000點能否守住。",
+      "bg_query": "taipei city night skyline",
+      "bg_fallback": [
+        "stock exchange board",
+        "trading screen red"
+      ]
+    },
+    {
+      "kicker": "晶片出口管制",
+      "headline": "AI晶片管制收緊",
+      "body": "經長龔明鑫受訪表示，AI伺服器與先進半導體將納入出口管制清單，措施與美國一致，違規將入刑；實際生效時間尚未說明。",
+      "strategy": "有利對美談判，但伺服器對中出貨的灰色空間將被壓縮。\n廣達（2382）等ODM影響有限，重點看經濟部清單草案。",
+      "bg_query": "server room dark blue light",
+      "bg_fallback": [
+        "data center night",
+        "circuit board dark"
+      ]
+    },
+    {
+      "kicker": "台積電日本廠",
+      "headline": "熊本二廠改3奈米",
+      "body": "日本核准台積電熊本二廠改產3奈米、月產6,000片，2028年12月量產；原規劃6/12奈米月產4.8萬片，約7,320億日圓補助仍待預算確定。",
+      "strategy": "先進製程海外布局加深，但產能規模明顯低於原計畫。\n台積電（2330）短線仍受資金面主導，此案屬長期題材。",
+      "bg_query": "semiconductor wafer fab dark",
+      "bg_fallback": [
+        "silicon wafer",
+        "clean room factory"
+      ]
+    },
+    {
+      "kicker": "記憶體報價",
+      "headline": "大摩上調記憶體價",
+      "body": "大摩將4Q26 DRAM合約價季增預期上調至10～15%、NAND至15～20%；但美股DRAM ETF同日跌約5.5%，基本面與資金面出現背離。",
+      "strategy": "券商預測與股價背離，南亞科（2408）短線恐先受拖累。\n月底TrendForce合約價若驗證漲勢，跌勢較屬利率修正。",
+      "bg_query": "memory chip macro dark",
+      "bg_fallback": [
+        "circuit closeup",
+        "data center servers night"
+      ]
+    },
+    {
+      "kicker": "美俄制裁",
+      "headline": "川普暫停對俄制裁",
+      "body": "川普簽署行政命令暫停對俄伊制裁法生效，該法原授權對購買俄油氣國家課最高100%關稅；兩黨議員與澤倫斯基批評，國會休會至11/3選後。",
+      "strategy": "此舉意在壓抑油價，但削弱制裁威懾與烏克蘭談判籌碼。\n國會11/3前難以反制，能源價格政策化風險上升。",
+      "bg_query": "white house night",
+      "bg_fallback": [
+        "capitol building dark",
+        "oil pipeline night"
+      ]
+    },
+    {
+      "kicker": "中東戰火",
+      "headline": "埃及擬出兵協防沙國",
+      "body": "胡塞對沙烏地攻擊持續升級，10月初襲擊利雅德機場造成14死、逾300傷；埃及總統希西要求國會緊急授權協防，強調僅限防衛。",
+      "strategy": "紅海與沙國油設施風險升溫，油價風險溢價難以快速消退。\n航空、塑化等用油產業承壓，能源與油輪族群相對抗跌。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "desert night",
+        "cargo ship dark ocean"
+      ]
+    }
+  ],
+  "threads_text": "「油價推高通膨，升息預期讓科技股和台股一起被賣」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台股一週跌掉4.47%，你週一會先觀望還是分批接？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 南亞科（2408）\n大摩把Q4 DRAM合約價季增預期拉到10～15%，但美股記憶體ETF週五跌約5.5%。我覺得這是利率在殺，不是需求變差，不過週一大概先被拖下來，不急著接。\n⏱ 放到月底（10/19～10/30），看TrendForce合約價有沒有跟上大摩的預期\n\n• 台積電（2330）\n熊本二廠改做3奈米，但月產只有6,000片，比原本規劃小很多。這對股價我看沒什麼影響，現在真正壓著它的是外資一週賣了約5,862億。\n⏱ 一週左右（10/19～10/23），看外資賣超有沒有縮小、47,000點守不守得住\n\n• 廣達（2382）\n經長說AI伺服器要納入對中出口管制，跟美國一致。我覺得對大廠影響不大，比較怕的是灰色轉運那塊被掃到，但清單還沒出，先別自己嚇自己。\n⏱ 一個月（到11月中），等經濟部公布管制清單草案再說\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #升息 #半導體"
+}
