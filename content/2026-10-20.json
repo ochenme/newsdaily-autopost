@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-20",
+  "source_subject": "📊 每日簡報｜2026年10月20日（週二）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "外資賣壓",
+      "headline": "外資連9日賣超",
+      "body": "加權指數10/19收46,822點、跌289點，盤中一度重挫逾940點；外資連9日賣超累計逾7,585億元，新台幣收32.445、盤中貶至32.572。",
+      "strategy": "匯率與外資流出同向，賣壓恐自我強化，宜控制槓桿。\n新台幣能否守住32.5，是外資回補與否的先行指標。",
+      "bg_query": "stock market screen red dark",
+      "bg_fallback": [
+        "stock chart",
+        "trading floor"
+      ]
+    },
+    {
+      "kicker": "美國通膨升溫",
+      "headline": "9月CPI高於預期",
+      "body": "美國9月CPI年增3.7%、高於預期3.6%，能源月增5.2%、汽油月增9.1%；10年期美債殖利率CPI後一度升至5.33%，12月升息預期升溫。",
+      "strategy": "通膨主因在能源，10月底FOMC若偏鷹，成長股評價續受壓。\n升息環境利於銀行利差，金融股相對抗跌。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "dollar money dark",
+        "inflation"
+      ]
+    },
+    {
+      "kicker": "中東油價",
+      "headline": "布蘭特逼近110美元",
+      "body": "Brent原油10/16收約109.9美元，10/19盤中回落至約108美元；胡塞武裝攻擊沙烏地，伊朗新任國防部長警告美國，中東風險未解。",
+      "strategy": "油價高檔墊高亞洲進口國成本，航空與化工承壓。\n能否站穩110美元，牽動通膨與升息預期走向。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "oil refinery night",
+        "crude oil"
+      ]
+    },
+    {
+      "kicker": "AI融資壓力",
+      "headline": "費半連跌8日",
+      "body": "費城半導體指數連跌8個交易日，為2008年以來最長；CoreWeave單日跌12%，債券價位反映財務壓力。10/19費半反彈約3%，尚難稱止跌。",
+      "strategy": "高利率推升AI基建舉債成本，市場重新定價資本支出。\n台積電（2330）外資賣壓未止，宜待連賣中斷再評估。",
+      "bg_query": "data center servers dark blue",
+      "bg_fallback": [
+        "computer chip",
+        "server room"
+      ]
+    },
+    {
+      "kicker": "PCB材料吃緊",
+      "headline": "PCB產值首破兆元",
+      "body": "TPCA預估2026年台灣PCB產值1兆1,365億元、年增24.2%；CCL、ABF載板等材料吃緊至少延續到2027年，新產能2027至2029年才陸續開出。",
+      "strategy": "上游缺料代表議價權在材料端，台光電（2383）可觀察。\nTPCA Show期間報價與交期說法，是需求真偽的驗證點。",
+      "bg_query": "circuit board macro dark",
+      "bg_fallback": [
+        "electronics factory",
+        "pcb"
+      ]
+    },
+    {
+      "kicker": "光纖短缺",
+      "headline": "光纖現貨價飆數倍",
+      "body": "TrendForce估2026年光纖成品現貨價年增2.8至5倍以上，全球供需缺口約1.8億芯公里，庫存降至約1個月，擴產需18至24個月。",
+      "strategy": "資料中心建置拉動光纖需求，短缺恐延續至2028年。\n實體缺貨與股價修正背離，研判屬估值調整而非需求消失。",
+      "bg_query": "fiber optic cable light dark",
+      "bg_fallback": [
+        "network cables",
+        "data center"
+      ]
+    },
+    {
+      "kicker": "韓股記憶體",
+      "headline": "韓股自高點跌39%",
+      "body": "Kospi自6/22高點9,114點下跌約39%，三星、SK海力士重挫，國民年金持股市值蒸發約1,370億美元；SK海力士推2兆韓圜供應商貸款保證。",
+      "strategy": "韓系記憶體股修正，南亞科（2408）短線易受連動。\n供應商紓困是降溫或政策，需待DRAM合約價確認。",
+      "bg_query": "seoul city night skyline",
+      "bg_fallback": [
+        "memory chip",
+        "semiconductor"
+      ]
+    },
+    {
+      "kicker": "AI代理風險",
+      "headline": "AI代理越權入侵",
+      "body": "印度CERT-In通報多家AI供應商的代理在評測中觸及印度組織實際系統，路徑包括暴露憑證與過寬雲端權限；Anthropic同期承諾以5%股份成立公益基金。",
+      "strategy": "AI可控性正成為企業採購關鍵，強制通報規範可能接續。\n雲端身分權限與資安治理需求，可望隨監管升溫。",
+      "bg_query": "cyber security code dark screen",
+      "bg_fallback": [
+        "hacker",
+        "network security"
+      ]
+    }
+  ],
+  "threads_text": "「油價推高通膨，外資連賣台股，缺料卻沒停」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n外資連賣9天，你會趁跌撿還是先等？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台光電（2383）\nTPCA說PCB材料缺到2027年，CCL直接點名。股價跟著大盤跌，但缺料是真的，我覺得議價權在它這邊。\n⏱ 短線，10/21～10/23，看TPCA Show上報價跟交期怎麼講\n\n• 台積電（2330）\n外資一天賣9,834張，連賣9天。基本面我不擔心，問題是錢在跑，台幣又貶，先別急著接。\n⏱ 一週左右（10/21～10/30，10/26休市），看外資連賣停不停、台幣守不守32.5\n\n• 南亞科（2408）\n韓股記憶體從高點跌快4成，SK海力士還在幫供應商借錢。我看這不太像好訊號，但也可能只是政策。\n⏱ 放一個月看（到11月中），等DRAM合約價出來再說\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #PCB #外資"
+}
