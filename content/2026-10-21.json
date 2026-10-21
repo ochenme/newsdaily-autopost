@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-21",
+  "source_subject": "📊 每日簡報｜2026年10月21日（週三）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "美伊僵局",
+      "headline": "荷莫茲封鎖未解",
+      "body": "美伊「伊斯蘭堡備忘錄」8月中到期未延長，伊朗持續封鎖荷莫茲海峽、美方海上封鎖未解；巴基斯坦陸軍元帥抵德黑蘭斡旋，談判仍陷停滯。",
+      "strategy": "以色列10/27大選、美國11/3期中選舉前，動武機率研判偏低。\n油價恐維持高檔震盪，航空與化工等用油產業成本壓力難解。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": ["strait of hormuz", "oil tanker"]
+    },
+    {
+      "kicker": "升息預期",
+      "headline": "市場押注12月升息",
+      "body": "美國9月CPI年增3.7%、核心2.6%，雙雙高於預期；期貨隱含12月升息機率約94%，10年期美債殖利率10/19收5.15%，利率預期由降息轉向升息。",
+      "strategy": "10/27–28 FOMC若釋出升息訊號，成長股評價恐續承壓。\n升息環境有利銀行利差，金融股相對具防禦性。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": ["dollar money dark", "wall street night"]
+    },
+    {
+      "kicker": "台積電工安",
+      "headline": "高雄F22工安事故",
+      "body": "台積電高雄F22工地10/20傍晚鋼構吊掛螺栓斷裂，4名外包人員墜落、其中2人OHCA；台積電已自主停工，南科管理局要求停止施作並保全現場。",
+      "strategy": "單次事故對2奈米量產時程的影響尚難判定，待勞檢結論。\n台積電（2330）短線仍受外資賣壓牽動，宜觀察連賣是否中斷。",
+      "bg_query": "construction site crane night",
+      "bg_fallback": ["construction crane", "factory construction"]
+    },
+    {
+      "kicker": "外銷訂單",
+      "headline": "外銷訂單暴增六成",
+      "body": "經濟部公布9月外銷訂單1,142.1億美元、年增62.4%，連20個月成長；1至9月累計8,192億美元、年增56%，已提前創全年新高。",
+      "strategy": "接單動能集中AI伺服器、PCB與封測，產業基本面支撐仍在。\n高基期與外資賣壓為變數，新台幣是否破32.5是觀察點。",
+      "bg_query": "container port night lights",
+      "bg_fallback": ["cargo ship port", "shipping containers"]
+    },
+    {
+      "kicker": "歐洲能源危機",
+      "headline": "法國油價抗議失控",
+      "body": "法國生活成本與燃油價格抗議轉為暴力，巴黎、里爾、里昂局部宵禁，至少3,000家商店受損；法國釋出1,000萬桶柴油儲備，並向灣區爭取供應。",
+      "strategy": "能源衝擊已外溢為政治風險，歐元資產風險溢價恐上升。\n柴油成本壓力最重，歐洲運輸與製造業獲利恐受侵蝕。",
+      "bg_query": "paris street night protest",
+      "bg_fallback": ["paris night", "protest crowd"]
+    },
+    {
+      "kicker": "AI晶片競爭",
+      "headline": "AWS挑戰輝達生態",
+      "body": "AWS發布TorchNeuron，稱改一行設定即可將PyTorch工作由GPU遷至Trainium，並稱約85%的AI應用使用PyTorch，攻擊點在軟體生態而非硬體規格。",
+      "strategy": "遷移成本若下降，雲端自研晶片比重可望提高。\n第三方每美元效能驗證出爐前，對輝達衝擊仍屬觀察階段。",
+      "bg_query": "data center servers dark blue",
+      "bg_fallback": ["server room", "computer chip"]
+    },
+    {
+      "kicker": "矽光子封裝",
+      "headline": "輝達展示光學封裝",
+      "body": "輝達發表矽中介層光學封裝原型，將光引擎由有機基板移至矽中介層，DWDM展示每光纖256 Gb/s；仍屬研究階段，規劃2028年Feynman平台導入。",
+      "strategy": "光學互連走向中介層，矽光子與先進封裝為中長期主軸。\n距量產約兩年，現階段宜視為技術路線指標而非短期營收。",
+      "bg_query": "fiber optic light dark",
+      "bg_fallback": ["silicon wafer", "laser light"]
+    }
+  ],
+  "threads_text": "「油價卡住利率，台灣接單卻停不下來」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n12月可能升息，你會先降低持股嗎？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n高雄F22工地出事，4個外包工人墜落，台積電先自己停工。我覺得單次工安對量產影響還說不準，真正壓股價的還是外資連9賣。\n⏱ 一週左右（10/22～10/30，10/26休市），看正式停工令停幾天、外資停不停賣\n\n• 台光電（2383）\n缺料已經從上游材料擴到高階CCL，外銷訂單又年增62.4%，需求面我不擔心。不過缺多久是沒具名的業界說法，我先打個折。\n⏱ 放一個月看（到11月中），看有沒有材料漲價公告\n\n• 金居（8358）\nHVLP4銅箔被點名缺料，材料端裡它比較小、也比較敏感。但PCB材料這條題材大家都知道了，追高我會怕。\n⏱ 短線，10/22～10/23 兩個交易日，看銅箔交期跟報價消息\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #PCB #升息"
+}
