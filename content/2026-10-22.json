@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-22",
+  "source_subject": "📊 每日簡報｜2026年10月22日（週四）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "能源運費飆升",
+      "headline": "運費改寫原油流向",
+      "body": "Vitol稱約80艘VLCC被占用於荷莫茲接駁，美原油運亞洲成本升至每桶40美元；中油上週改買6船Aframax，WTI結算97.15美元、Brent約108.8美元。",
+      "strategy": "運費已成亞洲煉油成本主因，進口能源的台灣首當其衝。\n台塑化（6505）稱淨煉油利潤仍高於每桶10美元，可列觀察。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": ["oil tanker", "cargo ship night"]
+    },
+    {
+      "kicker": "美伊談判",
+      "headline": "美伊談判仍僵持",
+      "body": "據中央社引AFP，伊朗最高國安會秘書稱濃縮核材料不得運出伊朗，美方須先採取互信措施；伊朗談判代表另稱美方須滿足七項條件，雙方立場仍遠。",
+      "strategy": "油價恐在「突破／否認」消息間反覆震盪，宜避免追價。\nWTI能否站穩100美元，是判斷能源風險溢價的關鍵。",
+      "bg_query": "tehran city night",
+      "bg_fallback": ["middle east night", "diplomacy flags"]
+    },
+    {
+      "kicker": "AI晶片競爭",
+      "headline": "雙雲夾擊CUDA",
+      "body": "Google開源TorchTPU，PyTorch應用改設定即可跑在TPU；Amazon前一天推出TorchNeuron。兩大雲端同步攻擊輝達的軟體護城河，但文中無效能數據。",
+      "strategy": "輝達壓力在定價與毛利，短期出貨影響有限。\n台灣供應鏈須區分GPU板與ASIC伺服器的受惠程度。",
+      "bg_query": "data center servers dark blue",
+      "bg_fallback": ["server room", "computer chip"]
+    },
+    {
+      "kicker": "AI雲端算力",
+      "headline": "Rubin雲端11月上線",
+      "body": "NVIDIA與Google Cloud宣布Vera Rubin A5X執行個體，預計11月GA；Google計畫擴展至最多96萬顆Rubin GPU，屬計畫值，價格與效能皆未公布。",
+      "strategy": "大型雲端採雙軌，同時推Nvidia機架與自研TPU。\n液冷與伺服器ODM的Rubin出貨時程，是後續驗證重點。",
+      "bg_query": "server rack blue light dark",
+      "bg_fallback": ["data center", "gpu"]
+    },
+    {
+      "kicker": "成熟製程漲價",
+      "headline": "力積電毛利率48%",
+      "body": "力積電Q3營收213億元、季增23%，毛利率由Q2的28%升至48%，EPS 1.38元；晶圓出貨略減，成長來自售價上升，並計畫2027年車用製程漲價10%至20%。",
+      "strategy": "成長來自價格而非出貨量，漲價能否落實是關鍵。\n力積電（6770）11月初公布10月營收，可驗證漲價題材。",
+      "bg_query": "silicon wafer dark",
+      "bg_fallback": ["semiconductor factory", "microchip"]
+    },
+    {
+      "kicker": "外送併購案",
+      "headline": "公平會否決外送併購",
+      "body": "公平會多數決禁止Grab併購foodpanda台灣業務，理由包括Uber持有Grab約13.1%股權削弱競爭誘因，且稀釋持股等救濟方案難以執行。",
+      "strategy": "外送市場維持雙雄格局，消費者短期影響不大。\n後續看Delivery Hero是否出售或縮編台灣業務。",
+      "bg_query": "food delivery scooter night city",
+      "bg_fallback": ["taipei night street", "delivery rider"]
+    },
+    {
+      "kicker": "美國房市",
+      "headline": "美房市跌至25年低",
+      "body": "美國9月待成交房屋銷售指數降至66.0，創25年新低，月減7.3%、年減11.3%，遠差於預期的月減約0.5%；30年固定房貸利率達7.40%。",
+      "strategy": "升息週期壓抑需求，建材與營建鏈恐先承壓。\n房貸利率回到7%以下前，房市止穩訊號仍不明確。",
+      "bg_query": "suburban houses night",
+      "bg_fallback": ["house for sale", "real estate dark"]
+    }
+  ],
+  "threads_text": "「油價卡在運費，AI改拚軟體跟成本」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n油價逼近100美元，你會開始擔心通膨嗎？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 力積電（6770）\nQ3毛利率從28%跳到48%，出貨其實少一點，全靠漲價撐。我覺得這是今天最實在的數字，但2027漲價能不能真的談成還不知道。\n⏱ 放兩到三週（到11/10前後），等10月營收，Q4季增沒到雙位數我就打折\n\n• 台塑化（6505）\n運費把亞洲煉油成本墊高，它自己說算進運費保險，煉油利潤還有每桶10美元以上。公司說法，我先聽一半。\n⏱ 一週左右（10/23～10/30，10/26休市），看WTI站不站得上100美元\n\n• 聯茂（6213）\n公司喊高階材料旺到2029，PCB設備交期也在拉長。方向我認同，但「旺到2029」是自己講的，追高我會怕。\n⏱ 放一個月看（到11月中），看月營收有沒有跟上\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #成熟製程 #油價"
+}
