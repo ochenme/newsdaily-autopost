@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-23",
+  "source_subject": "📊 每日簡報｜2026年10月23日（週五）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "能源推升通膨",
+      "headline": "油價推升美通膨",
+      "body": "Brent收108.82美元、WTI收97.15美元；美國9月整體CPI年增3.7%高於預期，10年期美債殖利率升至5.13%，10/27–28 FOMC成下一驗證點。",
+      "strategy": "能源成本推升通膨，利率未見頂前高估值成長股宜降低部位。\n航空與塑化毛利承壓，長榮航（2618）短線宜保守看待。",
+      "bg_query": "oil refinery night lights",
+      "bg_fallback": [
+        "oil refinery",
+        "federal reserve"
+      ]
+    },
+    {
+      "kicker": "台股外資調節",
+      "headline": "台股失守季線",
+      "body": "10/22加權指數收46,041點、跌846點，外資現貨賣超816.56億元，台指期淨空單增至87,297口；颱風可能休市，壓抑市場風險偏好。",
+      "strategy": "外資空單未降前，台積電（2330）等權值股宜分批應對。\n先觀察加權能否站回季線，再評估加碼時點。",
+      "bg_query": "taipei city night skyline",
+      "bg_fallback": [
+        "stock market screen",
+        "taipei night"
+      ]
+    },
+    {
+      "kicker": "航運瓶頸",
+      "headline": "荷莫茲流量腰斬",
+      "body": "據Kpler數據，荷莫茲七日均流量降至約850萬桶／日，前一週約2,000萬桶；美國據報準備撤離部分波灣使館人員，胡塞武裝逼近曼德海峽。",
+      "strategy": "紅海與荷莫茲同步承壓，運價有支撐，長榮（2603）可觀察。\n撤離令尚未正式發布，能源與航運宜防消息面反覆。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "cargo ship night",
+        "persian gulf"
+      ]
+    },
+    {
+      "kicker": "記憶體勞資",
+      "headline": "美光桃園廠罷工",
+      "body": "美光桃園廠工會10/22起罷工24小時，爭點為一次性獎金與分潤制度，台中廠已簽協議；TrendForce預估DRAM合約價Q4季增10–15%。",
+      "strategy": "記憶體供給仍偏緊，南亞科（2408）、華邦電（2344）具支撐。\n若罷工升級恐影響HBM與DRAM供應，宜追蹤工會動向。",
+      "bg_query": "semiconductor wafer dark",
+      "bg_fallback": [
+        "microchip",
+        "factory night"
+      ]
+    },
+    {
+      "kicker": "AI資本支出",
+      "headline": "AI債務壓力浮現",
+      "body": "Meta第三季營收646億美元優於預期，EPS受法律費用拖累；CoreWeave債務約500億美元、股價近日跌逾20%，資金成本上升下AI基建信用受檢驗。",
+      "strategy": "AI需求仍強但估值敏感，廣達（2382）等伺服器股宜重實績。\n高槓桿雲端業者風險升溫，宜留意信用利差變化。",
+      "bg_query": "data center servers dark",
+      "bg_fallback": [
+        "server room",
+        "data center"
+      ]
+    },
+    {
+      "kicker": "美俄斡旋",
+      "headline": "美放寬俄柴油",
+      "body": "美特使Witkoff會晤普廷後，俄方釋放被關押的美國人；川普允許俄出售柴油並延後新制裁，俄方首月供柴油約230萬桶，量體有限。",
+      "strategy": "制裁鬆綁有助緩解柴油緊張，但量體有限難壓低油價。\n若11月三方會談排定，地緣風險溢價可望小幅收斂。",
+      "bg_query": "moscow kremlin night",
+      "bg_fallback": [
+        "moscow night",
+        "diplomacy flags"
+      ]
+    },
+    {
+      "kicker": "本地AI模型",
+      "headline": "筆電可跑寫碼AI",
+      "body": "Recursive發布開源寫碼模型Flint，總參數40B、每次僅啟用2.5B，採Apache 2.0授權；公司自測在M4 Pro筆電每秒約131 tokens。",
+      "strategy": "本地推論需求提升，有利AI筆電與記憶體升級需求。\n效能為公司自報，宜待第三方復測再評估影響。",
+      "bg_query": "laptop code dark room",
+      "bg_fallback": [
+        "programming laptop",
+        "computer code"
+      ]
+    }
+  ],
+  "threads_text": "「油價推升通膨、台股外資加空、AI債務受檢驗」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\nFOMC 前你會先減碼，還是等拉回再布局？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 南亞科（2408）\n美光桃園廠罷工24小時，台中廠已經簽了。我覺得罷工拖不久，但DRAM合約價Q4還預估漲10–15%，供給緊這件事沒變。風險是長鑫年底如果真出4F²，中低階報價會被壓。\n⏱ 一週左右（復市後到10/30），看桃園工會簽不簽、會不會再罷工\n\n• 台積電（2330）\n10/22收2,385元，外資台指期淨空單87,297口。我看比較像在躲颱風跟FOMC，不是基本面出事。\n⏱ 短線，復市後到10/30，看外資空單有沒有降、加權站不站得回季線\n\n• 長榮（2603）\n荷莫茲流量腰斬，美國又在準備撤波灣使館人員。運價有撐，但撤離令還沒正式下，我先不追。\n⏱ 放兩週看（到11/6），看撤離令有沒有正式發布\n\n• 廣達（2382）\nAI伺服器需求還在，可是Lam財報不錯盤後還跌，市場很挑。我會等FOMC結果再說。\n⏱ 一週（10/29～11/4），看美債10年期有沒有破5.35%\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #記憶體 #美債利率"
+}
