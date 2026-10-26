@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-26",
+  "source_subject": "📊 每日簡報｜2026年10月26日（週一）",
+  "publish": true,
+  "cards": [
+    {"kicker": "Fed決策週", "headline": "通膨與成長拉鋸", "body": "FOMC於10/27至28開會，市場普遍預期維持3.75%至4.00%利率。布蘭特原油創半年高、美10年債殖利率達4.988%，12月升息預期升溫。",
+     "strategy": "若聲明偏鷹，科技股與黃金恐同步承壓。\n10年債能否守在5%以下，是成長股評價的分水嶺。",
+     "bg_query": "federal reserve building night", "bg_fallback": ["bank building night", "city skyline night"]},
+    {"kicker": "紅海戰火擴大", "headline": "葉門飛彈連襲沙國", "body": "據半島電視台，葉門青年運動連兩日攻擊沙烏地，攔截殘骸落在吉達、麥加省等地。布蘭特原油10/23結算116.72美元，為4/29以來最高收盤。",
+     "strategy": "油價墊高航空與石化成本，華航（2610）短線承壓。\n布蘭特站穩120或回落108，決定通膨鏈升級或緩解。",
+     "bg_query": "missile night sky desert", "bg_fallback": ["desert night", "oil refinery night"]},
+    {"kicker": "外資提款", "headline": "台股復市考驗季線", "body": "加權指數10/22收46,041.43點、跌1.81%，跌破季線46,207點。據中時，外資10月累計賣超逾8,200億元，費半同日單日重挫近7%。",
+     "strategy": "權值電子股如台積電（2330）首當其衝，宜先觀察外資動向。\n能否收復季線46,207點，決定去槓桿是否延續。",
+     "bg_query": "stock market screen dark red", "bg_fallback": ["stock chart", "trading screen"]},
+    {"kicker": "AI原料瓶頸", "headline": "氦氣列關鍵材料", "body": "美國能源部將氦氣列為第20項關鍵材料。半導體約用全球五分之一氦氣，報導稱現貨價已漲三倍，已有晶片廠遭供應商限量供貨。",
+     "strategy": "AI擴產瓶頸正延伸至氣體與材料端。\n握有長約與回收設備的晶圓廠，供應風險相對較低。",
+     "bg_query": "semiconductor fab cleanroom dark", "bg_fallback": ["gas cylinders", "laboratory dark"]},
+    {"kicker": "稀土自主", "headline": "工研院擬建稀土廠", "body": "據中央社，工研院規劃示範廠2028年底完成，2030年底年產500噸，可供應台灣約50%稀土需求。建廠需國科會出資，商業模式尚未定案。",
+     "strategy": "長線利多磁材與馬達供應鏈，但2030年才見效。\n短期仍須關注國科會預算與民間承接進度。",
+     "bg_query": "rare earth minerals dark", "bg_fallback": ["mining industrial night", "metal ore"]},
+    {"kicker": "記憶體隱憂", "headline": "南亞科獲利創新高", "body": "據TechNews，南亞科Q3稅後淨利876.3億元、毛利率85.7%，但股價曾重挫。長鑫存儲年底月產能約30萬片，主攻DDR5與HBM。",
+     "strategy": "南亞科（2408）處於高點定價風險，宜留意DRAM合約價。\n長鑫DDR5若外溢至非中國市場，報價壓力將浮現。",
+     "bg_query": "memory chip circuit board dark", "bg_fallback": ["computer chip", "circuit board"]},
+    {"kicker": "AI安全", "headline": "OpenAI訓練斷網", "body": "據TechCrunch，OpenAI宣布前沿模型訓練不再連接即時網路，改用快取與模擬網路。報導稱9/20曾有模型因設定錯誤連網，訓練暫停數週。",
+     "strategy": "訓練環境隔離將墊高AI算力與人力成本。\n資安與沙箱工具需求升溫，企業導入AI代理也應做權限隔離。",
+     "bg_query": "server room dark blue", "bg_fallback": ["data center", "network cables dark"]}
+  ],
+  "threads_text": "「油價半年高、Fed本週開會、台股復市要補考」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n油價都116美元了，你覺得Fed這週會偏鷹嗎？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n連假前費半一天跌快7%，外資10月已經賣超8,200億以上。台股休了好幾天，復市要一次補反應，我覺得開低機率不小，但真正的方向要等Fed。\n⏱ 一週左右（10/27～10/30），看外資賣超有沒有縮小、10/29早上Fed結果出來後的反應\n\n• 南亞科（2408）\nQ3毛利率85.7%很漂亮，但長鑫一直擴產，主攻DDR5跟HBM。我覺得獲利好是已知數，市場現在在算的是兩年後的競爭，所以財報再好也不太敢追。\n⏱ 放一個月看（到11月底），盯DRAM合約價有沒有鬆動\n\n• 中華航空（2610）\n這檔我是偏防守看。布蘭特衝到116，油價是航空最大成本，葉門那邊又連炸沙烏地，短線很難樂觀。\n⏱ 短線，10/27～11/6，布蘭特如果跌回108以下再重新看，站上120就先避開\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #油價 #Fed"
+}
