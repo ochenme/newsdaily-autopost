@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-29",
+  "source_subject": "📊 每日簡報｜2026年10月29日（週四）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "Fed利率決議",
+      "headline": "Fed按兵不動",
+      "body": "Fed維持利率3.75%–4.00%，表決10比2，Cook與Hammack主張升息1碼；聲明稱經濟強勁擴張、通膨仍高，降息預期短期難回。",
+      "strategy": "偏鷹異議壓抑降息預期，高估值成長股與房地產承壓。\n美元偏強不利台幣，留意核心PCE與CPI年增率走向。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "bank building dark"
+      ]
+    },
+    {
+      "kicker": "歐洲能源危機",
+      "headline": "歐洲氣價破百歐元",
+      "body": "歐洲TTF天然氣期貨盤中漲逾4%至100.45歐元，創2022年以來高點；中東戰事疑慮加上入冬補庫，能源通膨壓力再升。",
+      "strategy": "能源價格不回落，Fed便難轉鴿，通膨交易短期難退。\n台灣LNG採購成本上升，留意電價與用電大戶成本。",
+      "bg_query": "lng tanker night sea",
+      "bg_fallback": [
+        "gas pipeline dark"
+      ]
+    },
+    {
+      "kicker": "AI交易升溫",
+      "headline": "費半單日漲3.6%",
+      "body": "美東10/27 Anthropic公開提交IPO申請帶動AI交易，費城半導體指數漲3.6%、那斯達克漲1.18%，Broadcom漲4%、Cerebras逾10%。",
+      "strategy": "AI基本面強勁，與能源通膨形成多空拉鋸。\n台積電（2330）等AI供應鏈具支撐，追高宜控制部位。",
+      "bg_query": "server room blue light dark",
+      "bg_fallback": [
+        "data center night"
+      ]
+    },
+    {
+      "kicker": "央行匯率政策",
+      "headline": "台幣無特定防線",
+      "body": "央行總裁楊金龍稱台幣走弱無特定匯率防線，採柳樹理論動態調節；貶值主因是外資在台股大漲後獲利了結匯出。",
+      "strategy": "台幣偏弱有利持美元資產的出口商與壽險匯兌。\n進口原料中小企業承壓，留意外資買賣超與台幣收盤。",
+      "bg_query": "taipei city night skyline",
+      "bg_fallback": [
+        "currency money dark"
+      ]
+    },
+    {
+      "kicker": "成熟製程回溫",
+      "headline": "聯電營收創新高",
+      "body": "聯電Q3營收742.4億元、年增25.6%，稼動率由85%升至92%，毛利率34%；追加約32億美元資本支出，擴產新加坡與台南。",
+      "strategy": "稼動率回升顯示成熟製程回溫，聯電（2303）具支撐。\nQ4平均售價持平，後續看稼動率能否守住九成。",
+      "bg_query": "semiconductor wafer fab dark",
+      "bg_fallback": [
+        "microchip macro dark"
+      ]
+    },
+    {
+      "kicker": "第三代半導體",
+      "headline": "首座12吋GaN廠",
+      "body": "英飛凌將投資約11億歐元，在奧地利建全球首座12吋氮化鎵功率晶圓廠，預計2027年底投產；每片晶片數約8吋的2.3倍。",
+      "strategy": "GaN受惠AI資料中心電源與電動車，長線需求明確。\n12吋量產恐壓縮8吋報價，台灣GaN代工需留意價格競爭。",
+      "bg_query": "silicon wafer closeup dark",
+      "bg_fallback": [
+        "semiconductor factory night"
+      ]
+    },
+    {
+      "kicker": "Google世界模型",
+      "headline": "Genie 4發表",
+      "body": "Google DeepMind發表Genie 4世界模型，新增即時音訊與文字改場景，場景一致可維持2分鐘、為前代兩倍；未來數週開放Ultra訂閱者與API夥伴。",
+      "strategy": "世界模型可望先落地遊戲、影視前製與機器人模擬。\n目前僅限測試者，待API開放與定價再評估商業化速度。",
+      "bg_query": "virtual reality neon dark",
+      "bg_fallback": [
+        "video game night"
+      ]
+    }
+  ],
+  "threads_text": "「AI還在漲，但油氣價讓降息越來越遠」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n降息一直往後延，你會先減碼還是續抱？\n#知日報 #台股 #Fed",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 聯電（2303）\nQ3營收742.4億創新高，稼動率從85%拉到92%，還追加約32億美元擴產。我覺得成熟製程是真的回來了，不過Q4售價只說持平，漲價那段先別想。\n⏱ 放一個月看（到11/30），看11月營收跟稼動率能不能守住九成\n\n• 台積電（2330）\nAnthropic送件IPO，費半一天漲3.6%，AI這條線還很硬。但Fed有兩票想升息，外資又在台股獲利了結，我只看短線。\n⏱ 短線，10/29～10/30 兩個交易日，看外資是續賣還是回補\n\n• 國泰金（2882）\n央行總裁說台幣沒有特定防線，外資匯出是主因。台幣偏弱對壽險匯兌是加分，我覺得可以放著看，但利率一直高，債券部位也會難看。\n⏱ 一週左右（10/29～11/5），看台幣收盤有沒有繼續走弱\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #Fed #半導體"
+}
