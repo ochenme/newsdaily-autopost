@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-30",
+  "source_subject": "📊 每日簡報｜2026年10月30日（週五）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "AI資本支出",
+      "headline": "Alphabet重挫12%",
+      "body": "Alphabet Q3自由現金流-91億美元、Search成長降至12%，股價單日跌約12%；Microsoft的Azure成長48%相對抗跌，市場開始以現金流檢視AI支出。",
+      "strategy": "AI評價邏輯轉向看營收兌現與現金流，供應鏈評價風險上升。\n訂單能見度短期未變，宜偏重有實際接單的族群。",
+      "bg_query": "data center servers dark blue",
+      "bg_fallback": ["server room night"]
+    },
+    {
+      "kicker": "Fed利率決議",
+      "headline": "兩票主張升息",
+      "body": "Fed以10比2維持利率3.75%–4.00%，Cook與Hammack主張升息；Q3 GDP年化成長3.4%、9月PCE年增3.6%，期貨約85%押12月升息。",
+      "strategy": "成長強、通膨高，12月升息機率偏高，長債與小型股承壓。\n美元偏強不利台幣，留意11月CPI與10年債是否站上5%。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": ["bank building dark"]
+    },
+    {
+      "kicker": "台股外資賣壓",
+      "headline": "台股重摔667點",
+      "body": "加權指數收46,368.33點、跌1.41%，外資賣超688億元；聯電法說後爆量跌停，外資同時買超金融股與南亞科、華邦電。",
+      "strategy": "資金是輪動而非全面撤出，成熟製程與面板承壓。\n台積電（2330）2,380元前低為短線觀察關鍵。",
+      "bg_query": "stock market screen red dark",
+      "bg_fallback": ["trading chart night"]
+    },
+    {
+      "kicker": "先進封裝",
+      "headline": "日月光毛利創高",
+      "body": "日月光Q3封測毛利率30.6%、EPS 6.13元，營收2,441.6億元、年增44.8%；財務長稱30.6%可作為未來毛利率基準底線。",
+      "strategy": "先進封裝與測試需求強勁，日月光投控（3711）基本面具支撐。\n後續觀察Q4毛利率與資本支出金額。",
+      "bg_query": "semiconductor chip macro dark",
+      "bg_fallback": ["circuit board dark"]
+    },
+    {
+      "kicker": "被動元件",
+      "headline": "MLCC缺到2027",
+      "body": "TrendForce指AI推論帶動高容MLCC需求，缺口延續至2027上半年；Murata稱產能遠遠不足，2027 Q1議價11月啟動。",
+      "strategy": "供給緊俏有利國巨（2327）、華新科（2492）議價。\n筆電ODM受零件成本擠壓，留意11月議價結果。",
+      "bg_query": "electronic components macro dark",
+      "bg_fallback": ["circuit board closeup"]
+    },
+    {
+      "kicker": "廠房交易",
+      "headline": "台積電買友達廠",
+      "body": "友達以388億元出售台中二廠給台積電，預估處分利益約185億元；原賣給廣達的華亞廠交易破局，廣達AI伺服器擴產須另覓產能。",
+      "strategy": "友達（2409）為一次性獲利，本業仍弱，不宜過度解讀。\n台積電（2330）取得現成廠房可縮短擴產時程。",
+      "bg_query": "factory building night lights",
+      "bg_fallback": ["industrial plant dark"]
+    },
+    {
+      "kicker": "荷姆茲危機",
+      "headline": "海峽仍未重開",
+      "body": "荷姆茲海峽仍關閉、戰事進入第8個月；美副總統Vance致函伊朗，Trump稱僅涉人道物資。Shell Q3調整後盈餘108.1億美元。",
+      "strategy": "美國期中選舉前油價風險溢價難退，能源進口國承壓。\n航空、航運成本偏高，宜留意油價對通膨與利率的連動。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": ["ocean ship dark"]
+    }
+  ],
+  "threads_text": "「AI還在燒錢，市場開始問錢花到哪去了」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台股一天摔667點，你是加碼還是先觀望？\n#知日報 #台股 #AI",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 日月光投控（3711）\nQ3封測毛利率30.6%，財務長還說這是以後的底線。大盤摔成這樣，它是少數真的有數字撐著的，我覺得封測這條線沒壞。\n⏱ 一週左右（10/30～11/6），看大盤再殺時它跟不跟著跌\n\n• 國巨（2327）\nMLCC缺貨說要缺到2027上半年，日廠也可能跟漲。我看重點在11月議價，談得出漲幅才算數。\n⏱ 放一個月看（到11/30），等議價結果出來\n\n• 台積電（2330）\nAlphabet現金流轉負被砍了12%，外資一天賣688億。訂單我覺得沒變，但評價會被壓，我只看2,380前低守不守。\n⏱ 短線，10/30～11/5，看外資是不是連續賣超\n\n• 聯電（2303）\n法說後直接跌停，外資賣最多的就是它。先別急著撿，我會等賣壓停了再說。\n⏱ 一週左右（10/30～11/6），看外資賣超有沒有縮小\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #AI #半導體"
+}
