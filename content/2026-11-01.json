@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-01",
+  "source_subject": "📊 每日簡報｜2026年11月1日（週日）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "AI資本支出疑慮",
+      "headline": "科技股急殺",
+      "body": "Alphabet第三季自由現金流-91億美元，股價單日重挫約12%；英特爾財測不佳暴跌約29%，那斯達克收跌2.86%。",
+      "strategy": "需求未消失、回報遭質疑，屬估值重定價而非需求反轉。\nAI伺服器鏈如廣達（2382）短線宜降槓桿，待雲端廠指引。",
+      "bg_query": "stock market crash screen dark",
+      "bg_fallback": ["stock market night", "trading screen"]
+    },
+    {
+      "kicker": "台股重挫",
+      "headline": "台股跌破半年線",
+      "body": "加權指數10/30重挫1,156.5點收45,211.83點，外資及陸資單日賣超1,124.67億元，10月外資累計賣超9,943億元。",
+      "strategy": "11/2先看能否守住盤中低點44,726點與45,000點關卡。\n外資賣壓未止前，高融資電子股宜先控管部位。",
+      "bg_query": "taipei city night skyline",
+      "bg_fallback": ["taipei night", "city skyline night"]
+    },
+    {
+      "kicker": "台灣經濟",
+      "headline": "GDP年增14.36%",
+      "body": "主計總處初估第三季GDP年增14.36%，為48年同期最高；商品出口年增44.63%達2,449億美元，與股市急跌形成反差。",
+      "strategy": "實體經濟仍熱，若11月出口訂單續強，拉回偏估值修正。\n伺服器代工基本面支撐較強，鴻海（2317）可列觀察。",
+      "bg_query": "container port night cranes",
+      "bg_fallback": ["shipping port night", "cargo containers"]
+    },
+    {
+      "kicker": "Fed升息預期",
+      "headline": "12月升息機率升溫",
+      "body": "美國9月整體PCE年增3.6%、核心年增3.1%；Fed維持利率3.75%–4.00%，兩位委員主張升息，12月升息機率約84.6%。",
+      "strategy": "利率上行壓抑成長股與黃金估值，銀行淨利差相對受惠。\n金融股如中信金（2891）可作為資產配置的防禦部位。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": ["washington dc night", "bank building dark"]
+    },
+    {
+      "kicker": "中東油價",
+      "headline": "布蘭特站上117",
+      "body": "布蘭特原油收117.64美元、WTI收104.12美元；卡達調停人抵德黑蘭但尚無停火協議，霍爾木茲海峽仍有油輪起火。",
+      "strategy": "油價推升通膨與升息預期，航空如中華航空（2610）承壓。\n停火文本落地前油價下檔有撐，高耗能族群宜保守。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": ["oil tanker", "ocean night"]
+    },
+    {
+      "kicker": "台海情勢",
+      "headline": "海警東部常態巡查",
+      "body": "中國海警10/31宣布「虎獅」編隊在台灣以東海域展開常態化執法巡查，屬單方宣示，東岸漁船與航運首當其衝。",
+      "strategy": "地緣風險溢價恐加深外資觀望，短線干擾台股情緒。\n後續看海巡署是否公布登檢案例，再評估實質衝擊。",
+      "bg_query": "coast guard ship dark sea",
+      "bg_fallback": ["patrol boat night", "stormy sea"]
+    },
+    {
+      "kicker": "光通訊材料",
+      "headline": "磷化銦基板供不應求",
+      "body": "AXT第三季營收7,340萬美元、年增162%，磷化銦在手訂單逾5億美元，光收發模組的瓶頸在上游基板而非晶片。",
+      "strategy": "供給吃緊的材料端定價權強，全新（2455）可列觀察。\n但AI資本支出若縮減，這條鏈將最先反映。",
+      "bg_query": "semiconductor wafer laser dark",
+      "bg_fallback": ["silicon wafer", "fiber optic light"]
+    }
+  ],
+  "threads_text": "「AI燒錢被質疑、升息預期升溫、油價還在百元之上」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n科技股一天跌這麼多，你會趁機撿還是先觀望？\n#知日報 #台股 #AI",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n週五費半跌7.2%、ADR跌5.95%，外資單日賣超1,124億。我覺得AI需求本身沒壞，是市場開始問「錢花下去回得來嗎」，跌的是估值。\n⏱ 短線，11/2～11/6 一週，看外資賣超有沒有收斂、45,000點守不守得住\n\n• 全新（2455）\nAXT說磷化銦基板嚴重超額預訂，訂單逾5億美元，卡在上游。新聞沒點名全新，是我自己類比的；風險是AI資本支出一縮，這條鏈最先跌。\n⏱ 放一個月看（到12/10前），看11月營收有沒有跟上\n\n• 中信金（2891）\n兩位Fed委員主張升息，12月升息機率約84.6%。利率往上銀行利差吃得到，大盤亂的時候我會拿金融股當避風港。\n⏱ 一個多月（到12/9 Fed會議），看升息有沒有成真\n\n• 廣達（2382）\n雲端廠自由現金流轉負，伺服器鏈先被殺。我不會急著撿，等Nvidia財報說話。\n⏱ 約三週（到11/20前後），看Nvidia指引強不強\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #AI資本支出 #升息"
+}
