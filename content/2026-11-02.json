@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-02",
+  "source_subject": "📊 每日簡報｜2026年11月2日（週一）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "美科技股重挫",
+      "headline": "AI燒錢疑慮爆發",
+      "body": "10/30 Nasdaq單日跌約2.8%、Intel暴跌約29%，Alphabet、Amazon自由現金流轉負，市場焦點轉向AI投資何時回收。",
+      "strategy": "AI需求未壞，壓力在資金與回收速度，估值股短線承壓。\n台積電（2330）等實單強的環節，相對抗跌性較佳。",
+      "bg_query": "stock market crash screen dark",
+      "bg_fallback": [
+        "trading screen night",
+        "stock chart red"
+      ]
+    },
+    {
+      "kicker": "台股資金面",
+      "headline": "外資單日賣超千億",
+      "body": "10/30加權指數收45,211.83點、跌2.49%，外資單日賣超1,124.67億元，今日開盤將檢驗是否補跌美股與融資賣壓。",
+      "strategy": "融資維持率與外資是否連續賣超，是短線止跌關鍵。\n部位宜降槓桿，待賣壓宣洩後再評估進場時機。",
+      "bg_query": "taipei city night skyline",
+      "bg_fallback": [
+        "city night lights",
+        "financial district night"
+      ]
+    },
+    {
+      "kicker": "南韓出口",
+      "headline": "韓半導體出口暴增",
+      "body": "南韓10月出口年增93.7%至1,152.8億美元，半導體出口年增259.4%，實體訂單強勁與股市估值疑慮形成背離。",
+      "strategy": "記憶體實單仍強，南亞科（2408）可視為AI硬體溫度計。\n若11月前20日出口續強，本波下跌較偏情緒面。",
+      "bg_query": "container port night cranes",
+      "bg_fallback": [
+        "semiconductor wafer",
+        "cargo ship night"
+      ]
+    },
+    {
+      "kicker": "Fed利率",
+      "headline": "Fed現兩張升息票",
+      "body": "Fed 10/28維持利率3.75%–4.00%，表決10比2，兩位理事主張升息1碼；10年期美債殖利率約4.9%，壓抑成長股估值。",
+      "strategy": "高殖利率環境下，長久期成長股與黃金最為敏感。\n11/6非農數據若偏強，將強化12月升息預期。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "bank building dark",
+        "dollar bills dark"
+      ]
+    },
+    {
+      "kicker": "美伊衝突",
+      "headline": "卡達LNG船遇襲",
+      "body": "卡達LNG船在波斯灣遭不明物體攻擊，美伊談判膠著，荷莫茲通行仍是油價真正變數；美國期中選舉11/3同步登場。",
+      "strategy": "選後為美伊動向風險窗口，能源進口國與航空化工承壓。\n台灣能源成本敏感，塑化與航空股宜保守看待。",
+      "bg_query": "lng tanker ship night sea",
+      "bg_fallback": [
+        "oil tanker night",
+        "ocean storm dark"
+      ]
+    },
+    {
+      "kicker": "追加預算",
+      "headline": "6076億預算闖關",
+      "body": "政院115年度追加預算6,076億元盼11月通過，11/3赴立院專案報告；明年總預算含普發現金1萬元，最快春節前發放。",
+      "strategy": "普發現金若如期發放，零售、餐飲等內需股可望受惠。\n立院審查遇11/28地方選舉，時程仍存變數。",
+      "bg_query": "taiwan parliament building",
+      "bg_fallback": [
+        "government building night",
+        "taiwan dollar money"
+      ]
+    },
+    {
+      "kicker": "國防無人艇",
+      "headline": "無人艇商機升溫",
+      "body": "國軍編列296.6億元採購1,320艘小型無人艇，美商Shield AI、Havoc來台組隊，雷虎、台船已各有合作，目前多屬MOU階段。",
+      "strategy": "台船（2208）、雷虎（8033）題材明確，但尚非實際訂單。\n國產化比例與招標規格，才是決定受惠程度的關鍵。",
+      "bg_query": "military drone boat sea",
+      "bg_fallback": [
+        "speed boat ocean dark",
+        "naval ship night"
+      ]
+    }
+  ],
+  "threads_text": "「美股為AI燒錢買單喊停、中東和升息壓力沒散」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n外資一天賣超千億，你今天會先減碼還是撿便宜？\n#知日報 #台股 #美股",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n美股科技股10/30重挫，外資在台股一天賣超1,124.67億元。我覺得今天大概躲不掉補跌，但AWS營收還年增39%，需求沒壞，壞的是對AI花錢的信心。\n⏱ 一週左右（11/2～11/6），看外資是不是連續賣、11/6非農公布後有沒有止跌\n\n• 南亞科（2408）\n南韓10月半導體出口年增259%，這是實打實的訂單。股價跟著跌，我反而覺得記憶體最有底氣。\n⏱ 放一個月看（到12月初），11/21左右南韓公布11月前20日出口，續強這條線就成立\n\n• 台船（2208）\n296.6億的無人艇採購，它跟美商Havoc已經組隊，11/3還有連線展示。不過現在多是MOU，不是訂單，我只看短線熱度。\n⏱ 短線，11/3～11/5 展覽期間，看有沒有簽約消息\n\n• 統一超（2912）\n普發1萬如果1/5前三讀，最快春節前發。超商最直接吃到這筆錢，但立院還沒過，先放觀察名單。\n⏱ 放兩個月看（到明年1月初），看追加預算11月內能不能三讀\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #AI泡沫 #記憶體"
+}
