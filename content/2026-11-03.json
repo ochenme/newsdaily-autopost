@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-03",
+  "source_subject": "📊 每日簡報｜2026年11月3日（週二）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "AI資本支出",
+      "headline": "AI燒錢疑慮延燒",
+      "body": "Alphabet單日重挫12%、Q3自由現金流負91億美元，Nasdaq週五跌2.9%；台股11/2收44,920點、跌0.65%，台積電收2,330元。",
+      "strategy": "市場改看AI投資回收速度，2027年資本支出指引是關鍵。\nAI伺服器與先進封裝鏈對訂單下修最敏感，宜控管部位。",
+      "bg_query": "data center servers dark",
+      "bg_fallback": ["stock chart red", "server room night"]
+    },
+    {
+      "kicker": "美伊油價",
+      "headline": "和談傳言油價急跌",
+      "body": "Brent 10/30收117.64美元、創4月底以來高點，11/2盤中因美伊和談傳言跌逾7%至約104美元；美國期中選舉今日登場。",
+      "strategy": "和談真偽未明，選後為油價高波動窗口。\nBrent能否守住100美元，是能源通膨降溫的指標。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": ["oil refinery night", "ocean dark"]
+    },
+    {
+      "kicker": "Fed利率",
+      "headline": "長債殖利率逼近5%",
+      "body": "Fed 10/28維持利率3.75%–4%，表決10比2、兩位委員主張升息一碼；決議後10年期美債殖利率一度升至約5.04%。",
+      "strategy": "政策方向由降息轉向可能升息，成長股估值承壓。\n銀行淨利差可望受惠，金融股相對具防禦性。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": ["bank building dark", "dollar bills dark"]
+    },
+    {
+      "kicker": "南科新園區",
+      "headline": "南科擬闢新園區",
+      "body": "國科會主委吳誠文首度公開，將在南科體系開發大型新園區、2027年啟動相關程序，為下一世代先進製程預留空間。",
+      "strategy": "南部營建、水電與廠務工程可望受惠，惟面積金額未公布。\n水電與用地能否到位，決定園區推進速度。",
+      "bg_query": "semiconductor factory night",
+      "bg_fallback": ["industrial park night", "construction site night"]
+    },
+    {
+      "kicker": "力晶經營權",
+      "headline": "力晶經營權開打",
+      "body": "市場派以每股50元、總額逾136億元揪團收股，目標50日內取得20%以上股權；公司派提告，11/25股東臨時會改選董監。",
+      "strategy": "收購價與未上市行情約37至38元的價差，反映控制權溢價。\n契約履約與主管機關態度未明，宜審慎看待。",
+      "bg_query": "boardroom meeting dark",
+      "bg_fallback": ["business handshake dark", "office building night"]
+    },
+    {
+      "kicker": "政府憑證",
+      "headline": "962機關限期換證",
+      "body": "TWCA憑證序號實際僅約24位元隨機，低於國際64位元要求；962個政府機關須在11/6前換證，數發部稱未發現資安危害。",
+      "strategy": "近期風險在於11/6後未更新的網站出現瀏覽器警告。\n憑證管理與資安稽核需求，可望持續受到重視。",
+      "bg_query": "cyber security lock screen dark",
+      "bg_fallback": ["computer code dark", "digital lock"]
+    },
+    {
+      "kicker": "能源補貼",
+      "headline": "中油負債比94%",
+      "body": "經濟部國營司呼籲編預算撥補中油、台電，兩者為凍漲油氣電價承擔高額成本，中油負債比達94%，撥補金額尚未公布。",
+      "strategy": "撥補金額與立院審議時程，攸關政府財政空間。\n若油價續跌，撥補壓力可望隨之減輕。",
+      "bg_query": "gas station night",
+      "bg_fallback": ["power plant night", "electric tower dark"]
+    }
+  ],
+  "threads_text": "「AI燒錢疑慮、油價急跌、升息壓力一起拉扯台股」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n油價一天跌7%，你覺得美伊這次真的會談嗎？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\nAlphabet一天跌12%、自由現金流負91億美元，市場開始懷疑AI錢燒太兇。台積電11/2收2,330元、跌40元，我覺得這波情緒先跑，真正要看的是雲端大廠明年還花不花。\n⏱ 一週左右（11/3～11/10），看美國選完後外資有沒有回頭\n\n• 長榮航（2618）\nBrent 11/2盤中跌逾7%到104美元左右，油價對航空成本最直接。不過這只是和談傳言，選後美伊要是又升溫，這段跌幅可能整個吐回去。\n⏱ 短線，11/4～11/6，看選舉結果出來後Brent是往100以下走還是又彈上去\n\n• 兆豐金（2886）\nFed有兩位委員主張升息，10年期殖利率一度到5.04%。利率高更久，銀行利差比較吃香，我看在這種盤裡算穩，但別期待爆發力。\n⏱ 放一個月看（到12月初），看10年期能不能站穩5%\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #AI資本支出 #油價"
+}
