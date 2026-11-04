@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-04",
+  "source_subject": "📊 每日簡報｜2026年11月4日（週三）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "台股重挫",
+      "headline": "台股單日崩1612點",
+      "body": "加權指數11/3收43,307.54點、跌3.59%，外資賣超1,073.07億元、連4賣；記憶體、PCB、光通訊共74檔跌停，投信則連16買。",
+      "strategy": "融資餘額未明顯下降，若追繳升高恐加劇賣壓。\n外資是否止賣與融資維持率，是判斷止穩的關鍵。",
+      "bg_query": "stock market crash red screen dark",
+      "bg_fallback": ["stock chart red", "trading screen night"]
+    },
+    {
+      "kicker": "美伊邊打邊談",
+      "headline": "油價單日跌7.6%",
+      "body": "Brent 11/2因談判消息結算104.77美元、跌7.63%；11/3川普證實美軍攻擊伊朗新建防空設施，伊朗同時推動加速停火談判。",
+      "strategy": "邊打邊談使油價高波動，Brent守在100美元下方才算降溫。\n油價回落有利航空成本，長榮航（2618）可列入觀察。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": ["oil refinery night", "ocean dark"]
+    },
+    {
+      "kicker": "美國期中選舉",
+      "headline": "美期中選舉登場",
+      "body": "美國11/3投票，司法部派約1,000名選舉監督員進駐50州；媒體預期民主黨奪回眾議院、參議院未明，結果尚未出爐。",
+      "strategy": "若形成分裂國會，預算、關稅與對外援助立法難度升高。\n選後美債殖利率與美元走向，將牽動台股資金面。",
+      "bg_query": "capitol building night",
+      "bg_fallback": ["voting ballot dark", "american flag night"]
+    },
+    {
+      "kicker": "半導體材料",
+      "headline": "美光包下環球晶債",
+      "body": "環球晶163億元私募可轉債由美光全數認購，十年期、票面0.5%，用於美國德州12吋廠；Q3 EPS 3.13元，董座稱明年供需較今年緊。",
+      "strategy": "客戶預付式融資換長約，需求有保障但股東面臨稀釋。\n環球晶（6488）後續看轉換價與Q4毛利率。",
+      "bg_query": "silicon wafer dark",
+      "bg_fallback": ["semiconductor factory night", "microchip dark"]
+    },
+    {
+      "kicker": "AI自我研發",
+      "headline": "AI加速自身研發",
+      "body": "Anthropic修訂版S-1/A稱，內部估計未來模型可能即將達到「AI大幅加速研發」門檻，目前沒有模型被認定已超過，並考慮更新RSP。",
+      "strategy": "措辭保留且兼具揭露與行銷性質，不宜過度解讀。\nAI寫程式能力曲線恐比預期陡，工具選型宜保留彈性。",
+      "bg_query": "artificial intelligence neural network dark",
+      "bg_fallback": ["computer code dark", "server room night"]
+    },
+    {
+      "kicker": "美非貿易",
+      "headline": "南非失免關稅待遇",
+      "body": "USTR宣布2027/1/1起暫停南非與盧安達AGOA免關稅待遇；南非2025年AGOA出口約17億美元、約占對美出口10%，以車零件、農產品為主。",
+      "strategy": "美國貿易政策再開新戰線，對台直接影響有限。\n南非擬轉向中國等市場，後續是否報復值得追蹤。",
+      "bg_query": "cargo port night containers",
+      "bg_fallback": ["shipping containers dark", "cape town night"]
+    }
+  ],
+  "threads_text": "「台股一天崩1600點，美伊邊打邊談、美國選舉也在今天」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台股跌成這樣，你是加碼還是先躲？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n大盤11/3跌3.59%，台積電收2,295元只跌1.5%，比大盤抗跌很多。我覺得外資是在砍記憶體、光通訊這些漲多的，台積電反而是避風港，但外資連4賣，還沒到能放心的時候。\n⏱ 一週左右（11/4～11/11），看外資哪天開始轉買\n\n• 長榮航（2618）\nBrent 11/2跌7.63%到104.77美元，油價對航空最直接。不過11/3川普就證實又打了伊朗，這種邊打邊談的消息隨時翻盤，我只看短線。\n⏱ 短線，11/4～11/6，看Brent能不能守在100美元附近不反彈\n\n• 環球晶（6488）\n美光全包163億可轉債，等於客戶先拿錢綁長約，董座還說明年供需比今年緊。需求我覺得穩了，但可轉債會稀釋，轉換價還沒出來前先別急。\n⏱ 放一個月看（到12/4），看轉換價和Q4毛利率\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #台股重挫 #油價"
+}
