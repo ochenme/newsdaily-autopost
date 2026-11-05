@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-05",
+  "source_subject": "📊 每日簡報｜2026年11月5日（週四）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "美國期中選舉",
+      "headline": "民主黨重掌國會",
+      "body": "民主黨奪回參眾兩院，德州等參院席次翻藍；費半11/4盤中跌3.6%至六個月低點，IREN、Hut 8等資料中心股重挫，亞馬遜、Alphabet上漲。",
+      "strategy": "AI資料中心監管風險升溫，台股AI供應鏈短線承壓。\n德州為緯穎（6669）建廠重鎮，留意州政策走向。",
+      "bg_query": "capitol building night",
+      "bg_fallback": ["american flag night", "washington dc dark"]
+    },
+    {
+      "kicker": "美伊和談",
+      "headline": "卡達推臨時協議",
+      "body": "卡達推動臨時協議，預期約36小時內收到美伊回覆；伊朗提出重開海峽七項條件，但11/3仍有兩枚飛彈擊中阿曼外海油輪。",
+      "strategy": "油價綁定和談，荷莫茲海峽能否書面重開是關鍵。\n布蘭特能否守住100美元，是判斷降溫的指標。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": ["strait sea dark", "oil refinery night"]
+    },
+    {
+      "kicker": "AI板材供給",
+      "headline": "松下湖口廠大火",
+      "body": "台灣松下湖口廠11/4凌晨爆炸大火，該廠占高階低損耗MEGTRON全球產出約20%，業界估全球高階多層板供給約4%受影響，復工時程未明。",
+      "strategy": "AI伺服器板材恐現搶料，同級CCL廠具轉單機會。\n台光電（2383）、台燿（6274）看11月營收與報價。",
+      "bg_query": "factory fire night smoke",
+      "bg_fallback": ["industrial plant night", "circuit board dark"]
+    },
+    {
+      "kicker": "記憶體緊俏",
+      "headline": "南亞科營收新高",
+      "body": "南亞科10月營收464.76億元、年增487.73%創單月新高；華邦電通過731億元資本支出，高雄二廠2029下半年才出貨。",
+      "strategy": "新產能2029年才到位，供給緊俏可能延續至2028年。\n南亞科（2408）、華邦電（2344）看11月合約價。",
+      "bg_query": "memory chip dark macro",
+      "bg_fallback": ["semiconductor dark", "microchip blue"]
+    },
+    {
+      "kicker": "AI算力成本",
+      "headline": "算力成本占58%",
+      "body": "Anthropic S-1修正稿顯示，Q3營收170億美元，運算成本占營收升至58%（Q2為48%），每美元算力創造的營收降至1.72倍。",
+      "strategy": "算力供不應求，電力與資料中心設備需求可望延續。\nAPI降價空間有限，應用層業者毛利壓力仍在。",
+      "bg_query": "data center server room dark",
+      "bg_fallback": ["server racks blue", "data center night"]
+    },
+    {
+      "kicker": "功率半導體",
+      "headline": "安森美優先供AI",
+      "body": "安森美Q3、Q4優先供應AI資料中心與工業客戶，車用不補庫存；估每機櫃功率半導體價值將由約1.5萬美元增至11.5萬美元。",
+      "strategy": "車用訂單外溢台廠屬媒體推論，仍待營收驗證。\n強茂（2481）、台半（5425）看11月營收與法說。",
+      "bg_query": "power electronics circuit dark",
+      "bg_fallback": ["electric car charging night", "circuit board dark"]
+    },
+    {
+      "kicker": "歐洲通膨",
+      "headline": "歐元區通膨4%",
+      "body": "歐元區10月HICP年增4.0%創3年新高，能源年增20.8%、核心2.5%持平；分析師預期歐央行12月再升息，美國非農11/6公布。",
+      "strategy": "通膨主因能源，油價走向將決定升息機率。\n全球利率偏鷹，高評價科技股評價面仍受壓。",
+      "bg_query": "european central bank night",
+      "bg_fallback": ["frankfurt skyline night", "euro coins dark"]
+    }
+  ],
+  "threads_text": "「美國國會變天、油價看和談、AI卡在算力和材料」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n油價跟AI監管，你覺得哪個對台股殺傷力比較大？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台光電（2383）\n松下湖口廠燒掉的是高階AI板材，那座廠占全球MEGTRON產出約20%。同級材料能接單的就是它這類，不過報導說當天已經逆勢漲了，我不想追高。\n⏱ 一個月（11/6～12/10），看松下何時復工、11月營收有沒有跳\n\n• 南亞科（2408）\n10月營收464.76億創新高，總經理說DRAM還會漲；華邦電新廠要2029才出貨，我覺得緊俏沒那麼快結束。但記憶體前兩天才集體跌停，波動會很大。\n⏱ 放一個月看（到12/5），看11月合約價有沒有續漲\n\n• 緯穎（6669）\n民主黨拿下德州，偏偏德州是它的建廠重鎮。廠商說腳步不變，我覺得新州長政策出來前，這個疑慮散不掉。\n⏱ 一週左右（11/6～11/13），先看費半能不能止跌\n\n• 強茂（2481）\n安森美產能先給AI、車用不補庫存，媒體說訂單會外溢到台廠。邏輯我同意，但還沒看到訂單，先當觀察名單。\n⏱ 一個月（到12/10），等11月營收說話\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #AI板材 #記憶體"
+}
