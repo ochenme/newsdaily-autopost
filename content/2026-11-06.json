@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-06",
+  "source_subject": "📊 每日簡報｜2026年11月6日（週五）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "台股重挫",
+      "headline": "台股重挫1374點",
+      "body": "加權指數11/5收41,574.72點，跌1,374.19點（-3.20%），為歷年第13大收盤跌點；外資賣超1,024.6億元，三大法人合計賣超1,234.56億元。",
+      "strategy": "高融資AI權值股賣壓恐延續，短線宜先控管部位。\n42,000點能否站回與融資餘額變化為觀察重點。",
+      "bg_query": "stock market screen red dark",
+      "bg_fallback": [
+        "trading screen night",
+        "taipei skyline night"
+      ]
+    },
+    {
+      "kicker": "AI資金出走",
+      "headline": "費半盤中跌逾10%",
+      "body": "11/5美股盤中那斯達克跌約5.3%、費半跌約10.7%；亞股SK海力士跌9.4%、Advantest跌15%，分析師解讀為避險基金年底前鎖利。",
+      "strategy": "AI供應鏈評價修正未完，宜分批布局而非搶反彈。\n台積電（2330）觀察費半能否守住前低。",
+      "bg_query": "semiconductor wafer dark red",
+      "bg_fallback": [
+        "microchip dark",
+        "stock chart red"
+      ]
+    },
+    {
+      "kicker": "外資匯出",
+      "headline": "外資匯出創新高",
+      "body": "央行資料顯示外資10月淨匯出約280億美元創單月新高，外匯存底降至5,964.37億美元、跌破6,000億，央行進場阻貶新台幣。",
+      "strategy": "新台幣貶值壓力加大，壽險業匯損風險升高。\n新台幣33元關卡與11月外資買賣超是關鍵指標。",
+      "bg_query": "us dollar bills dark",
+      "bg_fallback": [
+        "currency exchange night",
+        "bank building night"
+      ]
+    },
+    {
+      "kicker": "美國期中選舉",
+      "headline": "國防股選後重挫",
+      "body": "民主黨拿下參眾兩院，11/4洛克希德馬丁跌6.9%、諾斯洛普格魯曼跌4.5%；UBS經濟學家認為參院易手讓川普改組Fed更困難。",
+      "strategy": "戰爭降溫預期壓抑國防股，資料中心管制成新變數。\n參院對Fed人事與對伊戰爭授權案的表態是關鍵。",
+      "bg_query": "capitol building night",
+      "bg_fallback": [
+        "fighter jet dark",
+        "washington dc night"
+      ]
+    },
+    {
+      "kicker": "油價回落",
+      "headline": "布蘭特單日跌8.7%",
+      "body": "布蘭特原油11/4結算94.62美元、單日跌8.7%，創兩個月低點，11/5盤中反彈至約97美元；油價與利率同步下滑，反映市場押注戰事降溫。",
+      "strategy": "油價回落有利航空、塑化等成本敏感產業。\n長榮航（2618）可觀察；布蘭特站回100美元則轉為風險。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "oil refinery night",
+        "airplane night runway"
+      ]
+    },
+    {
+      "kicker": "AI晶片",
+      "headline": "輝達推Vera CPU",
+      "body": "輝達11/5發表Vera CPU，自報在100MW情境下每瓦代理效能為最快x86處理器的1.6倍，尚未公布供貨時程與定價。",
+      "strategy": "若獲大規模採用，資料中心CPU市占恐由x86移轉。\n效能為自報數據，待獨立測試驗證，宜視為中期題材。",
+      "bg_query": "data center server room dark",
+      "bg_fallback": [
+        "server racks blue",
+        "processor chip dark"
+      ]
+    },
+    {
+      "kicker": "記憶體新架構",
+      "headline": "高通HBC挑戰HBM",
+      "body": "高通HBC完成驗證，AI250明年上半年送樣；自稱有效頻寬為LPDDR5X方案18倍、每瓦頻寬逾HBM4的5倍，屬廠商自述數據。",
+      "strategy": "若商用成立，HBM專屬產能將面臨替代壓力。\n記憶體族群如南亞科（2408）波動恐加大。",
+      "bg_query": "memory chip dark macro",
+      "bg_fallback": [
+        "semiconductor dark",
+        "circuit board blue"
+      ]
+    }
+  ],
+  "threads_text": "「AI股大殺、外資狂匯出、油價先鬆一口氣」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台股一天跌1,374點，你會趁機撿還是先觀望？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n外資一天賣超1,024億，費半盤中跌超過10%，權值股一定首當其衝。我覺得比較像年底鎖利，但融資斷頭沒清完前我不急著接。\n⏱ 一週左右（11/9～11/13），看費半守不守前低、大盤能不能站回42,000\n\n• 長榮航（2618）\nBrent一天跌8.7%到94.62，油價降對航空最直接。不過美伊談判還沒底，油價隔天就反彈到97左右，我只把它當短線題材。\n⏱ 短線，11/9～11/13，看Brent會不會又站回100\n\n• 國泰金（2882）\n外資10月匯出280億美元創新高，外匯存底跌破6,000億，央行在阻貶。新台幣真的守不住，壽險匯損就跑不掉，我先把它當風險觀察。\n⏱ 放一個月看（到12/4），看新台幣33關卡和11月外資動向\n\n• 華城（1519）\n資料中心反對聲浪跨黨派，台電也說今年吸收超過750億電價補貼，電真的是瓶頸。但現在全市場在殺，我想等大盤穩了再看。\n⏱ 一個月（到12/4），看電價審議和立院追加預算進度\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #AI股 #外資"
+}
