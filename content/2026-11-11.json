@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-11",
+  "source_subject": "📊 每日簡報｜2026年11月11日（週三）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "美國通膨升溫",
+      "headline": "美債殖利率觸5%",
+      "body": "美國10月CPI月增0.4%、核心月增0.3%，雙雙高於預期；10年債盤中觸及5.01%，Fed理事Waller據轉述不排除12月升息2碼。",
+      "strategy": "利率壓過基本面，高本益比科技股評價短線承壓。\n12/9 FOMC前不宜追高，先看10年債能否站穩5%。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "bond market",
+        "city night finance"
+      ]
+    },
+    {
+      "kicker": "台股資金面",
+      "headline": "外資連9賣台股",
+      "body": "台股11/10收42,711.92點、漲2.52%，但外資賣超341億元，期貨淨空單增至約10.34萬口，反彈主要由投信與ETF撐盤。",
+      "strategy": "外資空單未降前，反彈品質偏弱，宜控制持股水位。\n台積電（2330）外資賣壓停止，才是真正回穩訊號。",
+      "bg_query": "stock market screen dark red",
+      "bg_fallback": [
+        "trading screen",
+        "stock chart"
+      ]
+    },
+    {
+      "kicker": "輝達治理風險",
+      "headline": "輝達董事會查黃仁勳",
+      "body": "輝達董事會調查黃仁勳與疑似中國間諜的關係，股價11/9跌逾4%、11/10盤中再跌6.3%；公司稱無理由相信機密外洩。",
+      "strategy": "屬評價折價而非訂單取消，伺服器鏈短線情緒承壓。\n鴻海（2317）、廣達（2382）宜待11月下旬財報指引。",
+      "bg_query": "computer chip dark green light",
+      "bg_fallback": [
+        "semiconductor",
+        "circuit board dark"
+      ]
+    },
+    {
+      "kicker": "台積電董事會",
+      "headline": "台積電入股AI雙雄",
+      "body": "台積電季配息9元，核准約409億美元資本預算，並擬各最多5億美元入股Anthropic與OpenAI，為AI需求延續背書。",
+      "strategy": "資本預算拉長廠務與先進封裝設備訂單能見度。\n弘塑（3131）、帆宣（6196）可列入中期觀察。",
+      "bg_query": "semiconductor fab cleanroom dark",
+      "bg_fallback": [
+        "silicon wafer",
+        "chip factory"
+      ]
+    },
+    {
+      "kicker": "台灣出口",
+      "headline": "10月出口創新高",
+      "body": "10月出口967.6億美元、年增58.9%，進口年增75.1%；前10月對美出口占比31.7%，創36年同期新高。",
+      "strategy": "進口成長高於出口，顯示AI伺服器備料仍積極。\n對美集中度升高，關稅與晶片政策風險同步放大。",
+      "bg_query": "container port night cranes",
+      "bg_fallback": [
+        "cargo ship",
+        "shipping port"
+      ]
+    },
+    {
+      "kicker": "AI估值修正",
+      "headline": "AI估值遭議價",
+      "body": "OpenAI據報以1.25兆美元估值僅募得110億美元，低於原目標200億；Anthropic IPO估值也遭部分法人壓價。",
+      "strategy": "資金轉向支出確定的環節，電源散熱較具支撐。\n台達電（2308）、奇鋐（3017）基本面優於模型題材。",
+      "bg_query": "data center servers dark blue",
+      "bg_fallback": [
+        "server room",
+        "technology dark"
+      ]
+    },
+    {
+      "kicker": "美伊談判",
+      "headline": "油價五日跌逾12%",
+      "body": "川普稱美伊談判有「正面動能」，伊朗否認正在談；Brent盤中約91.81美元，較10/23的116美元跌約二成。",
+      "strategy": "油價回落減輕航空與塑化成本，華航（2610）受惠。\n胡塞攻擊沙國輸油管，仍是油價反彈的尾部風險。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "oil refinery night",
+        "ocean ship"
+      ]
+    },
+    {
+      "kicker": "美中貿易休兵",
+      "headline": "稀土管制延至1/10",
+      "body": "中國延長稀土出口管制與24%關稅暫停期至2027/1/10，期間仍課10%；七種中重稀土許可制依然有效。",
+      "strategy": "短線斷供風險解除，但籌碼留到APEC川習會。\n若暫停期延為一年，科技戰降溫有利風險資產。",
+      "bg_query": "mining minerals dark",
+      "bg_fallback": [
+        "rare earth",
+        "mine industry"
+      ]
+    }
+  ],
+  "threads_text": "「利率衝上5%、輝達出事、油價大跌」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n美債殖利率碰到5%，你會先減碼科技股嗎？\n#知日報 #台股 #美股",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台達電（2308）\n10月營收746.66億元，AI電源是實打實在出貨。我覺得現在AI股在分化，錢確定會花出去的環節比較撐得住，但外資還在賣，股價不一定馬上跟上。\n⏱ 一週左右（11/12～11/19），看外資對它是買還是賣\n\n• 台積電（2330）\n季配息9元，還要入股Anthropic和OpenAI，基本面沒問題。麻煩的是外資已經連賣23天，我只看外資什麼時候停手。\n⏱ 放一個月看（到12/10），Fed 12/9決議後，看外資連賣有沒有中斷\n\n• 弘塑（3131）\n409億美元資本預算裡有先進封裝，設備訂單能見度會拉長。不過要等台積電給2027年資本支出指引才看得到數字，我先放著觀察。\n⏱ 一個月（到12月中），看指引有沒有跟上\n\n• 華航（2610）\nBrent三週跌掉約二成，燃油成本壓力少很多。但胡塞剛攻擊沙國輸油管，油價隨時會彈回來，我只看短線。\n⏱ 短線，11/12～11/18，看Brent能不能守在90美元以下\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #美債 #AI供應鏈"
+}
