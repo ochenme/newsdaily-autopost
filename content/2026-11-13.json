@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-13",
+  "source_subject": "📊 每日簡報｜2026年11月13日（週五）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "輝達領導層震盪",
+      "headline": "黃仁勳辭任輝達CEO",
+      "body": "黃仁勳辭去輝達執行長並退出董事會，起因牽涉疑似中國情報人員，財務長Kress暫代。華府放寬派核心離場，對中晶片出口管制恐轉向收緊。",
+      "strategy": "台積電（2330）客戶分散，受衝擊相對有限。\n輝達專屬零組件評價壓力，恐延續至11/17財報。",
+      "bg_query": "computer chip dark circuit board",
+      "bg_fallback": [
+        "semiconductor",
+        "technology dark"
+      ]
+    },
+    {
+      "kicker": "台股重挫",
+      "headline": "台股重挫1165點",
+      "body": "加權指數收43,091點、跌2.63%，散熱、ABF載板、高速CCL多檔跌停。外資現貨僅賣超6.85億元、投信連23買，賣壓主要來自內資。",
+      "strategy": "關鍵在外資現貨是否轉為單日賣超逾300億元。\n若外資僅小賣、投信續買，較接近事件型回檔。",
+      "bg_query": "stock market screen red night",
+      "bg_fallback": [
+        "stock market",
+        "trading screen"
+      ]
+    },
+    {
+      "kicker": "美國通膨黏著",
+      "headline": "Fed恐升息兩碼",
+      "body": "10月核心CPI月增0.3%，已連三個月；10年期美債殖利率突破5.1%。Waller稱12月應考慮升息50bp，高估值AI股評價空間受壓縮。",
+      "strategy": "利率上行持續壓縮高本益比成長股評價。\n10年債能否守在5%之上，決定AI股評價天花板。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "bank building",
+        "dollar"
+      ]
+    },
+    {
+      "kicker": "出口創新高",
+      "headline": "10月出口破900億",
+      "body": "10月出口967.6億美元，單月首度突破900億美元創新高。然而台股自10月高點已回落約6,700點，基本面與股價出現明顯背離。",
+      "strategy": "若輝達事件造成拉貨遞延，最早反映在11、12月。\n12月上旬公布的11月出口能否守住900億是關鍵。",
+      "bg_query": "container port night cranes",
+      "bg_fallback": [
+        "shipping port",
+        "cargo ship"
+      ]
+    },
+    {
+      "kicker": "AI材料瓶頸",
+      "headline": "載板電源成新瓶頸",
+      "body": "台積電張曉強指AI需求呈拋物線成長，電源與載板是資料中心瓶頸；南亞斥資115億元建彰化玻纖布新廠，電子材料供需偏緊。",
+      "strategy": "南電（8046）跌停偏情緒面，可用11月營收驗證。\n玻纖布報價走揚，CCL廠成本轉嫁能力待觀察。",
+      "bg_query": "data center server room dark",
+      "bg_fallback": [
+        "server rack",
+        "electronics factory"
+      ]
+    },
+    {
+      "kicker": "北美關稅戰線",
+      "headline": "川普揚言墨關稅加倍",
+      "body": "川普要求墨西哥阻擋移民隊伍，否則關稅「立即加倍」，但未給期限、法律授權也不確定。在墨設廠的台系AI伺服器組裝廠首當其衝。",
+      "strategy": "在墨設廠的代工廠如鴻海（2317）短線承壓。\n留意是否發出正式行政命令，以及披索匯率走勢。",
+      "bg_query": "mexico border wall night",
+      "bg_fallback": [
+        "border fence",
+        "factory night"
+      ]
+    },
+    {
+      "kicker": "AI生技突破",
+      "headline": "AI解讀DNA再進化",
+      "body": "DeepMind發表AlphaGenome 2，可針對單一細胞類型預測DNA變異效應；在TenK10K資料集找出因果變異比例30%，對照組為16%。",
+      "strategy": "藥物標靶發現與精準醫療基因解讀可望受惠。\n目前僅私人預覽、不可用於臨床，商業化仍早。",
+      "bg_query": "dna helix dark blue",
+      "bg_fallback": [
+        "laboratory dark",
+        "genetics"
+      ]
+    }
+  ],
+  "threads_text": "「輝達換帥、美債破5.1%，AI硬體股被三面夾擊」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n輝達換帥，你覺得是利空出盡還是才剛開始？\n#知日報 #台股 #輝達",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n昨天跌2.3%收2,340元，跌得比大盤少。黃仁勳下台我覺得對它本身影響有限，客戶夠分散，真正要怕的是對中管制加嚴。\n⏱ 一週左右（11/13～11/20），看輝達11/17財報後外資現貨是買還是賣\n\n• 南電（8046）\n昨天跌停，可是前一天張曉強才說載板是AI瓶頸。我覺得這根跌停情緒成分大，不過訂單有沒有被影響，現在還沒人知道。\n⏱ 放一個月看（到12/10左右），11月營收月增站得住，這條線就成立\n\n• 健策（3653）\n散熱昨天一片跌停，它也在裡面。跟輝達機櫃綁很深，我不急著接，先看財報怎麼講。\n⏱ 短線，11/18～11/20 三個交易日，看財報後跌勢止不止得住\n\n• 鴻海（2317）\n川普揚言墨西哥關稅加倍，在墨設廠的都會被問到。但沒給期限、法律授權也不確定，我先當雜音。\n⏱ 一週左右（到11/20），看有沒有正式行政命令\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #輝達 #半導體"
+}
