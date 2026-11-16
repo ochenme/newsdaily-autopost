@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-16",
+  "source_subject": "📊 每日簡報｜2026年11月16日（週一）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "AI雙考場",
+      "headline": "AI本週迎雙考場",
+      "body": "輝達11/17盤後公布財報，市場共識營收約1,088億美元、選擇權隱含波動約±10.6%；Anthropic IPO區間70至78美元，定價在即。",
+      "strategy": "財報達標但治理說不清，台積電（2330）等折價恐延續。\n輝達站回200日線約201美元，空頭格局才算失效。",
+      "bg_query": "computer chip dark circuit board",
+      "bg_fallback": ["semiconductor", "technology dark"]
+    },
+    {
+      "kicker": "先進封裝擴產",
+      "headline": "台積電買下友達兩廠",
+      "body": "據經濟日報，友達中科兩廠以388億元售予台積電，友達處分利益估約185億元；精材進駐建置先進封裝，第一期預計2029年量產。",
+      "strategy": "精材（3374）、友達（2409）為最直接受惠者。\n點交仍待主管機關核准，2029年時程需持續追蹤。",
+      "bg_query": "semiconductor factory night",
+      "bg_fallback": ["factory night", "clean room"]
+    },
+    {
+      "kicker": "Fed升息循環",
+      "headline": "美債衝上5.15%",
+      "body": "10月CPI年增4.2%、PPI年增6.5%，12月升息幾成定局；美10年債週升約30bp收5.15%，美元指數升至近19個月高。",
+      "strategy": "升息環境下高本益比科技股評價續受壓抑。\n10月核心PCE若月增≥0.3%，升2碼機率將上升。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": ["bank building", "dollar"]
+    },
+    {
+      "kicker": "金融業體質",
+      "headline": "銀行債券浮損擴大",
+      "body": "金管會9月底資料顯示，金融業股票未實現利益9,371億元創新高，銀行債券未實現損失則擴大至1,920億元，為逾兩年最大。",
+      "strategy": "台股若回檔，金控恐遭股債雙面夾擊。\n美10年債若站上5.3%，金融股配息預期宜保守。",
+      "bg_query": "bank building city night",
+      "bg_fallback": ["finance", "skyscraper night"]
+    },
+    {
+      "kicker": "油價回落",
+      "headline": "美柴油跌破6美元",
+      "body": "美伊談判預期升溫，美國柴油均價跌破每加侖6美元、創兩個月新低；布蘭特原油結算95.84美元，較10月底110美元上下明顯回落。",
+      "strategy": "油價回落有利航空與塑化下游，長榮航（2618）受惠。\n以色列強硬路線若致談判破局，油價恐再反彈。",
+      "bg_query": "oil refinery night lights",
+      "bg_fallback": ["oil tanker", "gas station night"]
+    },
+    {
+      "kicker": "俄烏談判",
+      "headline": "俄烏談判觸及領土",
+      "body": "據Al Jazeera，美方曾建議烏克蘭讓出部分頓巴斯以換取北約會籍；美國特使Kushner同日表示，目標是促成歐洲與俄國直接對談。",
+      "strategy": "談判進入領土議題，和平溢價可能先反映於歐洲天然氣。\n若排出歐美俄三方會談日期，歐洲國防股恐回檔。",
+      "bg_query": "ukraine flag dark",
+      "bg_fallback": ["diplomacy", "europe night"]
+    },
+    {
+      "kicker": "AI代理支付",
+      "headline": "AI代理直接結帳",
+      "body": "OpenAI推出ChatGPT Wallet，綁定Visa、Mastercard等卡片後由AI代理以付款token結帳，每筆需生物辨識確認，首波僅少數美國Pro用戶。",
+      "strategy": "AI從推薦導購走向直接成交，卡組織可望受惠。\n比價網站與聯盟行銷的流量恐遭截流。",
+      "bg_query": "smartphone payment dark",
+      "bg_fallback": ["credit card", "online shopping"]
+    },
+    {
+      "kicker": "台灣太空科技",
+      "headline": "國產太空GPU上軌",
+      "body": "國家太空中心與捷揚航電開發太空用GPGPU模組，搭載立方衛星黑鳶1號，在軌即時辨識影像結果與地面一致，取得飛行履歷。",
+      "strategy": "飛行履歷是打入國際衛星供應鏈的門票。\n樣品已送海外評估，首張量產訂單前仍屬早期。",
+      "bg_query": "satellite orbit earth night",
+      "bg_fallback": ["space", "satellite"]
+    }
+  ],
+  "threads_text": "「輝達財報、升息壓力、台積電買廠，AI本週大考」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n輝達這次財報，你覺得能止跌嗎？\n#知日報 #台股 #輝達",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 精材（3374）\n台積電買下友達中科兩廠，由它進駐做先進封裝，還簽了七年外包。題材最直接，但量產是2029年，點交也還沒核准，我只看短線情緒。\n⏱ 短線，11/16～11/20 一週，看開盤反應完後量能撐不撐得住\n\n• 台積電（2330）\n上週五收2,350元。我覺得它的訂單沒被輝達事件動搖，但短線一定跟著輝達財報走。\n⏱ 一週左右（11/18～11/25），看財報後外資現貨是買是賣\n\n• 友達（2409）\n賣廠一次入帳約185億元處分利益，這是確定的。後面轉型玻璃製程能不能變成生意，現在還說不準。\n⏱ 放一個月看（到12月中），等主管機關核准點交\n\n• 國泰金（2882）\n金融業股票浮盈創高、銀行債券浮損卻擴到1,920億元。美債還在漲，我覺得壽險是最尷尬的，先不碰。\n⏱ 兩週（到11/30），看美10年債有沒有站上5.3%\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #輝達 #先進封裝"
+}
