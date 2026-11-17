@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-17",
+  "source_subject": "📊 每日簡報｜2026年11月17日（週二）",
+  "publish": true,
+  "cards": [
+    {"kicker": "台股重挫", "headline": "台股單日暴跌6%", "body": "加權指數重挫2,635點、跌6.03%收41,040點，為史上第二大跌點，外資賣超701.89億元。治理、出口管制與升息預期三重壓力同時到位。", "strategy": "證交所已表態必要時穩定市場，40,000點為關鍵支撐。\n輝達財報前不宜追殺，待外資賣壓收斂再評估布局。", "bg_query": "stock market crash red screen dark", "bg_fallback": ["stock market", "trading screen"]},
+    {"kicker": "晶片出口管制", "headline": "第三國算力納管", "body": "美國商務部要求新加坡、泰國、馬來西亞、印尼、巴西業者購買先進AI晶片須先申請許可，並限制遠端存取，東南亞資料中心路徑收窄。", "strategy": "東南亞資料中心是台系伺服器新增量，訂單能見度下降。\nODM如廣達（2382）宜觀察11、12月對東協出口。", "bg_query": "data center server room dark blue", "bg_fallback": ["data center", "server"]},
+    {"kicker": "輝達財報", "headline": "輝達財報定方向", "body": "輝達將於台北11/18清晨約5:20公布財報，市場預期營收約1,091億美元、獲利年增約90%，選擇權隱含波動約±10.6%。", "strategy": "財測持平或上修，台積電（2330）等權值股可望先反彈。\n若指引下修，高本益比的散熱與PCB族群壓力最大。", "bg_query": "computer chip circuit board dark green", "bg_fallback": ["microchip", "semiconductor"]},
+    {"kicker": "美國升息預期", "headline": "12月升息近定價", "body": "市場押注Fed 12月升息1碼機率約94%，10月核心CPI月增0.3%高於預期，美10年債殖利率約5.13%，持續壓抑科技股估值。", "strategy": "11/18會議紀要重點在委員是否支持連續升息。\n高利率環境下，資產配置宜降低高本益比科技股比重。", "bg_query": "federal reserve building night", "bg_fallback": ["washington dc night", "bank building"]},
+    {"kicker": "台灣央行", "headline": "升息護匯兩難", "body": "央行總裁楊金龍列出12月升息三考量：通膨與預期、主要國家貨幣政策、國內經濟與放款。新台幣收32.886，外資匯出壓力未解。", "strategy": "若升息半碼，壽險避險成本改善，營建股承壓。\n若不升息，新台幣續貶有利出口代工的匯兌收益。", "bg_query": "taipei skyline night", "bg_fallback": ["taiwan city night", "currency money"]},
+    {"kicker": "先進封裝", "headline": "台積購友達兩廠", "body": "據經濟日報報導，台積電以388億元購入友達中科兩座廠，由精材建置先進封裝後段產線，預計2029年量產，面板廠轉型封裝模式落地。", "strategy": "先進封裝擴產方向明確，精材（3374）為直接受惠者。\n友達（2409）處分利益約185億元，可留意認列時點。", "bg_query": "semiconductor factory cleanroom dark", "bg_fallback": ["factory night", "wafer"]},
+    {"kicker": "AI電力瓶頸", "headline": "鈾價創歷史新高", "body": "鈾長約價格升至每磅96美元，超越2007年高點；濃縮服務價格約190美元，2023年僅56美元，AI資料中心基載電力需求是主因。", "strategy": "AI股殺估值，但實體瓶頸報價仍強，兩者出現背離。\n電力題材可觀察重電設備股，如華城（1519）。", "bg_query": "nuclear power plant cooling tower night", "bg_fallback": ["power plant", "nuclear energy"]}
+  ],
+  "threads_text": "「台股暴跌6%，AI鏈被三面夾擊」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n輝達財報出來前，你會先抄底還是先觀望？\n#知日報 #台股 #輝達",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n昨天跌5.74%，外資一天賣了701億。我覺得這次是治理、管制、利率一起來，不是台積電自己變差，但輝達財報沒出來前我不會急著接。\n⏱ 短線，11/18～11/20，看輝達財測和週三結算後外資有沒有回補\n\n• 世芯-KY（3661）\n輝達被查出口合規，客戶往自研ASIC分散是合理方向。不過這是我推的，還沒看到訂單轉移的證據。\n⏱ 一週左右（11/18～11/26），看黃仁勳作證和合規期限的結果\n\n• 精材（3374）\n台積電花388億買友達兩座廠，交給精材做先進封裝。量產要到2029年，短線還是跟大盤走，我當長線題材看。\n⏱ 放一個月看（到12/18），看大盤止跌後它是不是先彈\n\n• 廣達（2382）\n東南亞資料中心買晶片要先申請，那是台系伺服器這一年的新增量。我覺得短期訂單會有雜音，先保守。\n⏱ 一個月（到12月中），看11月對東協的伺服器出口\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #輝達 #出口管制"
+}
