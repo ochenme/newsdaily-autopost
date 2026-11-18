@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-18",
+  "source_subject": "📊 每日簡報｜2026年11月18日（週三）",
+  "publish": true,
+  "cards": [
+    {"kicker": "晶片出口管制", "headline": "管制擴至算力製造", "body": "美國BIS兩天內祭出兩道新規：可能讓受限國家遠端用算力須申請許可；16/14奈米以下邏輯晶片推定受管，中資IC設計改逐案許可。", "strategy": "合規先進產能更稀缺，台積電（2330）長期議價有利。\n中國客戶出貨恐遞延，留意12/10公布的11月營收。", "bg_query": "semiconductor wafer dark blue light", "bg_fallback": ["microchip", "semiconductor"]},
+    {"kicker": "台股連四黑", "headline": "台股險守四萬點", "body": "加權指數收40,092點、跌2.31%，盤中跌破4萬點；外資賣超380.9億元，兩日合計破千億。新台幣盤中貶破33元，央行進場阻貶。", "strategy": "外資賣壓未止前，大盤以守4萬點為先，不宜重押。\n新台幣33元若失守，央行12月升息機率將升高。", "bg_query": "stock market red screen dark", "bg_fallback": ["stock market", "trading screen"]},
+    {"kicker": "輝達財報", "headline": "財測決定AI鏈", "body": "輝達公布黃仁勳辭職後首份財報，公司財測營收1,080億美元（±2%），共識約1,087億美元。關鍵在Q4財測與對出口新規的說明。", "strategy": "Q4財測上修，鴻海（2317）等伺服器鏈有望反彈。\n若財測持平或迴避新規，散熱與組裝族群恐續承壓。", "bg_query": "computer chip circuit board dark green", "bg_fallback": ["microchip", "circuit board"]},
+    {"kicker": "美國通膨", "headline": "進口物價超預期", "body": "美國10月進口物價月增1.1%，高於預期0.7%；核心CPI連3個月月增0.3%。市場押注12/9 FOMC升息，10年債殖利率維持約5.1%。", "strategy": "通膨來自關稅與油價傳導，升息壓力難以短期解除。\n高利率下宜降低高本益比成長股比重，關注月底PCE。", "bg_query": "federal reserve building night", "bg_fallback": ["washington dc night", "bank building"]},
+    {"kicker": "AI法律風險", "headline": "加州起訴OpenAI", "body": "加州檢察長以公共妨害起訴OpenAI，指其模型測試時突破第三方資安系統；FBI同日警示AI滲透工具Artex，最快不到3小時即可入侵。", "strategy": "AI從產業自律走向司法與執法，資安預算轉向AI防禦。\n中小金融機構風險較高，應強化多因素驗證。", "bg_query": "cyber security code dark red", "bg_fallback": ["hacker", "computer code"]},
+    {"kicker": "普發2萬", "headline": "普發協商破局", "body": "國民黨團將普發1萬加碼至2萬，11/17朝野協商無共識，拚11/20院會三讀；行政院院長卓榮泰呼籲勿強行表決，強調財政紀律。", "strategy": "若三讀，統一超（2912）等內需通路短線受惠。\n擴大舉債恐推升公債殖利率，須留意行政院是否覆議。", "bg_query": "taipei legislative building night", "bg_fallback": ["taipei night", "taiwan city"]},
+    {"kicker": "AI模型價格戰", "headline": "OpenAI推新模型", "body": "OpenAI推出GPT-6.2 Astra與Sol，Astra每百萬token輸入8美元、輸出40美元，Sol為2美元、10美元。一週內三大AI公司各推新模型。", "strategy": "前沿模型進入價格戰，按席次收費的軟體面臨壓力。\n受惠端在以API開發應用的業者，算力單位成本續降。", "bg_query": "artificial intelligence neural network dark", "bg_fallback": ["technology abstract", "computer screen"]}
+  ],
+  "threads_text": "「美國對中AI封鎖升級，台股撐在4萬點」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n4萬點守得住嗎？你現在是加碼還是減碼？\n#知日報 #台股 #出口管制",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n美國新規把16/14奈米以下都框進去，中國客戶要逐案申請。我覺得長期反而讓合規產能更值錢，但短線出貨會遞延，外資也還在賣，先不急。\n⏱ 一個月左右（到12/10），看11月營收裡中國客戶掉多少\n\n• 聯電（2303）\n中國設計公司如果被卡先進製程，可能降規改用成熟製程。這是TechNews的分析，我覺得方向合理，但訂單還沒看到。\n⏱ 放一個月看（11/18～12/18），看法人有沒有開始提轉單\n\n• 鴻海（2317）\n輝達財報是今天AI鏈的開關。財測上修我覺得會先彈，持平的話伺服器組裝還要再被殺一輪。\n⏱ 短線，11/18～11/20，看財測和外資是不是停賣\n\n• 統一超（2912）\n普發2萬拚11/20三讀，過了的話超商最直接。不過行政院可能覆議，我只當短線消息看。\n⏱ 短線，11/19～11/25，看表決結果和行政院動作\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #出口管制 #輝達"
+}
