@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-21",
+  "source_subject": "📊 每日簡報｜2026年11月21日（週六）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "台股重挫",
+      "headline": "限空令擋不住賣壓",
+      "body": "加權指數11/20收36,033.29點，單日跌2,393.60點（-6.23%），金管會限空五招同日上路仍未止跌，外資已連5日賣超。",
+      "strategy": "賣壓主力是外資現股與融資斷頭，而非空方。\n短線看融資維持率能否守住130%，權值股相對抗跌。",
+      "bg_query": "stock market crash red screen dark",
+      "bg_fallback": [
+        "stock market",
+        "trading screen"
+      ]
+    },
+    {
+      "kicker": "AI股崩跌",
+      "headline": "費半盤中跌近一成",
+      "body": "美股AI股連兩日重挫，據中央社引路透，費城半導體盤中跌9.81%、Nasdaq跌4.63%，S&P 500盤中跌破7,000點。",
+      "strategy": "台股收盤早於這波下殺，週一恐有補跌壓力。\nAI伺服器鏈如廣達（2382）短線不宜追價。",
+      "bg_query": "semiconductor chip dark red light",
+      "bg_fallback": [
+        "microchip",
+        "circuit board"
+      ]
+    },
+    {
+      "kicker": "輝達會計疑雲",
+      "headline": "SEC調查輝達會計",
+      "body": "路透引述知情人士，SEC正檢視輝達可能的會計問題，輝達10-Q已延後提交，市場疑慮從AI需求轉向財報可信度。",
+      "strategy": "客戶分散供應商，自研ASIC路線相對受惠，\n世芯-KY（3661）可列觀察；CoWoS供應鏈承壓。",
+      "bg_query": "financial documents dark office night",
+      "bg_fallback": [
+        "accounting",
+        "office night"
+      ]
+    },
+    {
+      "kicker": "晶片管制擴大",
+      "headline": "管制延伸至手機晶片",
+      "body": "BIS新規取消非AI用途豁免，據FT，台積電、三星已暫停部分對中國出貨；川普也表示只想賣中國較舊款晶片。",
+      "strategy": "受害面從輝達擴大到中國手機客戶，\n聯發科（2454）中國拉貨恐遞延，留意台積電12月營收。",
+      "bg_query": "semiconductor wafer factory night",
+      "bg_fallback": [
+        "silicon wafer",
+        "cargo port night"
+      ]
+    },
+    {
+      "kicker": "AI巨頭上市",
+      "headline": "Anthropic上市吸金",
+      "body": "Anthropic IPO定價83美元，11/19開盤111.50美元，募資逾810億美元。史上最大AI募資被視為吸走二級市場資金。",
+      "strategy": "83美元發行價是私募AI估值的溫度計，\n若跌破，算力租賃與AI融資循環恐受衝擊。",
+      "bg_query": "stock exchange night city lights",
+      "bg_fallback": [
+        "wall street night",
+        "city skyline night"
+      ]
+    },
+    {
+      "kicker": "俄烏戰事升級",
+      "headline": "俄飛彈落入波蘭",
+      "body": "俄軍發射逾110枚飛彈空襲基輔，據中央社有飛彈落入波蘭境內，北約出動戰機並譴責侵犯領空，和談與戰事並行。",
+      "strategy": "地緣風險溢價支撐歐洲國防與防空供應鏈，\n關鍵看波蘭是否援引北約第4條提出磋商。",
+      "bg_query": "fighter jet night sky",
+      "bg_fallback": [
+        "military aircraft",
+        "night sky"
+      ]
+    },
+    {
+      "kicker": "AI模型價格戰",
+      "headline": "Gemini新模型殺價",
+      "body": "Google推出Gemini 4 Neon，每百萬token輸入3美元、輸出15美元，自稱任務成本比對手前沿模型低50–80%。",
+      "strategy": "模型API毛利承壓，但算力需求不因降價減少。\n觀察2～4週內開發者是否實際遷移。",
+      "bg_query": "data center server room blue dark",
+      "bg_fallback": [
+        "server room",
+        "technology dark"
+      ]
+    }
+  ],
+  "threads_text": "「AI股崩跌、台股重挫、晶片管制再擴大」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台股一天跌6%，你會分批撿還是先觀望？\n#知日報 #台股 #AI股",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n週五跌100元，險守2,000元。我覺得問題不在它本身，是外資連5天在賣，加上美股週五晚上費半又殺一輪，週一大概躲不掉補跌。\n⏱ 一週左右（11/23～11/27），看外資賣超有沒有停、2,000元守不守得住\n\n• 世芯-KY（3661）\nSEC查輝達會計，我看客戶接下來會更想分散供應商，自研ASIC這條路反而有理由。不過大盤在殺融資，好題材也會被一起賣，先別急。\n⏱ 放一個月看（到12/18），等大盤融資斷頭潮過了再看它跌不跌得下去\n\n• 聯發科（2454）\nFT說台積電暫停部分對中出貨，管制連手機晶片都碰到了。這是匿名消息，但如果許可拖著不發，我覺得中國客戶拉貨一定往後延。\n⏱ 一個月（11/23～12/21），看許可有沒有在一個月內發出來\n\n• 廣達（2382）\nAI伺服器鏈是這波最直接被點名的。我覺得不是好時機去接，融資比重高的會先被洗。\n⏱ 短線，11/23～11/25 三個交易日，看費半能不能守住8,000\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #AI股 #晶片管制"
+}
