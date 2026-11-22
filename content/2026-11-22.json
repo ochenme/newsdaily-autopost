@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-22",
+  "source_subject": "📊 每日簡報｜2026年11月22日（週日）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "台股重挫",
+      "headline": "台股單週跌17.5%",
+      "body": "加權指數11/20收36,033.29點（-6.23%），全週跌7,641.83點、單週-17.5%，創1990年以來最大週跌幅。",
+      "strategy": "外銷訂單仍創新高，殺盤主因在評價與籌碼面。\n關鍵看12/10台積電（2330）11月營收是否仍年增。",
+      "bg_query": "stock market crash red screen dark",
+      "bg_fallback": ["stock market", "trading screen"]
+    },
+    {
+      "kicker": "第三波救市",
+      "headline": "平盤下全面禁空",
+      "body": "金管會措施11/23起上路：融券與借券賣出不得低於前日收盤，融券保證金成數提高至150%，並要求出借機構暫停新借券。",
+      "strategy": "首週可能出現空單回補反彈，35,000點是防線。\n若外資仍日賣超逾500億元，代表政策只延緩下跌。",
+      "bg_query": "government building night lights",
+      "bg_fallback": ["financial district night", "city night"]
+    },
+    {
+      "kicker": "AI股投降賣壓",
+      "headline": "費半單日跌10.7%",
+      "body": "11/20那指收22,617.73（-5.28%），單週-10.02%；費半單日-10.73%，輝達跌14.01%、週跌22.9%，VIX升至35.89。",
+      "strategy": "市場定價的是治理、管制與升息風險，而非需求。\nAI伺服器鏈如廣達（2382）週一恐補跌，不宜追價。",
+      "bg_query": "semiconductor chip dark red light",
+      "bg_fallback": ["microchip", "circuit board"]
+    },
+    {
+      "kicker": "外銷訂單",
+      "headline": "外銷訂單創新高",
+      "body": "10月外銷訂單1,238.2億美元，年增78.3%，連續21個月成長；資訊通信類年增107.2%，與AI泡沫恐慌明顯背離。",
+      "strategy": "伺服器ODM接單未轉弱，緯穎（6669）可列觀察。\n11月資通類年增若跌破50%，代表股市提前反映。",
+      "bg_query": "cargo container port night",
+      "bg_fallback": ["shipping containers", "port night"]
+    },
+    {
+      "kicker": "晶片管制擴大",
+      "headline": "遠端算力也納管",
+      "body": "BIS遠端存取規則11/19生效，針對出租算力給中企的海外資料中心，門檻調至16奈米；台積電週跌15.8%，ADR單日-9.5%。",
+      "strategy": "東南亞算力出租鏈的伺服器、散熱、電源首當其衝。\n台積電（2330）ADR能否站回352美元是短線指標。",
+      "bg_query": "data center server room blue dark",
+      "bg_fallback": ["server room", "technology dark"]
+    },
+    {
+      "kicker": "Fed升息",
+      "headline": "12月升息近成定局",
+      "body": "10月FOMC紀要偏鷹，CME FedWatch顯示12月升息機率近95%；但避險買盤推動美10年債殖利率單週跌23bp至4.92%。",
+      "strategy": "升1碼已反映，若語氣放緩可能成為反彈點。\n若升2碼，高估值科技股與新台幣將同步承壓。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": ["bank building", "dollar dark"]
+    },
+    {
+      "kicker": "AI巨頭上市",
+      "headline": "Anthropic回落",
+      "body": "Anthropic IPO定價83美元，首日開盤111.5美元，次日跌8.5%至88.91美元，募資逾800億美元，成AI風險偏好溫度計。",
+      "strategy": "若跌破83美元發行價，一級市場AI估值恐鬆動，\n後續AI IPO可能延後，算力租賃融資也受衝擊。",
+      "bg_query": "stock exchange night city lights",
+      "bg_fallback": ["wall street night", "city skyline night"]
+    },
+    {
+      "kicker": "太空資料中心",
+      "headline": "群聯SSD上太空",
+      "body": "群聯推出抗輻射Pascari Space SSD，提供488TB給Lonestar首座商用軌道資料中心StarVault-001，預計2027上半年發射。",
+      "strategy": "單一任務營收貢獻有限，性質像長期選擇權。\n群聯（8299）後續看能否取得第二家太空客戶。",
+      "bg_query": "satellite orbit earth night",
+      "bg_fallback": ["space satellite", "earth from space"]
+    }
+  ],
+  "threads_text": "「AI股投降式賣壓、台股救市禁空、Fed還要升息」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n禁空令上路，你覺得週一會反彈嗎？\n#知日報 #台股 #AI股",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n一週跌15.8%，ADR還跌破200日線。但10月外銷訂單才創新高，我覺得這比較像評價跟籌碼在殺，不是生意變差。\n⏱ 到12/10，看11月營收還有沒有年增，ADR能不能站回352美元\n\n• 廣達（2382）\n費半單日跌10.7%，伺服器鏈週一大概要補跌。禁空令可能讓開盤先彈一下，我不會因為這樣就去接。\n⏱ 短線，11/23～11/27，看外資現貨是不是還天天賣超500億以上\n\n• 緯穎（6669）\n資訊通信類訂單年增107%，接單根本沒轉弱。我覺得這邊錯殺的機率比較高，只是要等數字確認。\n⏱ 放一個月看（到12/20前後），11月外銷訂單資通類年增如果還在100%附近，這條線就成立\n\n• 群聯（8299）\n太空SSD很酷，但目前只有一個任務，營收占比很小，我當長線題材看就好。\n⏱ 長一點，到2027上半年發射前，看有沒有第二家太空客戶\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #AI股 #禁空令"
+}
