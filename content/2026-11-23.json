@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-23",
+  "source_subject": "📊 每日簡報｜2026年11月23日（週一）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "台股救市",
+      "headline": "限空措施今日上路",
+      "body": "五項穩市措施11/23生效：融券與借券賣出不得低於前日收盤，融券保證金成數提高至150%；國安基金證實已進場，金額未公布。",
+      "strategy": "限空常先引發軋空反彈，但賣壓主體是外資現貨。\n關鍵看本週外資是否轉買超、能否守住11/20低點。",
+      "bg_query": "government building night lights",
+      "bg_fallback": ["financial district night", "city night"]
+    },
+    {
+      "kicker": "AI股去槓桿",
+      "headline": "標普進入修正",
+      "body": "11/20標普跌3.7%、連跌7天，距10/6高點逾10%；那指跌5.28%今年轉負，費半約跌10.7%，輝達單日跌14.01%。",
+      "strategy": "AI電力、光纖等二階受惠股同步重挫，屬全鏈去槓桿。\n伺服器鏈如廣達（2382）宜待VIX回落再評估。",
+      "bg_query": "stock market crash red screen dark",
+      "bg_fallback": ["stock market", "trading screen"]
+    },
+    {
+      "kicker": "美國通膨",
+      "headline": "PCE定升息幅度",
+      "body": "11/25公布10月PCE、第三季GDP修正與耐久財，核心PCE年增預估3.2%（前值3.1%）；CME FedWatch顯示12月升息機率約99%。",
+      "strategy": "核心PCE達3.3%以上，升2碼定價升溫、新台幣承壓。\n若在3.1%以下，股債可望出現技術性反彈。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": ["bank building", "dollar dark"]
+    },
+    {
+      "kicker": "外銷訂單",
+      "headline": "訂單與股價背離",
+      "body": "10月外銷訂單1,238.2億美元創單月新高，年增78.3%，資通訊年增107.2%，與台股創1990年以來最大週跌明顯背離。",
+      "strategy": "伺服器ODM如緯穎（6669）接單最強、跌幅也最深。\n11月資通訊年增若仍逾50%，下跌較接近估值重估。",
+      "bg_query": "cargo container port night",
+      "bg_fallback": ["shipping containers", "port night"]
+    },
+    {
+      "kicker": "晶片走私案",
+      "headline": "走私案延燒",
+      "body": "紐時與FT報導輝達晶片走私網涉及中國國安部與太子集團；美方刑事調查新加坡客戶Megaspeed，路透稱SEC正檢視輝達會計。",
+      "strategy": "BIS下一步可能收緊東南亞轉運的終端用戶審查。\n在星馬設有組裝線的台系ODM，出貨恐需調整。",
+      "bg_query": "data center server room blue dark",
+      "bg_fallback": ["server room", "technology dark"]
+    },
+    {
+      "kicker": "歐俄混合戰",
+      "headline": "俄飛彈落波蘭",
+      "body": "波蘭檢方鑑定落地物為3枚俄製Kh-101巡弋飛彈，無人傷亡，北約開會；總理圖斯克稱是蓄意挑釁，同期俄軍大規模空襲基輔。",
+      "strategy": "歐洲防空與國防預算是較確定的受惠方向。\n伊朗談判仍未啟動，油價地緣風險溢價難退。",
+      "bg_query": "missile night sky dark",
+      "bg_fallback": ["military night", "dark sky"]
+    },
+    {
+      "kicker": "亞股護盤",
+      "headline": "KOSPI重挫5.21%",
+      "body": "韓國財長召集央行研議啟動股市穩定基金，並放寬庫藏股上限、查緝違法放空；日經同日跌逾5%，市場預期韓央行11/26升息。",
+      "strategy": "台韓同週護盤，但韓國同時升息，政策方向互相拉扯。\nKOSPI若再跌逾3%代表護盤失效，台股難獨善其身。",
+      "bg_query": "seoul city night skyline",
+      "bg_fallback": ["asia city night", "stock exchange"]
+    },
+    {
+      "kicker": "AI數學突破",
+      "headline": "AI寫出黎曼證明",
+      "body": "Anthropic研究員與Claude以Lean寫成黎曼猜想證明，MIT學者回報可編譯通過，但尚無人類可讀說明；同日另有一份純人工證明。",
+      "strategy": "能編譯不等於數學界接受，仍待同行審查結論。\n若獲認可，形式化驗證可延伸至晶片設計與資安。",
+      "bg_query": "mathematics equations dark blackboard",
+      "bg_fallback": ["abstract dark", "code screen dark"]
+    }
+  ],
+  "threads_text": "「台股禁空首日、AI股全鏈去槓桿、PCE決定升息幅度」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n禁空加國安基金，你覺得這週撐得住嗎？\n#知日報 #台股 #禁空令",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 緯穎（6669）\n10月資通訊訂單年增107%，生意根本沒變差，股價卻跌最兇。我覺得市場是在賭明年單會縮，這邊錯殺的機率比較高，但要數字證明。\n⏱ 放一個月看（到12月下旬），11月外銷訂單資通訊年增還在50%以上，這條線就成立\n\n• 廣達（2382）\n今天禁空第一天，開盤大概會先彈。不過真正在賣的是外資現貨，我不會因為反彈就去接。\n⏱ 短線，11/23～11/27，看外資有沒有由賣轉買、11/20低點守不守得住\n\n• 台積電（2330）\n跟著輝達一起被殺，但我看這次更像在等11/25的PCE。核心PCE如果衝到3.3%，外資大概還會再提款。\n⏱ 一週左右（11/23～11/30），看PCE公布後外資動向\n\n• 惠特（6706）\nTrendForce說CPO檢測會先吃到肉，但真正放量是2028年，不是明年。我當長線題材，先別想太多。\n⏱ 長一點，到2027年，看光學測試時間有沒有縮短\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #禁空令 #AI股"
+}
