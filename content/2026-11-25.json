@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-25",
+  "source_subject": "📊 每日簡報｜2026年11月25日（週三）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "台股法人賣壓",
+      "headline": "史上最大漲點藏隱憂",
+      "body": "台股11/24大漲3,310點收40,122點，創史上最大漲點；但三大法人賣超1,230億元、外資賣超503.9億元，成交值反創今年低點。",
+      "strategy": "反彈主要由內資與空單回補推動，外資仍在賣。\n外資現貨連3天買超前，宜視為政策底而非真底。",
+      "bg_query": "stock market screen red night",
+      "bg_fallback": [
+        "trading floor",
+        "city night"
+      ]
+    },
+    {
+      "kicker": "AI晶片股回吐",
+      "headline": "修復行情只撐一天",
+      "body": "輝達因黃仁勳回任大漲31%後，11/24盤中回吐約7%，AMD約跌9%，美光與SK海力士跌逾10%；黃仁勳下週將出席參院聽證。",
+      "strategy": "AI硬體評價仍在調整，追價力道偏弱。\n聽證若揭露新事證，台灣AI伺服器鏈恐再受壓。",
+      "bg_query": "computer chip dark macro",
+      "bg_fallback": [
+        "semiconductor",
+        "circuit board"
+      ]
+    },
+    {
+      "kicker": "新關稅戰線",
+      "headline": "美擬對16方加關稅",
+      "body": "據WSJ，USTR最快本週公布補貼調查，對中國、歐盟等16個經濟體調高關稅；歐日韓可能15%以下，越南、印度較高，中國最高。",
+      "strategy": "關鍵在稅率差，越南、印度組裝比重高者毛利承壓。\n台灣是否在名單內未定，待正式稅率表再判斷。",
+      "bg_query": "container port night cranes",
+      "bg_fallback": [
+        "cargo ship",
+        "shipping containers"
+      ]
+    },
+    {
+      "kicker": "美國升息壓力",
+      "headline": "今晚PCE定升息幅度",
+      "body": "10月PCE今晚公布，是12月FOMC前最後關鍵數據；市場預估核心年增3.2%，押注12月升息機率約95%，威廉斯稱再升息取決於數據。",
+      "strategy": "核心PCE年增若達3.3%以上，市場恐定價升2碼。\n屆時電子股與新台幣承壓，金融股相對抗跌。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "dollar bills dark",
+        "bank building"
+      ]
+    },
+    {
+      "kicker": "晶片轉運管制",
+      "headline": "東南亞列高風險國",
+      "body": "美國BIS將新加坡、馬來西亞、泰國、印尼、巴西列為晶片轉運高風險國，先進晶片須逐案審查；向中企提供大量算力的海外資料中心須取得許可。",
+      "strategy": "東南亞有陸系客戶的組裝與資料中心業者衝擊最大。\n客戶為美系雲端的台灣ODM影響較小，但申報增加。",
+      "bg_query": "data center server room dark",
+      "bg_fallback": [
+        "server racks",
+        "singapore night"
+      ]
+    },
+    {
+      "kicker": "政府護盤加碼",
+      "headline": "融資維持率降至120%",
+      "body": "卓榮泰稱國安基金能量仍有餘裕、願檢討擴大規模；融資維持率由130%降至120%，金管會另提禁止平盤下放空、提高融券保證金成數。",
+      "strategy": "維持率下調等於延後斷頭，短線利於高融資中小型股。\n槓桿仍留在市場，下次衝擊時賣壓可能更集中。",
+      "bg_query": "taipei skyline night",
+      "bg_fallback": [
+        "taipei 101",
+        "city lights"
+      ]
+    },
+    {
+      "kicker": "自研晶片挑戰",
+      "headline": "亞馬遜瞄準CUDA",
+      "body": "亞馬遜收購Decart主要業務，取得可在Nvidia、Amazon、Google硬體上最佳化模型的DOS軟體，為Trainium對外銷售鋪路，金額未獲證實。",
+      "strategy": "降低脫離CUDA的轉換成本，自研ASIC陣營受惠。\n世芯-KY（3661）、台積電（2330）可列入觀察。",
+      "bg_query": "warehouse technology dark blue",
+      "bg_fallback": [
+        "microchip",
+        "cloud computing"
+      ]
+    },
+    {
+      "kicker": "AI電力瓶頸",
+      "headline": "電力成AI硬限制",
+      "body": "鈉離子電池搭配固態變壓器、三星SDI切入資料中心儲能與BBU，美國規劃1GW核電搭配地下高壓直流輸電，AI用電缺口推動電力技術升級。",
+      "strategy": "電源與重電訂單能見度，較不受AI個股事件左右。\n台達電（2308）、華城（1519）可列中長期觀察。",
+      "bg_query": "power transmission lines night",
+      "bg_fallback": [
+        "electrical substation",
+        "power grid"
+      ]
+    }
+  ],
+  "threads_text": "「台股大漲外資照賣，關稅和升息壓力又回來了」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n外資一路賣，你這波會先觀望還是撿便宜？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n11/24漲停2,230，但外資當天還賣503.9億，成交值還是今年低點。我覺得這是買不到被鎖上去的價格，不是資金真的回來。輝達又回吐7%，先看漲停單會不會變賣壓。\n⏱ 一週左右（11/25～12/2），看外資現貨能不能連3天買超\n\n• 世芯-KY（3661）\n亞馬遜買Decart就是要讓Trainium好賣，我覺得比空喊ASIC實在。不過金額沒證實，對外賣時程也還沒講。\n⏱ 放到12月初，看re:Invent有沒有公布Trainium對外銷售時程和首批客戶\n\n• 台達電（2308）\nAI股晃成這樣，電力這條線反而最穩。固態變壓器加儲能會跟它的電源方案搶市場，我看是機會也是對手。\n⏱ 放一個月看（到12月底），看電源訂單有沒有延續\n\n• 和碩（4938）\n新關稅越南、印度可能比較高，它在那邊有組裝產能，我覺得毛利會被壓。但台灣在不在16方名單還不確定，先別急。\n⏱ 一兩週（11/25～12/4），等USTR正式稅率表\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #關稅 #AI晶片"
+}
