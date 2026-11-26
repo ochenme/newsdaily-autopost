@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-26",
+  "source_subject": "📊 每日簡報｜2026年11月26日（週四）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "亞洲AI股修正",
+      "headline": "台股重挫4.8%",
+      "body": "台股11/25收38,195點、重挫1,926點，外資賣超1,236億元、連8賣；韓股跌6.2%、SK海力士跌11.1%，AI估值修正擴散至亞洲供應鏈。",
+      "strategy": "投信逆勢買超535億元，內資承接力道仍在。\n12/10前公布的11月營收，是判斷修正性質的關鍵。",
+      "bg_query": "stock market crash red screen dark",
+      "bg_fallback": [
+        "stock exchange night",
+        "trading screen"
+      ]
+    },
+    {
+      "kicker": "美國通膨升溫",
+      "headline": "12月升息近定案",
+      "body": "美國10月核心PCE年增3.3%，高於預期3.2%，整體3.8%追平3年高點；Q3 GDP上修至4.3%，市場對12月升息一碼定價約98%。",
+      "strategy": "高本益比科技股與新台幣短線承壓。\n12/5前後非農若再強，市場恐開始定價升兩碼。",
+      "bg_query": "federal reserve building night",
+      "bg_fallback": [
+        "dollar bills dark",
+        "wall street night"
+      ]
+    },
+    {
+      "kicker": "美301關稅提案",
+      "headline": "台灣15%附條件",
+      "body": "USTR提案台灣稅率15%不疊加，未落實承諾則適用替代稅率25%，中國最高20%；半導體與ICT另走232條款，傳產與農產品直接受影響。",
+      "strategy": "稅率差仍保有轉單優勢，但25%條件壓縮傳產能見度。\n工具機、扣件類股宜待1/5意見截止後再評估。",
+      "bg_query": "cargo port containers night",
+      "bg_fallback": [
+        "shipping containers",
+        "port cranes dusk"
+      ]
+    },
+    {
+      "kicker": "AI材料缺口",
+      "headline": "ABF訂單未降溫",
+      "body": "ABF大廠高層稱訂單未受影響，長約簽至2029年後，仍規劃增建4～5座廠；TrendForce指玻纖布產能遭AI吃緊，四層PCB季漲10～15%。",
+      "strategy": "欣興（3037）、南電（8046）漲價與稼動率支撐仍在。\n以11月營收月增率驗證長約實質，轉負須提高警覺。",
+      "bg_query": "circuit board macro dark",
+      "bg_fallback": [
+        "semiconductor chip",
+        "electronics factory"
+      ]
+    },
+    {
+      "kicker": "美光勞資爭議",
+      "headline": "工會否決資方案",
+      "body": "美光桃園工會1,852名投票會員中1,567人反對，否決率84.6%；工會10月已取得罷工權，訴求分紅更公平，11/26再度協商。",
+      "strategy": "美光台灣為HBM主要產地，罷工將衝擊供給端。\n南亞科（2408）、華邦電（2344）或間接受惠，待協商結果。",
+      "bg_query": "semiconductor fab cleanroom dark",
+      "bg_fallback": [
+        "factory workers night",
+        "memory chip"
+      ]
+    },
+    {
+      "kicker": "美伊戰爭僵局",
+      "headline": "伊朗輪流停電",
+      "body": "美國持續封鎖伊朗港口，伊朗自11/22起每日輪流停電約2小時，12個月平均通膨76.8%；胡塞威脅攻擊沙國紅海港口，遭沙國聯軍攔截。",
+      "strategy": "伊朗民生壓力升高，後續走向談判或升級仍未定。\n紅海航運風險若升溫，能源與油輪避險需求將增加。",
+      "bg_query": "city power outage night dark",
+      "bg_fallback": [
+        "oil tanker night sea",
+        "middle east city night"
+      ]
+    },
+    {
+      "kicker": "AI估值溫度計",
+      "headline": "Anthropic破發",
+      "body": "Anthropic 11/19上市首日開在111.5美元，11/24盤中最低76美元，跌破83美元IPO價約8%，市場將其視為AI新創估值的溫度計。",
+      "strategy": "AI估值降溫，未上市新創募資與後續IPO恐先受壓。\n台廠宜聚焦具長約與漲價能力的AI材料端。",
+      "bg_query": "nasdaq screen night",
+      "bg_fallback": [
+        "stock ticker dark",
+        "new york night"
+      ]
+    }
+  ],
+  "threads_text": "「通膨升溫加上AI估值修正，台股一天跌掉1,900多點」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n台股跌到38,000點附近，你會分批進場還是再等等？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 欣興（3037）\nABF大廠高層說訂單沒變、長約簽到2029年以後，股價卻跟著大盤一起被砍。我覺得錯殺的成分比較大，但只憑一段不具名受訪，我不想重押。\n⏱ 兩週左右（11/26～12/10），等11月營收，月增率是正的這條線才成立\n\n• 台積電（2330）\n收2,150元，盤中一度快跌停，外資連8天在賣。跌幅比記憶體、設備股小很多，我看比較像被提款，不是基本面出事。\n⏱ 一週左右（11/26～12/4），看外資單日賣超能不能縮到500億以下\n\n• 南亞科（2408）\n美光桃園工會84.6%否決資方方案，今天再談。真罷工的話HBM交期可能受影響，但這是我自己推的，談成了題材就沒了。\n⏱ 短線，11/26～11/27兩個交易日，看協商結果\n\n• 台光電（2383）\n玻纖布被AI吃掉，四層板一季漲10～15%，ABF那篇也點到上游銅箔基板跟著受惠。不過明年Q1漲幅會縮小，我不追高。\n⏱ 放一個月看（到12月底），看會不會出現兩層板降價\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #AI供應鏈 #外資賣超"
+}
