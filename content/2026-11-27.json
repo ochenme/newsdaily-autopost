@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-27",
+  "source_subject": "📊 每日簡報｜2026年11月27日（週五）",
+  "publish": true,
+  "cards": [
+    {
+      "kicker": "AI信用風險",
+      "headline": "輝達信評恐降級",
+      "body": "S&P 11/25將輝達AA評級列入降評觀察、可能降至AA−，90天內完成審查；5,000億美元AI基建融資擔保比例恐提高，neocloud借款成本將上升。",
+      "strategy": "AI壓力由估值延伸至信用，廣達（2382）等伺服器鏈能見度承壓。\n黃仁勳參院聽證與S&P結果是短線情緒錨。",
+      "bg_query": "data center server room dark blue",
+      "bg_fallback": [
+        "server racks",
+        "computer chip dark"
+      ]
+    },
+    {
+      "kicker": "外資持續提款",
+      "headline": "外資連9賣",
+      "body": "台股11/26反彈956點、收39,151點，但外資仍賣超491.81億元、連9賣，累計約4,708億元；投信買超230.51億元，集中在金融股。",
+      "strategy": "內資轉向防禦，高殖利率金融股如兆豐金（2886）相對抗跌。\n外資賣超降至200億元以下前，反彈先視為回補。",
+      "bg_query": "stock market screen night",
+      "bg_fallback": [
+        "trading screen",
+        "stock exchange"
+      ]
+    },
+    {
+      "kicker": "美國301關稅",
+      "headline": "301點名台灣",
+      "body": "USTR 11/25報告點名台灣結構性產能過剩，直指台版晶片法等九項政策；Greer表示新稅率多在15–20%，且數個月內不會生效。",
+      "strategy": "對美出口的低毛利ICT組裝與鋼鐵、塑化業首當其衝。\n12/4台積電（2330）亞利桑那典禮是否談豁免為關鍵。",
+      "bg_query": "cargo containers port night",
+      "bg_fallback": [
+        "container ship",
+        "shipping port"
+      ]
+    },
+    {
+      "kicker": "波灣戰火擴大",
+      "headline": "油價逼近百元",
+      "body": "科威特11/26遭無人機攻擊，2名義大利軍工技師身亡；布蘭特1月期貨連漲三天，盤中達95.58美元，OPEC+ 11/29召開部長級會議。",
+      "strategy": "戰爭風險溢價回到油價，航空與塑化下游成本承壓。\n若OPEC+宣布增產，近月溢價可能快速收斂。",
+      "bg_query": "oil tanker night sea",
+      "bg_fallback": [
+        "oil refinery night",
+        "oil field"
+      ]
+    },
+    {
+      "kicker": "亞洲緊縮",
+      "headline": "韓央行升息1碼",
+      "body": "韓國央行11/26升息1碼至3.25%，為兩年來最高，決議文稱物價將相當期間高於目標；KOSPI重挫之際仍升息，顯示通膨優先。",
+      "strategy": "台灣央行12月理監事會面臨相同的兩難。\n新台幣若再貶破33元，緊縮機率將隨之升高。",
+      "bg_query": "seoul city night skyline",
+      "bg_fallback": [
+        "bank building night",
+        "city skyline dark"
+      ]
+    },
+    {
+      "kicker": "太空資料中心",
+      "headline": "SpaceX獲准上太空",
+      "body": "FCC核准SpaceX部署最多100萬個軌道運算模組，須2033年11月前開始部署、2038年前達50%，以太空資料中心回應地面AI用電瓶頸。",
+      "strategy": "中長期利多衛星PCB、射頻與太陽能板供應鏈。\n2027年前若無運算衛星原型上軌，仍屬概念題材。",
+      "bg_query": "satellite orbit earth night",
+      "bg_fallback": [
+        "space earth",
+        "rocket launch night"
+      ]
+    },
+    {
+      "kicker": "算力配給",
+      "headline": "ChatGPT額度收緊",
+      "body": "OpenAI 11/24起合併ChatGPT的Chat與Work用量額度，先從Pro訂閱者開始、12月擴大；價格不變但高階推理用量收緊，形同隱性漲價。",
+      "strategy": "推論算力成本仍高，算力稀缺將延續一段時間。\n重度AI工作流程宜備妥API按量計費與多模型備援。",
+      "bg_query": "laptop code dark room",
+      "bg_fallback": [
+        "artificial intelligence dark",
+        "computer screen night"
+      ]
+    }
+  ],
+  "threads_text": "「AI 的錢變貴了，油價和關稅也一起壓上來」\n\n3 分鐘看完今天的世界大事和科技新知\n\n新聞延伸個股觀察與我的分析，在第一則留言👇\n\n外資連賣 9 天，你現在是抱著還是先跑？\n#知日報 #台股 #國際新聞",
+  "caption": "🎯 今天盯這幾檔台股（個人觀察，不是買賣建議）\n\n• 台積電（2330）\n301報告直接點名台版晶片法，壓力不小。但據彭博報導，川普12/4會出席亞利桑那廠擴建典禮，我覺得這是「投資換豁免」的第一個場合。\n⏱ 一週左右（11/30～12/7），看典禮有沒有提晶片關稅豁免\n\n• 兆豐金（2886）\n外資連9賣，投信卻在買金融股，兆豐金在前三名。我看這是內資在防守，不是抄底。\n⏱ 兩週（11/30～12/11），外資賣超降到200億以下，資金可能又轉回AI股\n\n• 廣達（2382）\nS&P把輝達列入降評觀察，靠輝達信用撐的融資會變貴。我覺得伺服器鏈訂單會被質疑，先看風險，不急著接。\n⏱ 一週（11/30～12/4），看黃仁勳參院聽證後外資怎麼動\n\n• 漢唐（2404）\n赴美建廠的廠務股。典禮如果宣布新投資金額，它最直接。但只是我推的，還沒發生。\n⏱ 短線（12/7～12/9），有新金額才算數\n\n⚠️ 以上是我看新聞的個人筆記，不構成投資建議。\n#知日報 #台股 #301關稅 #AI信用"
+}
